@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 2 reaction evidence PU evaluation",
+  "type": "object",
+  "required": ["pu_setting", "threshold_selection", "metrics", "leakage_audit", "external_temporal_evaluation"],
+  "properties": {
+    "pu_setting": {"type": "object", "required": ["positive", "unlabeled", "estimand"]},
+    "threshold_selection": {"type": "object", "required": ["value", "selected_on_split", "method"]},
+    "metrics": {"type": "array"},
+    "leakage_audit": {"type": "object", "required": ["status", "dimensions"]},
+    "external_temporal_evaluation": {
+      "type": "object",
+      "required": ["status", "reason"],
+      "properties": {"status": {"enum": ["complete", "blocked"]}, "reason": {"type": "string"}}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "inputs": {
+    "compounds_csv": "02_id_mapping/model_compound_seed_enriched_v2.csv",
+    "reaction_balance_csv": "06_evaluation/phase2_reaction_balance_audit.csv",
+    "target_config_json": "09_configs/target_workflow_10h2da.json"
+  },
+  "fail_on_any_unresolved_structure": false,
+  "strict_subsets": [
+    {
+      "name": "10h2da_structure_sensitive_route",
+      "metabolite_ids": [
+        "cand_t2dec_p",
+        "s_1507",
+        "cand_10h2da_p",
+        "cand_10h2da_coa_p"
+      ],
+      "reaction_ids": [
+        "CAND_T2DEC_THIOESTERASE_P",
+        "CAND_T2DEC_OMEGA_HYDROXYLASE_P",
+        "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P",
+        "CAND_10H2DA_COA_THIOESTERASE_P"
+      ],
+      "require_structure_parse_fraction": 1.0,
+      "require_mass_charge_balanced": true
+    }
+  ]
+}

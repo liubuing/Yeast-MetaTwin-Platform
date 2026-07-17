@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metatwin.local/schemas/workflow-manifest-1.0.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifest_version", "generated_at", "target_id", "config", "workspace", "counts", "outputs", "claims"],
+  "properties": {
+    "manifest_version": {"const": "1.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "target_id": {"type": "string", "minLength": 1},
+    "config": {"$ref": "#/$defs/file"},
+    "workspace": {"type": "string", "pattern": "^(?![A-Za-z]:[/\\\\]|/).+"},
+    "counts": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0},
+      "required": ["compounds", "candidate_reactions", "routes", "prediction_pairs"]
+    },
+    "outputs": {"type": "array", "items": {"$ref": "#/$defs/file"}, "uniqueItems": true},
+    "claims": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contains_predictions", "contains_fba_results", "evidence_status"],
+      "properties": {
+        "contains_predictions": {"const": false},
+        "contains_fba_results": {"const": false},
+        "evidence_status": {"const": "declared_inputs_only"}
+      }
+    }
+  },
+  "$defs": {
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^(?![A-Za-z]:[/\\\\]|/).+"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-07-16T21:22:20",
+  "model_version": "phase2_reaction_evidence_baseline_v1",
+  "model_path": "03_models\\phase2_reaction_evidence_baseline_v1.joblib",
+  "training_rows": 3845,
+  "split_counts": {
+    "dev": {
+      "rows": 352,
+      "positives": 159,
+      "negatives": 193
+    },
+    "test": {
+      "rows": 396,
+      "positives": 216,
+      "negatives": 180
+    },
+    "train": {
+      "rows": 3097,
+      "positives": 1584,
+      "negatives": 1513
+    }
+  },
+  "metrics": [
+    {
+      "split": "train",
+      "rows": 3097,
+      "positive_rows": 1584,
+      "negative_rows": 1513,
+      "accuracy": 0.959961,
+      "precision": 0.938175,
+      "recall": 0.986742,
+      "f1": 0.961846,
+      "average_precision": 0.995529,
+      "confusion_matrix": [
+        [
+          1410,
+          103
+        ],
+        [
+          21,
+          1563
+        ]
+      ],
+      "roc_auc": 0.995501
+    },
+    {
+      "split": "dev",
+      "rows": 352,
+      "positive_rows": 159,
+      "negative_rows": 193,
+      "accuracy": 0.9375,
+      "precision": 0.900585,
+      "recall": 0.968553,
+      "f1": 0.933333,
+      "average_precision": 0.988093,
+      "confusion_matrix": [
+        [
+          176,
+          17
+        ],
+        [
+          5,
+          154
+        ]
+      ],
+      "roc_auc": 0.988692
+    },
+    {
+      "split": "test",
+      "rows": 396,
+      "positive_rows": 216,
+      "negative_rows": 180,
+      "accuracy": 0.949495,
+      "precision": 0.945455,
+      "recall": 0.962963,
+      "f1": 0.954128,
+      "average_precision": 0.985283,
+      "confusion_matrix": [
+        [
+          168,
+          12
+        ],
+        [
+          8,
+          208
+        ]
+      ],
+      "roc_auc": 0.986291
+    }
+  ],
+  "feature_design": {
+    "text_fields": [
+      "reaction_name",
+      "model_equation",
+      "direction",
+      "enzyme_ec_numbers",
+      "gpr"
+    ],
+    "numeric_fields": [
+      "lower_bound_num",
+      "upper_bound_num",
+      "enzyme_evidence_rows_num",
+      "reactant_count",
+      "product_count",
+      "stoich_metabolite_count",
+      "has_gpr",
+      "has_ec",
+      "has_formula_balance",
+      "has_charge_balance"
+    ],
+    "text_vectorizer": "char_wb_tfidf_3_5"
+  },
+  "candidate_extension_rows_scored": 3330,
+  "terminal_scores": [
+    {
+      "model_reaction_id": "CAND_T2DEC_THIOESTERASE_P",
+      "reaction_name": "candidate trans-dec-2-enoyl-CoA thioesterase",
+      "model_equation": "s_1507 + s_0809 --> cand_t2dec_p + s_0534 + s_0801",
+      "enzyme_ec_numbers": "3.1.2.-|3.1.2.2",
+      "reference_likeness_score": 0.7178187259914952
+    },
+    {
+      "model_reaction_id": "CAND_T2DEC_OMEGA_HYDROXYLASE_P",
+      "reaction_name": "candidate trans-2-decenoate omega-hydroxylase",
+      "model_equation": "cand_t2dec_p + s_1215 + s_1279 + s_0801 --> cand_10h2da_p + s_1211 + s_0809",
+      "enzyme_ec_numbers": "1.14.-.-|1.14.14.-",
+      "reference_likeness_score": 0.9139181828839895
+    },
+    {
+      "model_reaction_id": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P",
+      "reaction_name": "candidate trans-dec-2-enoyl-CoA omega-hydroxylase",
+      "model_equation": "s_1507 + s_1215 + s_1279 + s_0801 --> cand_10h2da_coa_p + s_1211 + s_0809",
+      "enzyme_ec_numbers": "1.14.-.-|1.14.14.-",
+      "reference_likeness_score": 0.8649461240561508
+    },
+    {
+      "model_reaction_id": "CAND_10H2DA_COA_THIOESTERASE_P",
+      "reaction_name": "candidate 10-hydroxy-trans-2-decenoyl-CoA thioesterase",
+      "model_equation": "cand_10h2da_coa_p + s_0809 --> cand_10h2da_p + s_0534 + s_0801",
+      "enzyme_ec_numbers": "3.1.2.-|3.1.2.2",
+      "reference_likeness_score": 0.7752100115818107
+    }
+  ],
+  "notes": [
+    "This baseline intentionally excludes external cross-reference and RXNdb ID fields from features to avoid direct label leakage.",
+    "Negative rows are conservative unlabeled hard negatives, not confirmed false reactions.",
+    "Candidate scores are prioritization signals and do not replace database or experimental validation."
+  ]
+}

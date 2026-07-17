@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-16T20:56:57",
+  "compound_enrichment": {
+    "rows": 3301,
+    "mapped_by_model_id": 2806,
+    "smiles_nonempty": 2124,
+    "inchikey_nonempty": 2124,
+    "kegg_nonempty": 1725,
+    "chebi_nonempty": 2399,
+    "metanetx_nonempty": 2250,
+    "output": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\02_id_mapping\\model_compound_seed_enriched.csv"
+  },
+  "enzyme_enrichment": {
+    "rows": 160739,
+    "unique_orfs": 2057,
+    "mapped_rows_by_orf": 160723,
+    "mapped_unique_orfs": 2047,
+    "ec_nonempty_rows": 103187,
+    "output": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\02_id_mapping\\model_enzyme_evidence_seed_enriched.csv"
+  }
+}

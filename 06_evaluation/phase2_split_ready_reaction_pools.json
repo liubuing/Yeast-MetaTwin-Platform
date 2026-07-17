@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-16T20:58:27",
+  "overlap_equation_count": 7,
+  "pool_counts": {
+    "reference_labels": 1959,
+    "candidate_extension_no_reference_overlap": 3323,
+    "candidate_reference_overlap_review": 7,
+    "reference_plus_candidate_no_overlap": 5282,
+    "model_context_only": 2172,
+    "excluded_review_required": 51
+  },
+  "training_role_counts_in_reference_plus_candidate_no_overlap": {
+    "preferred_reference_label": 1959,
+    "candidate_label_with_ec_and_review": 2553,
+    "candidate_label_with_review": 770
+  },
+  "files": {
+    "reference_labels": "05_training/split_ready_reference_labels.csv",
+    "candidate_extension_no_reference_overlap": "05_training/split_ready_candidate_extension_no_reference_overlap.csv",
+    "candidate_reference_overlap_review": "05_training/split_ready_candidate_reference_overlap_review.csv",
+    "reference_plus_candidate_no_overlap": "05_training/split_ready_reference_plus_candidate_no_overlap.csv",
+    "model_context_only": "05_training/split_ready_model_context_only.csv",
+    "excluded_review_required": "05_training/split_ready_excluded_review_required.csv"
+  }
+}

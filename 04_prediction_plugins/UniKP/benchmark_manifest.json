@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-17T12:20:35.349778+00:00",
+  "plugin": "UniKP",
+  "status": "blocked",
+  "independent": false,
+  "metrics_published": false,
+  "metrics": {},
+  "blockers": [
+    "all locally available labeled datasets are used by upstream UniKP training/internal split code",
+    "no independently sourced, versioned holdout dataset is present",
+    "dataset redistribution license is not established by a repository LICENSE file"
+  ],
+  "source": {
+    "repository": "https://github.com/Luo-SynBioLab/UniKP",
+    "commit": "3ad5576aaa2c8c0dd0e0b6c283c1d365ab23c6ea",
+    "paper_doi": "10.1038/s41467-023-44113-1"
+  },
+  "datasets": [
+    {
+      "capability": "kcat_prediction",
+      "path": "datasets/Kcat_combination_0918_wildtype_mutant.json",
+      "source_role": "training_dataset",
+      "overlap_evidence": "code/UniKP_kcat.py:124-170 loads this dataset and fits ExtraTreesRegressor",
+      "exists": true,
+      "size_bytes": 12132719,
+      "sha256": "13643b0b36374f8d3f64d8b014882cf1b3b58946eeaae2b9dcd59e8b2c2d6719",
+      "source_repository": "https://github.com/Luo-SynBioLab/UniKP",
+      "source_commit": "3ad5576aaa2c8c0dd0e0b6c283c1d365ab23c6ea",
+      "license": "GPL-3.0 claimed by upstream README; repository has no LICENSE file",
+      "license_verified": false,
+      "training_overlap": true,
+      "independent_benchmark_eligible": false
+    },
+    {
+      "capability": "km_prediction",
+      "path": "datasets/Km_test_11722.pkl",
+      "source_role": "training_and_internal_random_split_dataset",
+      "overlap_evidence": "code/UniKP_Km.py:107-137 loads this dataset and performs a random train/test split",
+      "exists": true,
+      "size_bytes": 3295007,
+      "sha256": "10f565a6b369e374d15c872ce732630de80a06e89dac17256e62b1dfaa75a790",
+      "source_repository": "https://github.com/Luo-SynBioLab/UniKP",
+      "source_commit": "3ad5576aaa2c8c0dd0e0b6c283c1d365ab23c6ea",
+      "license": "GPL-3.0 claimed by upstream README; repository has no LICENSE file",
+      "license_verified": false,
+      "training_overlap": true,
+      "independent_benchmark_eligible": false
+    }
+  ]
+}

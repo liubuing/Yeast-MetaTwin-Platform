@@ -1,0 +1,28 @@
+{
+  "enzyme_classes": [
+    "acyl-CoA thioesterase",
+    "fatty-acid omega-hydroxylase",
+    "cytochrome P450",
+    "CYP52",
+    "CYP505"
+  ],
+  "exact_terms": [
+    "10-hydroxy-trans-2-decenoic acid",
+    "10-hydroxy-2-decenoic acid",
+    "trans-dec-2-enoyl-CoA",
+    "10-hydroxy-trans-2-decenoyl-CoA"
+  ],
+  "near_terms": [
+    "decenoic acid",
+    "decenoyl-CoA",
+    "decanoyl-CoA",
+    "fatty acid omega-hydroxylase",
+    "CYP52"
+  ],
+  "external_sources": [
+    "UniProt",
+    "Rhea",
+    "PubMed"
+  ],
+  "tiering_policy": "default_A_exact_reaction_to_E_keyword"
+}

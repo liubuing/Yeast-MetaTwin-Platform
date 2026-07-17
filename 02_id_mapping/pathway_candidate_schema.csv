@@ -1,0 +1,15 @@
+field,required,description,example
+pathway_uid,true,Internal pathway candidate ID,PWY:0000001
+target_compound_uid,true,Target compound ID,CMPD:target
+target_name,true,Target compound name,10-Hydroxy-trans-2-decenoic acid
+host_model,true,Host metabolic model,Yeast-MetaTwin
+reaction_uids,true,Ordered pipe-separated reaction IDs,RXN:1|RXN:2|RXN:3
+gap_reactions,false,Pipe-separated reaction IDs or descriptions requiring addition,omega-hydroxylation
+candidate_genes,false,Pipe-separated genes,FAA2|POX1|TES1|CYP52
+model_supported_steps,true,Integer number of model-supported steps,2
+predicted_steps,true,Integer number of predicted/missing steps,2
+fba_status,false,FBA status after pathway insertion,not_run
+demand_flux,false,Demand flux after pathway insertion,
+evidence_summary,true,Short evidence summary,C10 trans-2-enoyl-CoA precursor supported
+confidence_level,true,high|medium|low|unknown,medium
+notes,false,Free text notes,

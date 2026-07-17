@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-16T21:28:46",
+  "reaction_category_counts": {
+    "exclude_from_structure_sensitive_training_or_apply_curated_carrier_rules": 1700,
+    "training_ready_mass_charge_balanced": 4728,
+    "requires_manual_balance_review": 1001,
+    "requires_external_structure_mapping": 87
+  },
+  "metabolite_issue_summary": [
+    {
+      "issue_category": "generic_r_group_or_polymer_formula",
+      "unique_metabolites": 173,
+      "occurrences": 317
+    },
+    {
+      "issue_category": "macromolecule_or_redox_carrier_formula",
+      "unique_metabolites": 5,
+      "occurrences": 8
+    },
+    {
+      "issue_category": "missing_formula_no_local_mapping",
+      "unique_metabolites": 124,
+      "occurrences": 152
+    },
+    {
+      "issue_category": "underground_template_metabolite_missing_formula",
+      "unique_metabolites": 393,
+      "occurrences": 1903
+    }
+  ]
+}

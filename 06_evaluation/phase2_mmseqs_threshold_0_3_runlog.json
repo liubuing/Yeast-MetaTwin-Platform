@@ -1,0 +1,54 @@
+[
+  {
+    "command": [
+      "wsl.exe",
+      "--",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/tools/mmseqs2-linux/bin/mmseqs",
+      "createdb",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/reaction_split_orfs.fasta",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db"
+    ],
+    "returncode": 0,
+    "stdout": "createdb /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/reaction_split_orfs.fasta /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db \n\nMMseqs Version:                    \t8cc5ce367b5638c4306c2d7cfc652dd099a4643f\nDatabase type                      \t0\nShuffle input database             \ttrue\nCreatedb mode                      \t0\nWrite lookup file                  \t1\nOffset of numeric ids              \t0\nThreads                            \t32\nCompressed                         \t0\nMask residues                      \t0\nMask residues probability          \t0.9\nMask lower case residues           \t0\nMask lower letter repeating N times\t0\nUse GPU                            \t0\nVerbosity                          \t3\n\nConverting sequences\n[\nTime for merging to input_db_h: 0h 0m 0s 390ms\nTime for merging to input_db: 0h 0m 0s 581ms\nDatabase type: Aminoacid\nTime for processing: 0h 0m 1s 715ms\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "wsl.exe",
+      "--",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/tools/mmseqs2-linux/bin/mmseqs",
+      "cluster",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/cluster_db",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp",
+      "--min-seq-id",
+      "0.3",
+      "-c",
+      "0.8",
+      "--cov-mode",
+      "0",
+      "--threads",
+      "4"
+    ],
+    "returncode": 0,
+    "stdout": "==========] 1.42K 0s 52ms\nIndex statistics\nEntries:          699527\nDB size:          492 MB\nAvg k-mer size:   0.010930\nTop 10 k-mers\n    SSSSSS\t7\n    GDHQDL\t5\n    GLNGCY\t5\n    PLLSLA\t4\n    LVGKTD\t4\n    NYFGVD\t4\n    LIGSLG\t4\n    LFGYRG\t4\n    LSLEEK\t4\n    EGKLGL\t4\nTime for index table init: 0h 0m 1s 187ms\nProcess prefiltering step 1 of 1\n\nk-mer similarity threshold: 118\nStarting prefiltering scores calculation (step 1 of 1)\nQuery db start 1 to 1424\nTarget db start 1 to 1424\n[=================================================================] 1.42K 1s 319ms\n\n177.235173 k-mers per position\n1326 DB matches per sequence\n0 overflows\n7 sequences passed prefiltering per query sequence\n6 median result list length\n0 sequences with 0 size result lists\nTime for merging to pref_step2: 0h 0m 0s 56ms\nTime for processing: 0h 0m 3s 606ms\nalign /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/input_step2 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/input_step2 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/pref_step2 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/aln_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.3 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 \n\nCompute score, coverage and sequence identity\nQuery database size: 1424 type: Aminoacid\nTarget database size: 1424 type: Aminoacid\nCalculation of alignments\n[=================================================================] 1.42K 0s 133ms\nTime for merging to aln_step2: 0h 0m 0s 48ms\n3624 alignments calculated\n1438 sequence pairs passed the thresholds (0.396799 of overall calculated)\n1.009831 hits per query sequence\nTime for processing: 0h 0m 0s 341ms\nclust /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/input_step2 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/aln_step2 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/clu_step2 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 4 --compressed 0 -v 3 --cluster-weight-threshold 0.9 \n\nClustering mode: Set Cover\n[=================================================================] 1.42K 0s 4ms\nSort entries\nFind missing connections\nFound 2 new connections.\nReconstruct initial order\n[=================================================================] 1.42K 0s 3ms\nAdd missing connections\n[=================================================================] 1.42K 0s 0ms\n\nTime for read in: 0h 0m 0s 42ms\nTotal time: 0h 0m 0s 51ms\n\nSize of the sequence database: 1424\nSize of the alignment database: 1424\nNumber of clusters: 1416\n\nWriting results 0h 0m 0s 2ms\nTime for merging to clu_step2: 0h 0m 0s 17ms\nTime for processing: 0h 0m 0s 143ms\nmergeclusters /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/cluster_db /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/clu_redundancy /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/clu_step0 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/clu_step1 /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/tmp/18293163339250380566/clu_step2 --threads 4 --compressed 0 -v 3 \n\nClustering step 1\n[=================================================================] 1.55K 0s 5ms\nClustering step 2\n[=================================================================] 1.45K 0s 21ms\nClustering step 3\n[=================================================================] 1.42K 0s 34ms\nClustering step 4\n[=================================================================] 1.42K 0s 47ms\nWrite merged clustering\n[=================================================================] 1.75K 0s 69ms\nTime for merging to cluster_db: 0h 0m 0s 44ms\nTime for processing: 0h 0m 0s 207ms\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "wsl.exe",
+      "--",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/tools/mmseqs2-linux/bin/mmseqs",
+      "createtsv",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/cluster_db",
+      "/mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/cluster.tsv",
+      "--threads",
+      "4"
+    ],
+    "returncode": 0,
+    "stdout": "createtsv /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/input_db /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/cluster_db /mnt/c/Users/34342/AppData/Local/Temp/opencode/mmseqs_sensitivity_0_3/run_27848_20260716210039/cluster.tsv --threads 4 \n\nMMseqs Version:                 \t8cc5ce367b5638c4306c2d7cfc652dd099a4643f\nFirst sequence as representative\tfalse\nTarget column                   \t1\nAdd full header                 \tfalse\nSequence source                 \t0\nDatabase output                 \tfalse\nThreads                         \t4\nCompressed                      \t0\nVerbosity                       \t3\n\nTime for merging to cluster.tsv: 0h 0m 0s 58ms\nTime for processing: 0h 0m 0s 190ms\n",
+    "stderr": ""
+  }
+]

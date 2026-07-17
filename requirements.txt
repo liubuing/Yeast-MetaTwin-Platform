@@ -1,0 +1,4 @@
+-r requirements-core.txt
+-r requirements-fba.txt
+-r requirements-ml.txt
+-r requirements-generic.txt

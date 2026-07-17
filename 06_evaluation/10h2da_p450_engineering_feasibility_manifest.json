@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-17T12:32:13",
+  "hydroxylase_rows": 66,
+  "design_rows": 80,
+  "outputs": [
+    "06_evaluation/10h2da_p450_engineering_feasibility_matrix.csv",
+    "06_evaluation/10h2da_p450_design_recommendations.csv",
+    "07_reports/10H2DA_p450_engineering_feasibility.md"
+  ]
+}

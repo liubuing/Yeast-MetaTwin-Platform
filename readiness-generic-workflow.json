@@ -1,0 +1,35 @@
+{
+  "gate": "generic-workflow-release",
+  "status": "ready",
+  "checked_at": "2026-07-17T13:02:26+00:00",
+  "core_contract_ready": true,
+  "execution_ready": true,
+  "checks": [
+    {
+      "name": "canonical_schema",
+      "status": "passed",
+      "detail": "target_workflow.schema.json"
+    },
+    {
+      "name": "single_formal_contract",
+      "status": "passed",
+      "detail": "found 1 formal target-workflow schema(s)"
+    },
+    {
+      "name": "shipped_configs",
+      "status": "passed",
+      "detail": "validated 3 configs"
+    },
+    {
+      "name": "release_infrastructure",
+      "status": "passed",
+      "detail": "dependencies and CI present"
+    },
+    {
+      "name": "complete_reference_workflow_smoke",
+      "status": "passed",
+      "detail": "completed all configured stages for target_workflow_lactate_dry_run.json"
+    }
+  ],
+  "blocked_capabilities": []
+}

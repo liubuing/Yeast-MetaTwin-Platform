@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-17T12:27:45+00:00",
+  "status": "passed",
+  "parser": "pysmiles",
+  "counts": {
+    "metabolites_total": 3301,
+    "structures_missing": 1177,
+    "structures_parseable": 2117,
+    "structures_parse_failed": 7,
+    "structures_parser_unavailable": 0,
+    "structures_unresolved": 1184,
+    "missing_structure_missing_formula": 522,
+    "missing_structure_generic_formula": 171,
+    "missing_structure_source_has_no_structure": 484,
+    "missing_structure_external_mapping_not_found": 0,
+    "reactions_total": 7516,
+    "reactions_mass_unbalanced": 2720,
+    "reactions_charge_unbalanced": 2453,
+    "reactions_pending_external_mapping": 1661,
+    "reactions_manual_review_required": 2788
+  },
+  "strict_subsets": [
+    {
+      "name": "10h2da_structure_sensitive_route",
+      "status": "passed",
+      "checks": [
+        {
+          "code": "metabolite_id",
+          "status": "passed",
+          "detail": "cand_t2dec_p"
+        },
+        {
+          "code": "formula",
+          "status": "passed",
+          "detail": "cand_t2dec_p:C10H17O2"
+        },
+        {
+          "code": "charge",
+          "status": "passed",
+          "detail": "cand_t2dec_p:-1"
+        },
+        {
+          "code": "structure_source",
+          "status": "passed",
+          "detail": "cand_t2dec_p:PubChem CID 5282724 isomeric SMILES"
+        },
+        {
+          "code": "metabolite_id",
+          "status": "passed",
+          "detail": "s_1507"
+        },
+        {
+          "code": "formula",
+          "status": "passed",
+          "detail": "s_1507:C31H48N7O17P3S"
+        },
+        {
+          "code": "charge",
+          "status": "passed",
+          "detail": "s_1507:-4"
+        },
+        {
+          "code": "structure_source",
+          "status": "passed",
+          "detail": "s_1507:PubChem CID 24883423 isomeric SMILES"
+        },
+        {
+          "code": "formula_consistency",
+          "status": "passed",
+          "detail": "s_1507"
+        },
+        {
+          "code": "charge_consistency",
+          "status": "passed",
+          "detail": "s_1507"
+        },
+        {
+          "code": "metabolite_id",
+          "status": "passed",
+          "detail": "cand_10h2da_p"
+        },
+        {
+          "code": "formula",
+          "status": "passed",
+          "detail": "cand_10h2da_p:C10H17O3"
+        },
+        {
+          "code": "charge",
+          "status": "passed",
+          "detail": "cand_10h2da_p:-1"
+        },
+        {
+          "code": "structure_source",
+          "status": "passed",
+          "detail": "cand_10h2da_p:PubChem CID 5312738 isomeric SMILES"
+        },
+        {
+          "code": "metabolite_id",
+          "status": "passed",
+          "detail": "cand_10h2da_coa_p"
+        },
+        {
+          "code": "formula",
+          "status": "passed",
+          "detail": "cand_10h2da_coa_p:C31H48N7O18P3S"
+        },
+        {
+          "code": "charge",
+          "status": "passed",
+          "detail": "cand_10h2da_coa_p:-4"
+        },
+        {
+          "code": "structure_source",
+          "status": "passed",
+          "detail": "cand_10h2da_coa_p:derived from PubChem trans-dec-2-enoyl-CoA by omega hydroxyl substitution; no direct PubChem hit found"
+        },
+        {
+          "code": "structure_parse_fraction",
+          "status": "passed",
+          "detail": "4/4; required=1.000; parser=pysmiles"
+        },
+        {
+          "code": "reaction_id",
+          "status": "passed",
+          "detail": "CAND_T2DEC_THIOESTERASE_P"
+        },
+        {
+          "code": "reaction_source",
+          "status": "passed",
+          "detail": "CAND_T2DEC_THIOESTERASE_P:evidence_scope"
+        },
+        {
+          "code": "reaction_balance_record",
+          "status": "passed",
+          "detail": "CAND_T2DEC_THIOESTERASE_P"
+        },
+        {
+          "code": "mass_balance",
+          "status": "passed",
+          "detail": "CAND_T2DEC_THIOESTERASE_P"
+        },
+        {
+          "code": "charge_balance",
+          "status": "passed",
+          "detail": "CAND_T2DEC_THIOESTERASE_P"
+        },
+        {
+          "code": "reaction_id",
+          "status": "passed",
+          "detail": "CAND_T2DEC_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "reaction_source",
+          "status": "passed",
+          "detail": "CAND_T2DEC_OMEGA_HYDROXYLASE_P:evidence_scope"
+        },
+        {
+          "code": "reaction_balance_record",
+          "status": "passed",
+          "detail": "CAND_T2DEC_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "mass_balance",
+          "status": "passed",
+          "detail": "CAND_T2DEC_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "charge_balance",
+          "status": "passed",
+          "detail": "CAND_T2DEC_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "reaction_id",
+          "status": "passed",
+          "detail": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "reaction_source",
+          "status": "passed",
+          "detail": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P:evidence_scope"
+        },
+        {
+          "code": "reaction_balance_record",
+          "status": "passed",
+          "detail": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "mass_balance",
+          "status": "passed",
+          "detail": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "charge_balance",
+          "status": "passed",
+          "detail": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P"
+        },
+        {
+          "code": "reaction_id",
+          "status": "passed",
+          "detail": "CAND_10H2DA_COA_THIOESTERASE_P"
+        },
+        {
+          "code": "reaction_source",
+          "status": "passed",
+          "detail": "CAND_10H2DA_COA_THIOESTERASE_P:evidence_scope"
+        },
+        {
+          "code": "reaction_balance_record",
+          "status": "passed",
+          "detail": "CAND_10H2DA_COA_THIOESTERASE_P"
+        },
+        {
+          "code": "mass_balance",
+          "status": "passed",
+          "detail": "CAND_10H2DA_COA_THIOESTERASE_P"
+        },
+        {
+          "code": "charge_balance",
+          "status": "passed",
+          "detail": "CAND_10H2DA_COA_THIOESTERASE_P"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "artifacts": {
+    "metabolite_quality": "metabolite_structure_quality.csv",
+    "reaction_quality": "reaction_quality.csv",
+    "summary_schema": "09_configs/data_quality_gate_summary.schema.json"
+  }
+}

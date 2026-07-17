@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-16T20:58:14",
+  "summary": {
+    "rows": 7512,
+    "underground_rxn_prefix": 3381,
+    "metanetx_nonempty": 1675,
+    "metanetx_with_property_match": 876,
+    "kegg_reaction_nonempty": 909,
+    "kegg_pathway_nonempty": 1891,
+    "bigg_nonempty": 1407,
+    "sbo_nonempty": 4131,
+    "underground_without_crossref": 3381
+  },
+  "output": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\02_id_mapping\\model_reaction_crossrefs.csv"
+}

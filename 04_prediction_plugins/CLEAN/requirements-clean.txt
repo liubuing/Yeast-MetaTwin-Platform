@@ -1,0 +1,9 @@
+# Official CLEAN app requirements at commit f2bf2a4f497fa2cc87dac2a1bb314fee587c0a15.
+# Install torch separately; the paper environment used torch 1.11.0 and Python 3.10.4.
+matplotlib==3.7.0
+numpy==1.22.3
+pandas==1.4.2
+scikit_learn==1.2.0
+scipy==1.7.3
+tqdm==4.64.0
+fair-esm==2.0.0

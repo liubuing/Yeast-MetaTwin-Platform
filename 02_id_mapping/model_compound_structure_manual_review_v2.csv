@@ -1,0 +1,115 @@
+compound_uid,model_metabolite_id,primary_name,formula,previous_structure_status,decision,reason,matched_key,source_database,source_record_id,source_file,method,confidence_level,candidate_count,attempted_key_spaces
+MODEL_CMPD:0000001,s_0001,(1->3)-beta-D-glucan,C6H10O5,missing,manual_review,formula_conflict,MNXM6492,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000002,s_0002,(1->3)-beta-D-glucan,C6H10O5,missing,manual_review,formula_conflict,MNXM6492,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000003,s_0003,(1->3)-beta-D-glucan,C6H10O5,missing,manual_review,formula_conflict,MNXM6492,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000004,s_0004,(1->6)-beta-D-glucan,C6H10O5,missing,manual_review,formula_conflict,MNXM9375,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000240,s_0331,6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol,C19H30NO18PR2,missing,manual_review,formula_conflict,MNXM999,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000295,s_0404,Ala-tRNA(Ala),C3H7NOR,missing,manual_review,formula_conflict,C00886,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000305,s_0414,alpha-D-mannosyl-beta-D-mannosyldiacetylchitobiosyldiphosphodolichol,C48H84N2O27P2,missing,manual_review,formula_conflict,MNXM41231,,,,,,3,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000318,s_0428,Arg-tRNA(Arg),C6H15N4OR,missing,manual_review,formula_conflict,C02163,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000319,s_0429,Arg-tRNA(Arg),C6H15N4OR,missing,manual_review,formula_conflict,C02163,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000320,s_0430,Asn-tRNA(Asn),C4H8N2O2R,missing,manual_review,formula_conflict,C03402,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000321,s_0431,Asn-tRNA(Asn),C4H8N2O2R,missing,manual_review,formula_conflict,C03402,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000322,s_0432,Asp-tRNA(Asp),C4H6NO3R,missing,manual_review,formula_conflict,C02984,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000323,s_0433,Asp-tRNA(Asp),C4H6NO3R,missing,manual_review,formula_conflict,C02984,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000331,s_0443,beta-D-mannosyldiacetylchitobiosyldiphosphodolichol,C42H72N2O22P2,missing,manual_review,formula_conflict,MNXM1078,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000332,s_0444,beta-D-mannosyldiacetylchitobiosyldiphosphodolichol,C42H72N2O22P2,missing,manual_review,formula_conflict,MNXM1078,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000385,s_0509,chitin,C8H13NO5,missing,manual_review,formula_conflict,C00461,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000386,s_0510,chitosan,C6H11NO4,missing,manual_review,formula_conflict,MNXM2106,,,,,,4,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000409,s_0542,Cys-tRNA(Cys),C3H7NOSR,missing,manual_review,formula_conflict,C03125,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000475,s_0620,diglyceride backbone,C3H4O,missing,manual_review,formula_conflict,MNXM59,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000491,s_0642,dolichol,C20H36O,missing,manual_review,formula_conflict,MNXM797,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000492,s_0644,dolichyl D-mannosyl phosphate,C26H47O9P,missing,manual_review,formula_conflict,MNXM296,,,,,,3,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000493,s_0645,dolichyl phosphate,C20H37O4P,missing,manual_review,formula_conflict,MNXM278,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000494,s_0646,dolichyl phosphate,C20H37O4P,missing,manual_review,formula_conflict,MNXM278,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000536,s_0709,ferricytochrome c,C42H44FeN8O8S2R4,missing,manual_review,formula_conflict,MNXM5749,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000537,s_0710,ferrocytochrome c,C42H45FeN8O8S2R4,missing,manual_review,formula_conflict,MNXM746,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000539,s_0713,fMet-tRNA(fMet),C6H10NO2SR,missing,manual_review,formula_conflict,C03294,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000564,s_0747,Gln-tRNA(Gln),C5H10N2O2R,missing,manual_review,formula_conflict,C02282,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000565,s_0748,Glu-tRNA(Glu),C5H8NO3R,missing,manual_review,formula_conflict,C02987,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000566,s_0749,Glu-tRNA(Glu),C5H8NO3R,missing,manual_review,formula_conflict,C02987,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000574,s_0757,Gly-tRNA(Gly),C2H5NOR,missing,manual_review,formula_conflict,C02412,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000582,s_0773,glycogen,C6H10O5,missing,manual_review,formula_conflict,MNXM55375,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000583,s_0774,glycogen,C6H10O5,missing,manual_review,formula_conflict,MNXM55375,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000632,s_0832,His-tRNA(His),C6H9N3OR,missing,manual_review,formula_conflict,C02988,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000633,s_0833,His-tRNA(His),C6H9N3OR,missing,manual_review,formula_conflict,C02988,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000646,s_0847,Ile-tRNA(Ile),C6H13NOR,missing,manual_review,formula_conflict,C03127,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000647,s_0848,Ile-tRNA(Ile),C6H13NOR,missing,manual_review,formula_conflict,C03127,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000857,s_1077,Leu-tRNA(Leu),C6H13NOR,missing,manual_review,formula_conflict,C02047,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000858,s_1078,Leu-tRNA(Leu),C6H13NOR,missing,manual_review,formula_conflict,C02047,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000867,s_1099,Lys-tRNA(Lys),C6H15N2OR,missing,manual_review,formula_conflict,C01931,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000868,s_1100,Lys-tRNA(Lys),C6H15N2OR,missing,manual_review,formula_conflict,C01931,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000879,s_1114,mannosylinositol phosphorylceramide backbone,C12H22NO15P,missing,manual_review,formula_conflict,MNXM12216,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0000910,s_1148,Met-tRNA(Met),C5H11NOSR,missing,manual_review,formula_conflict,C02430,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000911,s_1149,Met-tRNA(Met),C5H11NOSR,missing,manual_review,formula_conflict,C02430,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0000929,s_1184,"N,N'-diacetylchitobiosyldiphosphodolichol",C36H62N2O17P2,missing,manual_review,formula_conflict,MNXM63078,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0001022,s_1309,pectin,C6H7O6,missing,manual_review,formula_conflict,MNXM107600,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0001027,s_1314,Phe-tRNA(Phe),C9H11NOR,missing,manual_review,formula_conflict,C03511,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001028,s_1315,Phe-tRNA(Phe),C9H11NOR,missing,manual_review,formula_conflict,C03511,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001041,s_1337,phosphatidyl-L-serine backbone,C6H10NO6P,missing,manual_review,formula_conflict,MNXM221,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0001060,s_1379,Pro-tRNA(Pro),C5H9NOR,missing,manual_review,formula_conflict,C02702,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001104,s_1428,Ser-tRNA(Ser),C3H7NO2R,missing,manual_review,formula_conflict,C02553,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001154,s_1491,Thr-tRNA(Thr),C4H9NO2R,missing,manual_review,formula_conflict,C02992,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001155,s_1492,Thr-tRNA(Thr),C4H9NO2R,missing,manual_review,formula_conflict,C02992,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001173,s_1527,Trp-tRNA(Trp),C11H12N2OR,missing,manual_review,formula_conflict,C03512,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001174,s_1528,Trp-tRNA(Trp),C11H12N2OR,missing,manual_review,formula_conflict,C03512,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001179,s_1533,Tyr-tRNA(Tyr),C9H11NO2R,missing,manual_review,formula_conflict,C02839,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001180,s_1534,Tyr-tRNA(Tyr),C9H11NO2R,missing,manual_review,formula_conflict,C02839,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001206,s_1561,Val-tRNA(Val),C5H11NOR,missing,manual_review,formula_conflict,C02554,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001207,s_1562,Val-tRNA(Val),C5H11NOR,missing,manual_review,formula_conflict,C02554,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001219,s_1578,zymosterol intermediate 1c,C28H43O3,missing,manual_review,formula_conflict,MNXM89471,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0001255,s_1616,TRX1,C6H10N2O2S2R4,missing,manual_review,formula_conflict,C00342,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001256,s_1617,TRX1,C6H10N2O2S2R4,missing,manual_review,formula_conflict,C00342,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001257,s_1618,TRX1,C6H10N2O2S2R4,missing,manual_review,formula_conflict,C00342,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001258,s_1619,TRX1,C6H10N2O2S2R4,missing,manual_review,formula_conflict,C00342,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0001275,s_2777,3-hydroxyoctanoyl-ACP,C8H15O2SR,missing,manual_review,formula_conflict,C16220,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002204,s_3710,phosphatidyl-L-serine backbone,C6H10NO6P,missing,manual_review,formula_conflict,MNXM221,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002205,s_3711,phosphatidylcholine backbone,C8H16NO3P,missing,manual_review,formula_conflict,C00157,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002206,s_3712,phosphatidylethanolamine backbone,C5H10NO4P,missing,manual_review,formula_conflict,C00350,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002207,s_3713,triglyceride backbone,C3H2,missing,manual_review,formula_conflict,C00422,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002212,s_3718,carbohydrate,,missing,manual_review,multiple_structures_for_key,MNXM1434,,,,,,3,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002243,s_3749,Apocytochrome c,C6H10N2O2S2,missing,manual_review,formula_conflict,C02248,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002248,s_3754,L-glutamyl-tRNA(Gln),C5H8NO3R,missing,manual_review,formula_conflict,C06112,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002250,s_3756,Gln-tRNA(Gln),C5H10N2O2R,missing,manual_review,formula_conflict,C02282,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002259,s_3765,N-Acetyl-D-glucosaminyldiphosphodolichol,C28H51NO12P2R,missing,manual_review,formula_conflict,MNXM818,,,,,,3,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002301,s_3809,Pro-tRNA(Pro),C5H9NOR,missing,manual_review,formula_conflict,C02702,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002364,s_3876,Protein C-terminal S-farnesyl-L-cysteine,C20H32N2O3SR,missing,manual_review,formula_conflict,C04506,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002365,s_3877,Protein C-terminal S-farnesyl-L-cysteine methyl ester,C21H35N2O3SR,missing,manual_review,formula_conflict,C04748,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002367,s_3879,G00143,C19H29NO18PR2,missing,manual_review,formula_conflict,MNXM92477,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002372,s_3884,generic protein,C2H4NOR,missing,manual_review,formula_conflict,C00017,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002373,s_3885,L-Arginyl-protein,C8H17N5O2R,missing,manual_review,formula_conflict,C16739,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002375,s_3887,G00008,C108H182N2O77P2R,missing,manual_review,formula_conflict,MNXM9308,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002376,s_3888,Dolichyl diphosphate,C20H35O7P2R,missing,manual_review,formula_conflict,MNXM2370,,,,,,4,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002395,s_3907,phosphatidate,C5H7O8PR2,missing,manual_review,formula_conflict,MNXM96054,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002399,s_3911,Dolichyl beta-D-glucosyl phosphate,C26H46O9PR,missing,manual_review,formula_conflict,MNXM145615,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002401,s_3913,nitric oxide,NO,parse_failed,manual_review,formula_conflict,MNXM228,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002411,s_3927,ribonucleoside 5'-triphosphate,C5H8O13P3R,missing,manual_review,formula_conflict,MNXM96380,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002423,s_3939,"1,2-diacyl-sn-glycerol 3-phosphate",C5H5O8PR2,missing,manual_review,formula_conflict,MNXM96054,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002424,s_3940,Peptide diphthine,C13H20N4O3R2,missing,manual_review,formula_conflict,MNXM3980,,,,,,1,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002477,s_3996,G00007,C90H152N2O62P2R,missing,manual_review,formula_conflict,MNXM31425,,,,,,3,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002481,s_4000,Dextrin,C12H20O10,missing,manual_review,formula_conflict,C00721,,,,,,1,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id
+MODEL_CMPD:0002499,s_4018,polyphosphate,HO7P2,missing,manual_review,formula_conflict,MNXM77738,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002687,s_4211,hexanoyl-CoA,,missing,manual_review,multiple_structures_for_key,hexanoyl-coa,,,,,,2,exact_ymdb_id|exact_metanetx_id|exact_chebi_id|exact_kegg_id|exact_pubchem_cid_via_chebi_sdf|unique_normalized_name
+MODEL_CMPD:0002765,s_4290,polyphosphate,HO7P2,missing,manual_review,formula_conflict,MNXM77738,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002766,s_4291,polyphosphate,HO7P2,missing,manual_review,formula_conflict,MNXM77738,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002767,s_4292,polyphosphate,HO7P2,missing,manual_review,formula_conflict,MNXM77738,,,,,,2,exact_ymdb_id|exact_metanetx_id
+MODEL_CMPD:0002822,sn_112,YMDB00813_YMDB00817,,missing,manual_review,multiple_structures_for_key,YMDB00813|YMDB00817,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002826,sn_116,YMDB01197_YMDB13330,,missing,manual_review,multiple_structures_for_key,YMDB01197|YMDB13330,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002835,sn_124,YMDB01370_YMDB16050,,missing,manual_review,multiple_structures_for_key,YMDB01370|YMDB16050,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002844,sn_132,YMDB01201_YMDB13331,,missing,manual_review,multiple_structures_for_key,YMDB01201|YMDB13331,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002858,sn_146,YMDB01237_YMDB13340,,missing,manual_review,multiple_structures_for_key,YMDB01237|YMDB13340,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002877,sn_166,YMDB01223_YMDB13338,,missing,manual_review,multiple_structures_for_key,YMDB01223|YMDB13338,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002900,sn_187,YMDB13310_YMDB16163,,missing,manual_review,multiple_structures_for_key,YMDB13310|YMDB16163,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002901,sn_188,YMDB01207_YMDB13334,,missing,manual_review,multiple_structures_for_key,YMDB01207|YMDB13334,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002909,sn_197,YMDB01194_YMDB13329,,missing,manual_review,multiple_structures_for_key,YMDB01194|YMDB13329,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002924,sn_21,YMDB01700_YMDB01760,,missing,manual_review,multiple_structures_for_key,YMDB01700|YMDB01760,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002969,sn_254,YMDB00855_YMDB01758,,missing,manual_review,multiple_structures_for_key,YMDB00855|YMDB01758,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0002980,sn_267,YMDB00764_YMDB16183,,missing,manual_review,multiple_structures_for_key,YMDB00764|YMDB16183,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003029,sn_312,YMDB01175_YMDB13311,,missing,manual_review,multiple_structures_for_key,YMDB01175|YMDB13311,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003067,sn_35,YMDB13328_YMDB16278,,missing,manual_review,multiple_structures_for_key,YMDB13328|YMDB16278,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003098,sn_380,YMDB01350_YMDB16023,,missing,manual_review,multiple_structures_for_key,YMDB01350|YMDB16023,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003121,sn_401,YMDB01457_YMDB16055,,missing,manual_review,multiple_structures_for_key,YMDB01457|YMDB16055,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003128,sn_408,YMDB16162_YMDB16258,,missing,manual_review,multiple_structures_for_key,YMDB16162|YMDB16258,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003164,sn_66,YMDB01204_YMDB13333,,missing,manual_review,multiple_structures_for_key,YMDB01204|YMDB13333,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003181,sn_81,YMDB01157_YMDB13273,,missing,manual_review,multiple_structures_for_key,YMDB01157|YMDB13273,,,,,,2,exact_ymdb_id
+MODEL_CMPD:0003198,sn_97,YMDB13383_YMDB16220,,missing,manual_review,multiple_structures_for_key,YMDB13383|YMDB16220,,,,,,2,exact_ymdb_id

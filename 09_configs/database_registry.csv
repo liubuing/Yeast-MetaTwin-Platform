@@ -1,0 +1,11 @@
+database,category,local_path,status,required_for_phase1,notes
+KEGG,reaction_compound,,,false,Use for reaction and compound cross-reference in phase2.
+Rhea,reaction,,,false,Use for curated balanced reactions in phase2.
+MetaCyc,pathway_reaction,,,false,Use for pathway evidence and enzyme references in phase2.
+BRENDA,enzyme_substrate,,,false,Use for enzyme substrate and kinetics evidence in phase2.
+UniProt,protein_annotation,,,false,Use for sequence, EC, organism, and gene annotations in phase2.
+MetaNetX,id_mapping_reaction_compound,C:/biological/Metabolic model prediction/Yeast-MetaTwin/Data/database,,false,Existing project database directory, verify exact files before phase2.
+ChEBI,compound_structure,,,false,Use for compound identity and ontology in phase2.
+PubChem,compound_structure,,,false,Use for SMILES/InChIKey recovery in phase2.
+YMDB,yeast_metabolome,,,false,Use for yeast metabolome cross-reference in phase2.
+Yeast-MetaTwin models,metabolic_model,C:/biological/Metabolic model prediction/Yeast-MetaTwin/Data/model,available,true,Required for phase1 model query and FBA.

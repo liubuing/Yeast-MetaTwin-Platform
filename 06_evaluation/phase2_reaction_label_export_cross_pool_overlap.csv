@@ -1,0 +1,8 @@
+overlap_type,key,groups
+exact_model_equation,s_0390 + s_0803 --> s_0423 + s_1322,candidate_extension_evidence|first_pass_reference_label
+exact_model_equation,s_0386 + s_0434 --> s_0394 + s_0423 + s_0794,candidate_extension_evidence|first_pass_reference_label
+exact_model_equation,s_0434 + s_1198 --> s_0394 + s_0794 + s_1207,candidate_extension_evidence|first_pass_reference_label
+exact_model_equation,s_0394 + s_0803 --> s_0423 + s_0794 + s_1322,candidate_extension_evidence|first_pass_reference_label
+exact_model_equation,s_0423 + s_0803 --> s_0386 + s_1322,candidate_extension_evidence|first_pass_reference_label
+exact_model_equation,s_0434 + s_0803 --> s_0394 + s_0794 + s_1322,candidate_extension_evidence|first_pass_reference_label
+exact_model_equation,s_0803 + s_4317 --> s_0394 + s_0423 + 2 s_0794,candidate_extension_evidence|first_pass_reference_label

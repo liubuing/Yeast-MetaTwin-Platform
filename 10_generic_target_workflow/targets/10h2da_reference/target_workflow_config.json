@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "target_id": "10h2da_reference",
+    "target_name": "10-Hydroxy-trans-2-decenoic acid reference case",
+    "formula": "C10H17O3",
+    "charge_state_in_model": -1,
+    "compartment": "p",
+    "synonyms": [
+      "10H2DA",
+      "10-HDA",
+      "10-hydroxy-2-decenoic acid",
+      "10-hydroxy-trans-2-decenoic acid"
+    ]
+  },
+  "protonation_assumption": "Candidate formulas represent the model species at the Yeast-MetaTwin proton convention, not neutral isolated compounds. The carboxylic acids are represented as singly deprotonated: neutral trans-2-decenoic acid C10H18O2 becomes C10H17O2 (-1), and neutral 10H2DA C10H18O3 becomes C10H17O3 (-1). Neutral SMILES are retained for identity/prediction. 10H2DA-CoA C31H48N7O18P3S (-4) is the element- and charge-balanced hydroxylation product of model s_1507; this is an internal stoichiometric definition, not experimental structure evidence.",
+  "fba_validation": {
+    "biomass_reaction_id": null,
+    "biomass_floor_fraction": 0.1,
+    "carbon_exchange_id": "r_1714",
+    "oxygen_exchange_id": "r_1992"
+  },
+  "compounds": [
+    {
+      "compound_id": "trans_2_decenoic_acid",
+      "name": "trans-2-decenoic acid",
+      "role": "intermediate",
+      "formula": "C10H17O2",
+      "charge": -1,
+      "smiles": "CCCCCCC/C=C/C(=O)O",
+      "smiles_source": "PubChem CID 5282724 isomeric SMILES",
+      "model_metabolite_id": "cand_t2dec_p"
+    },
+    {
+      "compound_id": "trans_dec_2_enoyl_coa",
+      "name": "trans-dec-2-enoyl-CoA",
+      "role": "precursor",
+      "formula": "C31H48N7O17P3S",
+      "charge": -4,
+      "smiles": "CCCCCCC/C=C/C(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+      "smiles_source": "PubChem CID 24883423 isomeric SMILES",
+      "model_metabolite_id": "s_1507"
+    },
+    {
+      "compound_id": "10h2da",
+      "name": "10-hydroxy-trans-2-decenoic acid",
+      "role": "target",
+      "formula": "C10H17O3",
+      "charge": -1,
+      "smiles": "OCCCCCCC/C=C/C(=O)O",
+      "smiles_source": "PubChem CID 5312738 isomeric SMILES",
+      "model_metabolite_id": "cand_10h2da_p"
+    },
+    {
+      "compound_id": "10h2da_coa",
+      "name": "10-hydroxy-trans-2-decenoyl-CoA",
+      "role": "candidate_metabolite",
+      "formula": "C31H48N7O18P3S",
+      "charge": -4,
+      "smiles": "OCCCCCCC/C=C/C(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+      "smiles_source": "derived from PubChem trans-dec-2-enoyl-CoA by omega hydroxyl substitution; no direct PubChem hit found",
+      "model_metabolite_id": "cand_10h2da_coa_p"
+    }
+  ],
+  "candidate_reactions": [
+    {
+      "reaction_id": "CAND_T2DEC_THIOESTERASE_P",
+      "name": "candidate trans-dec-2-enoyl-CoA thioesterase",
+      "equation": "trans-dec-2-enoyl-CoA + H2O -> trans-2-decenoate + CoA + H+",
+      "stoichiometry": {
+        "s_1507": -1,
+        "s_0809": -1,
+        "cand_t2dec_p": 1,
+        "s_0534": 1,
+        "s_0801": 1
+      },
+      "enzyme_ec_numbers": [
+        "3.1.2.-",
+        "3.1.2.2"
+      ],
+      "reaction_role": "thioesterase_release",
+      "evidence_scope": "hypothesis",
+      "balance_expected": true
+    },
+    {
+      "reaction_id": "CAND_T2DEC_OMEGA_HYDROXYLASE_P",
+      "name": "candidate trans-2-decenoate omega-hydroxylase",
+      "equation": "trans-2-decenoate + NADPH + O2 + H+ -> 10H2DA + NADP+ + H2O",
+      "stoichiometry": {
+        "cand_t2dec_p": -1,
+        "s_1215": -1,
+        "s_1279": -1,
+        "s_0801": -1,
+        "cand_10h2da_p": 1,
+        "s_1211": 1,
+        "s_0809": 1
+      },
+      "enzyme_ec_numbers": [
+        "1.14.-.-",
+        "1.14.14.-"
+      ],
+      "reaction_role": "omega_hydroxylation",
+      "evidence_scope": "hypothesis",
+      "balance_expected": true
+    },
+    {
+      "reaction_id": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P",
+      "name": "candidate trans-dec-2-enoyl-CoA omega-hydroxylase",
+      "equation": "trans-dec-2-enoyl-CoA + NADPH + O2 + H+ -> 10H2DA-CoA + NADP+ + H2O",
+      "stoichiometry": {
+        "s_1507": -1,
+        "s_1215": -1,
+        "s_1279": -1,
+        "s_0801": -1,
+        "cand_10h2da_coa_p": 1,
+        "s_1211": 1,
+        "s_0809": 1
+      },
+      "enzyme_ec_numbers": ["1.14.-.-", "1.14.14.-"],
+      "reaction_role": "omega_hydroxylation",
+      "evidence_scope": "hypothesis",
+      "balance_expected": true
+    },
+    {
+      "reaction_id": "CAND_10H2DA_COA_THIOESTERASE_P",
+      "name": "candidate 10-hydroxy-trans-2-decenoyl-CoA thioesterase",
+      "equation": "10H2DA-CoA + H2O -> 10H2DA + CoA + H+",
+      "stoichiometry": {
+        "cand_10h2da_coa_p": -1,
+        "s_0809": -1,
+        "cand_10h2da_p": 1,
+        "s_0534": 1,
+        "s_0801": 1
+      },
+      "enzyme_ec_numbers": ["3.1.2.-", "3.1.2.2"],
+      "reaction_role": "thioesterase_release",
+      "evidence_scope": "hypothesis",
+      "balance_expected": true
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "free_acid_route",
+      "name": "release trans-2-decenoate then omega-hydroxylate",
+      "reaction_ids": [
+        "CAND_T2DEC_THIOESTERASE_P",
+        "CAND_T2DEC_OMEGA_HYDROXYLASE_P"
+      ],
+      "objective_metabolite_id": "cand_10h2da_p",
+      "route_risk_note": "requires free-acid release before P450 hydroxylation"
+    },
+    {
+      "route_id": "coa_bound_route",
+      "name": "hydroxylate CoA-bound intermediate then hydrolyze",
+      "reaction_ids": [
+        "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P",
+        "CAND_10H2DA_COA_THIOESTERASE_P"
+      ],
+      "objective_metabolite_id": "cand_10h2da_p",
+      "route_risk_note": "CoA-bound omega-hydroxylation substrate support is less direct"
+    }
+  ],
+  "enzyme_search": {
+    "enzyme_classes": [
+      "acyl-CoA thioesterase",
+      "fatty-acid omega-hydroxylase",
+      "cytochrome P450",
+      "CYP52",
+      "CYP505"
+    ],
+    "exact_terms": [
+      "10-hydroxy-trans-2-decenoic acid",
+      "10-hydroxy-2-decenoic acid",
+      "trans-dec-2-enoyl-CoA",
+      "10-hydroxy-trans-2-decenoyl-CoA"
+    ],
+    "near_terms": [
+      "decenoic acid",
+      "decenoyl-CoA",
+      "decanoyl-CoA",
+      "fatty acid omega-hydroxylase",
+      "CYP52"
+    ],
+    "external_sources": [
+      "UniProt",
+      "Rhea",
+      "PubMed"
+    ],
+    "tiering_policy": "default_A_exact_reaction_to_E_keyword"
+  },
+  "prediction_pairs": [
+    {
+      "reaction_id": "CAND_T2DEC_THIOESTERASE_P",
+      "enzyme_source": "endogenous",
+      "substrate_compound_id": "trans_dec_2_enoyl_coa",
+      "sequence_source": "yeast_fasta",
+      "prediction_plugins": [
+        "UniKP"
+      ]
+    },
+    {
+      "reaction_id": "CAND_T2DEC_OMEGA_HYDROXYLASE_P",
+      "enzyme_source": "both",
+      "substrate_compound_id": "trans_2_decenoic_acid",
+      "sequence_source": "yeast_fasta|uniprot",
+      "prediction_plugins": [
+        "UniKP"
+      ]
+    },
+    {
+      "reaction_id": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P",
+      "enzyme_source": "both",
+      "substrate_compound_id": "trans_dec_2_enoyl_coa",
+      "sequence_source": "yeast_fasta|uniprot",
+      "prediction_plugins": ["UniKP"]
+    },
+    {
+      "reaction_id": "CAND_10H2DA_COA_THIOESTERASE_P",
+      "enzyme_source": "endogenous",
+      "substrate_compound_id": "10h2da_coa",
+      "sequence_source": "yeast_fasta",
+      "prediction_plugins": ["UniKP"]
+    }
+  ],
+  "engineering_layers": {
+    "family_sanity_filter": {
+      "enabled": true,
+      "preferred_families": [
+        "TES1/PTE1 acyl-CoA thioesterase",
+        "fatty-acid omega-hydroxylase",
+        "CYP52",
+        "CYP505"
+      ],
+      "weak_family_patterns": [
+        "ubiquitin thioesterase",
+        "cyclophilin",
+        "PPIase",
+        "generic keyword hit"
+      ]
+    },
+    "specialized_feasibility_layers": [
+      {
+        "layer_id": "p450_feasibility",
+        "enabled": true,
+        "applies_to_reaction_roles": [
+          "omega_hydroxylation"
+        ],
+        "notes": "10H2DA terminal chemistry requires omega-hydroxylase/P450 engineering."
+      }
+    ],
+    "construct_design": {
+      "enabled": true,
+      "design_scope": "prioritization checklist only; not wet-lab protocol"
+    }
+  }
+}

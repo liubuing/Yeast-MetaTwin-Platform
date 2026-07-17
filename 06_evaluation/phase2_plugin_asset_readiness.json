@@ -1,0 +1,363 @@
+{
+  "generated_at": "2026-07-17T09:56:56",
+  "capability_summary": [
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "required": 5,
+      "present": 0,
+      "missing": 5,
+      "status": "blocked_missing_assets"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "example_inference_io",
+      "required": 2,
+      "present": 2,
+      "missing": 0,
+      "status": "ready"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "legacy_training_input",
+      "required": 3,
+      "present": 0,
+      "missing": 3,
+      "status": "blocked_missing_assets"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "training_raw_data",
+      "required": 3,
+      "present": 3,
+      "missing": 0,
+      "status": "ready"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "deployed_training_data",
+      "required": 2,
+      "present": 2,
+      "missing": 0,
+      "status": "ready"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "required": 6,
+      "present": 6,
+      "missing": 0,
+      "status": "ready"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "training_raw_data",
+      "required": 3,
+      "present": 0,
+      "missing": 3,
+      "status": "blocked_missing_assets"
+    }
+  ],
+  "assets": [
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "asset_type": "pretrained_checkpoint",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\data\\pretrained\\split0.pth",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "asset_type": "pretrained_checkpoint",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\data\\pretrained\\split1.pth",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "asset_type": "pretrained_checkpoint",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\data\\pretrained\\split2.pth",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "asset_type": "pretrained_embedding",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\data\\pretrained\\70.pt",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "asset_type": "distance_map",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\data\\distance_map\\split0_esm.pkl",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "CLEAN",
+      "capability": "pretrained_ec_inference",
+      "asset_type": "google_drive_download_attempt",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\CLEAN\\downloads\\clean_pretrained_google_drive_download.bin",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 2431,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "training_raw_data",
+      "asset_type": "kcat_training_json",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\kcatkm_prediction\\UniKP\\Kcat_combination_0918_wildtype_mutant.json",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "training_raw_data",
+      "asset_type": "km_test_pickle",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\kcatkm_prediction\\UniKP\\Km\\Km_test_11722.pkl",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "training_raw_data",
+      "asset_type": "kcat_km_samples",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\kcatkm_prediction\\UniKP\\Kcat_Km\\kcat_km_samples.xlsx",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "deployed_training_data",
+      "asset_type": "kcat_training_json",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\datasets\\Kcat_combination_0918_wildtype_mutant.json",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 12132719,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "deployed_training_data",
+      "asset_type": "km_test_pickle",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\datasets\\Km_test_11722.pkl",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 3295007,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "asset_type": "unikp_kcat_model",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\UniKP for kcat.pkl",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 205501172,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "asset_type": "unikp_km_model",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\UniKP for Km.pkl",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 147957236,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "asset_type": "unikp_kcat_km_model",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\UniKP for kcat_Km.pkl",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 11476980,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "asset_type": "prot_t5_model",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\prot_t5_xl_uniref50",
+      "required": true,
+      "exists": true,
+      "is_file": false,
+      "is_dir": true,
+      "size_bytes": "",
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "asset_type": "smiles_transformer_vocab",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\vocab.pkl",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 1446,
+      "status": "present"
+    },
+    {
+      "plugin": "UniKP",
+      "capability": "pretrained_kinetic_inference",
+      "asset_type": "smiles_transformer_weights",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\trfm_12_23000.pkl",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 22128521,
+      "status": "present"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "legacy_training_input",
+      "asset_type": "compounds_input",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\kcatkm_prediction\\DLKcat\\input\\compounds",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "legacy_training_input",
+      "asset_type": "proteins_input",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\kcatkm_prediction\\DLKcat\\input\\proteins",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "legacy_training_input",
+      "asset_type": "regression_input",
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\kcatkm_prediction\\DLKcat\\input\\regression",
+      "required": true,
+      "exists": false,
+      "is_file": false,
+      "is_dir": false,
+      "size_bytes": "",
+      "status": "missing"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "training_raw_data",
+      "asset_type": "kcat_json_wildtype_mutant",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\DLKcat\\data\\Kcat_combination_0918_wildtype_mutant.json",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 12132719,
+      "status": "present"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "training_raw_data",
+      "asset_type": "kcat_json",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\DLKcat\\data\\Kcat_combination_0918.json",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 11671479,
+      "status": "present"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "training_raw_data",
+      "asset_type": "kcat_tsv",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\DLKcat\\data\\Kcat_combination_41559.tsv",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 4794795,
+      "status": "present"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "example_inference_io",
+      "asset_type": "example_input",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\DLKcat\\example\\input.tsv",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 1137,
+      "status": "present"
+    },
+    {
+      "plugin": "DLKcat",
+      "capability": "example_inference_io",
+      "asset_type": "example_output",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\DLKcat\\example\\output.tsv",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 1175,
+      "status": "present"
+    }
+  ]
+}

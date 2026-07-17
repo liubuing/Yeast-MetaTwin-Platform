@@ -1,0 +1,55 @@
+# Python and test state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv*/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local.json
+
+# Runtime outputs
+runs/
+logs/
+08_runtime/tmp/
+08_runtime/runs/
+10_generic_target_workflow/targets/*/outputs/
+10_generic_target_workflow/targets/*/reports/
+
+# Externally obtained or generated binary assets. Track manifests/checksums instead.
+04_prediction_plugins/**/*.pkl
+04_prediction_plugins/**/*.pickle
+04_prediction_plugins/**/*.joblib
+04_prediction_plugins/**/*.pt
+04_prediction_plugins/**/*.pth
+04_prediction_plugins/**/*.bin
+04_prediction_plugins/**/*.npy
+04_prediction_plugins/**/*.npz
+04_prediction_plugins/**/*.zip
+04_prediction_plugins/**/saved_model
+04_prediction_plugins/**/downloads/
+04_prediction_plugins/**/data/
+04_prediction_plugins/**/datasets/
+04_prediction_plugins/**/models/prot_t5_xl_uniref50/
+tools/downloads/
+tools/mmseqs2/mmseqs/bin/
+tools/mmseqs2/
+01_databases/phase2_database_asset_inventory.csv
+02_id_mapping/model_enzyme_evidence_seed.csv
+02_id_mapping/model_enzyme_evidence_seed_enriched.csv
+05_training/mmseqs_homology_clusters/
+05_training/mmseqs_threshold_sensitivity/
+03_models/*.joblib
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

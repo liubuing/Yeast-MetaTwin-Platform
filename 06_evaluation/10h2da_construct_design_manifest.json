@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-17T17:01:06",
+  "construct_design_rows": 80,
+  "tier_counts": {
+    "tier1_build_first": 2,
+    "tier2_parallel_or_followup": 8,
+    "tier3_secondary_screen": 39,
+    "tier4_deprioritize": 31
+  },
+  "outputs": [
+    "06_evaluation/10h2da_construct_design_matrix.csv",
+    "07_reports/10H2DA_construct_design_matrix.md"
+  ]
+}

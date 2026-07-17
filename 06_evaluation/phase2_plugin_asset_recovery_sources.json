@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-07-16T21:39:30",
+  "sources": [
+    {
+      "plugin": "CLEAN",
+      "source_type": "paper_repo",
+      "url": "https://github.com/tttianhao/CLEAN",
+      "http_status": 200,
+      "recovery_source_status": "download_source_likely_documented",
+      "detected_keywords": "pretrained|checkpoint|zenodo|download|model|data",
+      "content_sample": "      <!DOCTYPE html> <html   lang=\"en\"      data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"   data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"      >       <head>     <meta charset=\"utf-8\">   <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">   <link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\">   <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\">   <link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\">   <link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin>   <link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\">         <link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light-62b06818b06b09b7.css\" /><link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css\" /><link crossorigin=\"anonymous\" media=\"a"
+    },
+    {
+      "plugin": "CLEAN",
+      "source_type": "paper",
+      "url": "https://www.science.org/doi/10.1126/science.adf2465",
+      "http_status": 200,
+      "recovery_source_status": "download_source_likely_documented",
+      "detected_keywords": "pretrained|zenodo|download|model|data",
+      "content_sample": "     <!DOCTYPE html>                      <html lang=\"en\"                                                                                                                                      class=\"pb-page\"          data-request-id=\"a1c169729ce0f52f-NRT\"    >               <head data-pb-dropzone=\"head\">               <meta charset=\"UTF-8\">                                                                                                                                                                                <title>Enzyme function prediction using contrastive learning | Science</title>                                                                                                                                                                                                                                                                                                                                                   <link type=\"text/css\" rel=\"stylesheet\" href=\"/pb-assets/css/local-"
+    },
+    {
+      "plugin": "UniKP",
+      "source_type": "paper_repo",
+      "url": "https://github.com/Luo-SynBioLab/UniKP",
+      "http_status": 200,
+      "recovery_source_status": "documentation_or_assets_mentioned_review_required",
+      "detected_keywords": "pretrained|download|model|data|pkl",
+      "content_sample": "      <!DOCTYPE html> <html   lang=\"en\"      data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"   data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"      >       <head>     <meta charset=\"utf-8\">   <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">   <link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\">   <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\">   <link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\">   <link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin>   <link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\">         <link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light-62b06818b06b09b7.css\" /><link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css\" /><link crossorigin=\"anonymous\" media=\"a"
+    },
+    {
+      "plugin": "UniKP",
+      "source_type": "paper",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.3c00765",
+      "http_status": 0,
+      "recovery_source_status": "source_unreachable",
+      "detected_keywords": "",
+      "content_sample": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "plugin": "DLKcat",
+      "source_type": "paper_repo",
+      "url": "https://github.com/SysBioChalmers/DLKcat",
+      "http_status": 200,
+      "recovery_source_status": "documentation_or_assets_mentioned_review_required",
+      "detected_keywords": "download|model|data",
+      "content_sample": "      <!DOCTYPE html> <html   lang=\"en\"      data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"   data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"      >       <head>     <meta charset=\"utf-8\">   <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">   <link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\">   <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\">   <link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\">   <link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin>   <link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\">         <link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light-62b06818b06b09b7.css\" /><link crossorigin=\"anonymous\" media=\"all\" rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css\" /><link crossorigin=\"anonymous\" media=\"a"
+    },
+    {
+      "plugin": "DLKcat",
+      "source_type": "paper",
+      "url": "https://www.nature.com/articles/s41467-022-33113-0",
+      "http_status": 0,
+      "recovery_source_status": "source_unreachable",
+      "detected_keywords": "",
+      "content_sample": "HTTPError: HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop. The last 30x error message was: See Other"
+    }
+  ]
+}

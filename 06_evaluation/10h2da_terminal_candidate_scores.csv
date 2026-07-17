@@ -1,0 +1,5 @@
+model_reaction_id,reaction_name,model_equation,enzyme_ec_numbers,reference_likeness_score
+CAND_T2DEC_THIOESTERASE_P,candidate trans-dec-2-enoyl-CoA thioesterase,s_1507 + s_0809 --> cand_t2dec_p + s_0534 + s_0801,3.1.2.-|3.1.2.2,0.7178187259914952
+CAND_T2DEC_OMEGA_HYDROXYLASE_P,candidate trans-2-decenoate omega-hydroxylase,cand_t2dec_p + s_1215 + s_1279 + s_0801 --> cand_10h2da_p + s_1211 + s_0809,1.14.-.-|1.14.14.-,0.9139181828839895
+CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P,candidate trans-dec-2-enoyl-CoA omega-hydroxylase,s_1507 + s_1215 + s_1279 + s_0801 --> cand_10h2da_coa_p + s_1211 + s_0809,1.14.-.-|1.14.14.-,0.8649461240561508
+CAND_10H2DA_COA_THIOESTERASE_P,candidate 10-hydroxy-trans-2-decenoyl-CoA thioesterase,cand_10h2da_coa_p + s_0809 --> cand_10h2da_p + s_0534 + s_0801,3.1.2.-|3.1.2.2,0.7752100115818107

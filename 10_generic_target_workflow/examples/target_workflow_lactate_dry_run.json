@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "target_id": "l_lactate_dry_run",
+    "target_name": "L-lactate configuration exercise",
+    "formula": "C3H6O3",
+    "charge_state_in_model": -1,
+    "compartment": "c",
+    "synonyms": ["L-lactic acid", "L-lactate"]
+  },
+  "fba_validation": {
+    "model_path": "10_generic_target_workflow/examples/lactate_base_model.json",
+    "biomass_reaction_id": "BIOMASS",
+    "biomass_floor_fraction": 0.1,
+    "carbon_exchange_id": null,
+    "oxygen_exchange_id": null
+  },
+  "compounds": [
+    {
+      "compound_id": "pyruvate",
+      "name": "Pyruvate",
+      "role": "precursor",
+      "formula": "C3H4O3",
+      "charge": -1,
+      "smiles": null,
+      "smiles_source": "unresolved",
+      "model_metabolite_id": "pyruvate_c"
+    },
+    {
+      "compound_id": "l_lactate",
+      "name": "L-lactate",
+      "role": "target",
+      "formula": "C3H6O3",
+      "charge": -1,
+      "smiles": null,
+      "smiles_source": "unresolved",
+      "model_metabolite_id": "l_lactate_c"
+    }
+  ],
+  "candidate_reactions": [
+    {
+      "reaction_id": "CAND_L_LACTATE_FORMATION",
+      "name": "Declared L-lactate formation hypothesis",
+      "equation": "pyruvate + NADH + H+ -> L-lactate + NAD+",
+      "stoichiometry": {"pyruvate_c": -1, "nadh_c": -1, "h_c": -1, "l_lactate_c": 1, "nad_c": 1},
+      "enzyme_ec_numbers": ["1.1.1.27"],
+      "reaction_role": "lactate_formation",
+      "evidence_scope": "hypothesis",
+      "balance_expected": true
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "declared_lactate_route",
+      "name": "Declared one-step lactate route",
+      "reaction_ids": ["CAND_L_LACTATE_FORMATION"],
+      "objective_metabolite_id": "l_lactate_c",
+      "route_risk_note": "Configuration-only example; no model feasibility or enzyme claim has been evaluated."
+    }
+  ],
+  "enzyme_search": {
+    "enzyme_classes": ["L-lactate dehydrogenase"],
+    "exact_terms": ["L-lactate dehydrogenase"],
+    "near_terms": ["lactate dehydrogenase"],
+    "external_sources": ["UniProt", "Rhea", "PubMed"],
+    "tiering_policy": "default_A_exact_reaction_to_E_keyword"
+  },
+  "prediction_pairs": [
+    {
+      "reaction_id": "CAND_L_LACTATE_FORMATION",
+      "enzyme_source": "both",
+      "substrate_compound_id": "pyruvate",
+      "sequence_source": "not_supplied_in_reference_smoke",
+      "prediction_plugins": [{"plugin": "DLKcat", "capability": "kcat_prediction"}]
+    }
+  ],
+  "external_evidence": {"input_paths": []},
+  "engineering_layers": {
+    "family_sanity_filter": {"enabled": false, "preferred_families": [], "weak_family_patterns": []},
+    "specialized_feasibility_layers": [],
+    "feasibility_rules": [
+      {"rule_id": "no_exact_evidence_requires_review", "evidence_field": "external_evidence.exact_match_count", "operator": "equals", "value": 0, "result_if_matched": "requires_evidence_review", "notes": "A no-match snapshot is not evidence that no evidence exists."}
+    ],
+    "construct_design": {"enabled": true, "design_scope": "prioritization checklist only; not wet-lab protocol"}
+  }
+}

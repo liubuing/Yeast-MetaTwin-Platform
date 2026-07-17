@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-17T10:59:15Z",
+  "readiness": "blocked",
+  "reason": "Official CLEAN pretrained.zip could not be reached; required pretrained inference files are absent.",
+  "official_clean": {
+    "repository": "https://github.com/tttianhao/CLEAN",
+    "commit": "f2bf2a4f497fa2cc87dac2a1bb314fee587c0a15",
+    "release_checked": "v1.0.1",
+    "release_assets": [],
+    "pretrained_landing_page": "https://drive.google.com/file/d/1kwYd4VtzYuMvJMWXy6Vks91DSUAOcKpZ/view?usp=sharing",
+    "pretrained_file_id": "1kwYd4VtzYuMvJMWXy6Vks91DSUAOcKpZ",
+    "pretrained_filename": "pretrained.zip",
+    "advertised_size": "141M",
+    "upstream_sha256": null,
+    "checksum_note": "No checksum is published in the official README, GitHub release, or Google Drive confirmation page. A successful first acquisition must record its computed SHA256; it cannot be authenticated against an upstream digest."
+  },
+  "license": {
+    "status": "manual_review_required",
+    "special_license_url": "https://github.com/tttianhao/CLEAN/blob/f2bf2a4f497fa2cc87dac2a1bb314fee587c0a15/NON-EXCLUSIVE%20RESEARCH%20USE%20LICENSE%20FOR%20CLEAN%20SOFTWARE.pdf",
+    "special_license_git_blob": "901b26cfa6b73c30173459cb74d9c47032ec7709",
+    "special_license_size_bytes": 132180,
+    "local_download_status": "blocked_network_connection_reset_no_file_created",
+    "github_api_repository_classification": "MIT",
+    "github_license_endpoint_at_audit": "404",
+    "interpretation": "The repository-specific research-use PDF is more specific than stale GitHub API metadata. Do not redistribute or use commercially until the license is reviewed."
+  },
+  "required_for_fixed_inference": [
+    {"path": "data/pretrained/split100.pth", "status": "missing", "source": "official pretrained.zip"},
+    {"path": "data/pretrained/100.pt", "status": "missing", "source": "official pretrained.zip"},
+    {"path": "data/pretrained/gmm_ensumble.pkl", "status": "missing", "source": "official pretrained.zip if included; required only by the Yeast-MetaTwin wrapper's confidence conversion"}
+  ],
+  "verified_sibling_assets": [
+    {
+      "path": "../../../Yeast-MetaTwin/Code/ECnumber_prediction/CLEAN/CLEAN_infer_fasta.py",
+      "size_bytes": 946,
+      "sha256": "171b315e90b6e7e88bbe993d313e6bbcbcb58960433fc142c012609077ab004c",
+      "git_blob": "f12a95234e5fa55a4ff97004a545155232ab20aa",
+      "official_git_blob_match": true
+    },
+    {
+      "path": "../../../Yeast-MetaTwin/Code/ECnumber_prediction/CLEAN/data/split100.csv",
+      "size_bytes": 89643692,
+      "sha256": "62b31a233ed71a65ba7f8109d9cfba95f3b60557be39d8aace6db4aecf9b938b",
+      "git_blob": "cf1a109e1a1f4e45f605d7e8e1bb2b52d3377143",
+      "official_git_blob_match": true
+    },
+    {
+      "path": "../../../Yeast-MetaTwin/esm/esm1b_t33_650M_UR50S.pt",
+      "size_bytes": 7828576466,
+      "sha256": "0569754efaff7dcb7e068c27367bc73f10afb4b450ea30aac30d9bc60783a8b1",
+      "official_url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm1b_t33_650M_UR50S.pt"
+    },
+    {
+      "path": "../../../Yeast-MetaTwin/esm/esm1b_t33_650M_UR50S-contact-regression.pt",
+      "size_bytes": 3174,
+      "sha256": "77193a8814f0db0b36a03aebb1a311adc6b4745f463c04839defc15407bbb28a",
+      "official_url": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm1b_t33_650M_UR50S-contact-regression.pt"
+    }
+  ],
+  "yeast_metatwin_sources": {
+    "repository": "https://github.com/LiLabTsinghua/Yeast-MetaTwin",
+    "commit": "de1268eea271a67ffb0581aab51b3549c8020950",
+    "zenodo_record": "https://zenodo.org/records/13893231",
+    "zenodo_doi": "10.5281/zenodo.13893231",
+    "zenodo_license": "CC-BY-4.0",
+    "zenodo_file_size_bytes": 6636082780,
+    "zenodo_file_md5": "e2823e2fc499e5a9d5cb2b6afd784340",
+    "local_archive_status": "rejected_mismatch",
+    "local_archive_size_bytes": 6636083053,
+    "local_archive_md5": "01b6c534a5cc04e1fd2dd5ea642fbb16",
+    "local_archive_sha256": "a0abbe9dbf6bffd64a44a3e4dcbcb1710a2ede54b46ab8b7fd329c74a65f5774",
+    "extracted_tree_search": "No split100.pth, 100.pt, gmm_ensumble.pkl, split100_esm.pkl, or pretrained.zip found."
+  },
+  "download_attempt": {
+    "at": "2026-07-17",
+    "status": "blocked_network",
+    "errors": [
+      "drive.usercontent.google.com:443: curl (28), connection timed out after approximately 21 seconds; 3 attempts",
+      "drive.google.com:443: curl (28), connection timed out after approximately 21 seconds",
+      "raw.githubusercontent.com CLEAN license PDF: curl (56), connection reset after approximately 32 seconds; no file created",
+      "Python retry downloader: RuntimeError: attempt 1/1: URLError: <urlopen error timed out>"
+    ],
+    "prior_html_response": {
+      "path": "downloads/clean_pretrained_google_drive_download.bin",
+      "size_bytes": 2431,
+      "sha256": "72f64498d9171663039d55757d9ffb9b66b98abb1090678059066386f734bf44",
+      "classification": "Google Drive virus-scan warning HTML, not a model asset"
+    }
+  }
+}

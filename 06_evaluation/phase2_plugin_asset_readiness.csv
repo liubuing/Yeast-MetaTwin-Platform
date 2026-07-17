@@ -1,0 +1,26 @@
+plugin,capability,asset_type,path,required,exists,is_file,is_dir,size_bytes,status
+CLEAN,pretrained_ec_inference,pretrained_checkpoint,C:\biological\Metabolic model prediction\Yeast-MetaTwin\data\pretrained\split0.pth,True,False,False,False,,missing
+CLEAN,pretrained_ec_inference,pretrained_checkpoint,C:\biological\Metabolic model prediction\Yeast-MetaTwin\data\pretrained\split1.pth,True,False,False,False,,missing
+CLEAN,pretrained_ec_inference,pretrained_checkpoint,C:\biological\Metabolic model prediction\Yeast-MetaTwin\data\pretrained\split2.pth,True,False,False,False,,missing
+CLEAN,pretrained_ec_inference,pretrained_embedding,C:\biological\Metabolic model prediction\Yeast-MetaTwin\data\pretrained\70.pt,True,False,False,False,,missing
+CLEAN,pretrained_ec_inference,distance_map,C:\biological\Metabolic model prediction\Yeast-MetaTwin\data\distance_map\split0_esm.pkl,True,False,False,False,,missing
+CLEAN,pretrained_ec_inference,google_drive_download_attempt,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\CLEAN\downloads\clean_pretrained_google_drive_download.bin,False,True,True,False,2431,present
+UniKP,training_raw_data,kcat_training_json,C:\biological\Metabolic model prediction\Yeast-MetaTwin\Code\kcatkm_prediction\UniKP\Kcat_combination_0918_wildtype_mutant.json,True,False,False,False,,missing
+UniKP,training_raw_data,km_test_pickle,C:\biological\Metabolic model prediction\Yeast-MetaTwin\Code\kcatkm_prediction\UniKP\Km\Km_test_11722.pkl,True,False,False,False,,missing
+UniKP,training_raw_data,kcat_km_samples,C:\biological\Metabolic model prediction\Yeast-MetaTwin\Code\kcatkm_prediction\UniKP\Kcat_Km\kcat_km_samples.xlsx,True,False,False,False,,missing
+UniKP,deployed_training_data,kcat_training_json,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\datasets\Kcat_combination_0918_wildtype_mutant.json,True,True,True,False,12132719,present
+UniKP,deployed_training_data,km_test_pickle,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\datasets\Km_test_11722.pkl,True,True,True,False,3295007,present
+UniKP,pretrained_kinetic_inference,unikp_kcat_model,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\models\UniKP for kcat.pkl,True,True,True,False,205501172,present
+UniKP,pretrained_kinetic_inference,unikp_km_model,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\models\UniKP for Km.pkl,True,True,True,False,147957236,present
+UniKP,pretrained_kinetic_inference,unikp_kcat_km_model,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\models\UniKP for kcat_Km.pkl,True,True,True,False,11476980,present
+UniKP,pretrained_kinetic_inference,prot_t5_model,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\models\prot_t5_xl_uniref50,True,True,False,True,,present
+UniKP,pretrained_kinetic_inference,smiles_transformer_vocab,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\models\vocab.pkl,True,True,True,False,1446,present
+UniKP,pretrained_kinetic_inference,smiles_transformer_weights,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\UniKP\models\trfm_12_23000.pkl,True,True,True,False,22128521,present
+DLKcat,legacy_training_input,compounds_input,C:\biological\Metabolic model prediction\Yeast-MetaTwin\Code\kcatkm_prediction\DLKcat\input\compounds,True,False,False,False,,missing
+DLKcat,legacy_training_input,proteins_input,C:\biological\Metabolic model prediction\Yeast-MetaTwin\Code\kcatkm_prediction\DLKcat\input\proteins,True,False,False,False,,missing
+DLKcat,legacy_training_input,regression_input,C:\biological\Metabolic model prediction\Yeast-MetaTwin\Code\kcatkm_prediction\DLKcat\input\regression,True,False,False,False,,missing
+DLKcat,training_raw_data,kcat_json_wildtype_mutant,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\DLKcat\data\Kcat_combination_0918_wildtype_mutant.json,True,True,True,False,12132719,present
+DLKcat,training_raw_data,kcat_json,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\DLKcat\data\Kcat_combination_0918.json,True,True,True,False,11671479,present
+DLKcat,training_raw_data,kcat_tsv,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\DLKcat\data\Kcat_combination_41559.tsv,True,True,True,False,4794795,present
+DLKcat,example_inference_io,example_input,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\DLKcat\example\input.tsv,True,True,True,False,1137,present
+DLKcat,example_inference_io,example_output,C:\biological\Metabolic model prediction\Integrated_Yeast_MetaTwin_Deployment\04_prediction_plugins\DLKcat\example\output.tsv,True,True,True,False,1175,present

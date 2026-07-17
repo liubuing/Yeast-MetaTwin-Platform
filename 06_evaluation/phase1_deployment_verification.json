@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-16T20:51:09",
+  "deployment_name": "Integrated_Yeast_MetaTwin_Deployment",
+  "version": "phase1_model_query",
+  "models": {
+    "yeast_gem": {
+      "path_info": {
+        "path": "C:/biological/Metabolic model prediction/Yeast-MetaTwin/Data/model/yeast-GEM.yml",
+        "exists": true,
+        "is_file": true,
+        "is_dir": false,
+        "size_bytes": 3599306
+      },
+      "load_ok": true,
+      "model_id": null,
+      "reactions": 4131,
+      "metabolites": 2806,
+      "genes": 1163,
+      "rxn_prefix_reactions": 0,
+      "fba_status": "optimal",
+      "objective_value": 0.08192811087167555
+    },
+    "yeast_metatwin": {
+      "path_info": {
+        "path": "C:/biological/Metabolic model prediction/Yeast-MetaTwin/Data/model/Yeast-MetaTwin.yml",
+        "exists": true,
+        "is_file": true,
+        "is_dir": false,
+        "size_bytes": 5435712
+      },
+      "load_ok": true,
+      "model_id": null,
+      "reactions": 7512,
+      "metabolites": 3301,
+      "genes": 2057,
+      "rxn_prefix_reactions": 3381,
+      "fba_status": "optimal",
+      "objective_value": 0.08953474496010708
+    }
+  },
+  "audit_outputs": {
+    "pathway_audit_md": {
+      "path": "C:/biological/Metabolic model prediction/Yeast-MetaTwin/audit/pathway_prediction_audit.md",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 4246
+    },
+    "all_metabolite_contribution_csv": {
+      "path": "C:/biological/Metabolic model prediction/Yeast-MetaTwin/audit/pathway_all_metabolite_contribution_comparison.csv",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 345905
+    },
+    "fatty_acid_contribution_csv": {
+      "path": "C:/biological/Metabolic model prediction/Yeast-MetaTwin/audit/pathway_model_contribution_comparison.csv",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false,
+      "size_bytes": 20608
+    }
+  },
+  "phase1_pass": true
+}

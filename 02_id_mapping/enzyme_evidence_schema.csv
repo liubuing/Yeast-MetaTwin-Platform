@@ -1,0 +1,18 @@
+field,required,description,example
+enzyme_uid,true,Internal stable enzyme evidence identifier,ENZ:0000001
+protein_id,false,UniProt or local protein identifier,PXP2_YEAST
+gene_symbol,false,Gene symbol,POX1
+orf_id,false,ORF ID,YGL205W
+organism,true,Organism,Saccharomyces cerevisiae
+sequence,false,Protein sequence,
+ec_numbers,false,Pipe-separated EC numbers,1.3.3.6
+reaction_uid,false,Linked internal reaction ID,RXN:0000001
+substrate_compound_uids,false,Pipe-separated substrate IDs,CMPD:0000001
+product_compound_uids,false,Pipe-separated product IDs,CMPD:0000002
+evidence_source,true,Source database/model,BRENDA
+evidence_record_id,false,Source record ID,
+prediction_model,false,Prediction model name,CLEAN
+prediction_score,false,Numeric prediction score,0.87
+evidence_type,true,curated|homology|predicted|model_gpr|manual_review,model_gpr
+confidence_level,true,high|medium|low|unknown,high
+notes,false,Free text notes,

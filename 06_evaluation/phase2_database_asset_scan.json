@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-16T20:55:32",
+  "source_project_dir": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin",
+  "asset_count": 1020933,
+  "summary": {
+    "Other": {
+      "files": 14,
+      "size_bytes": 7041365
+    },
+    "ChEBI": {
+      "files": 3,
+      "size_bytes": 264980720
+    },
+    "KEGG": {
+      "files": 1,
+      "size_bytes": 2596274
+    },
+    "MetaNetX": {
+      "files": 9,
+      "size_bytes": 1336910656
+    },
+    "UniProt": {
+      "files": 2,
+      "size_bytes": 277651410
+    },
+    "YMDB": {
+      "files": 6,
+      "size_bytes": 11066128
+    },
+    "Model": {
+      "files": 3,
+      "size_bytes": 1350309
+    },
+    "Retrosynthesis": {
+      "files": 1020895,
+      "size_bytes": 8895648257
+    }
+  }
+}

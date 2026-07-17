@@ -1,0 +1,22 @@
+field,required,description,example
+reaction_uid,true,Internal stable reaction identifier,RXN:0000001
+primary_name,false,Preferred reaction name,acyl-CoA oxidase (decanoyl-CoA)
+equation,true,Human-readable reaction equation,decanoyl-CoA + O2 -> trans-dec-2-enoyl-CoA + H2O2
+reactant_compound_uids,true,Pipe-separated internal reactant IDs,CMPD:0000001|CMPD:0000002
+product_compound_uids,true,Pipe-separated internal product IDs,CMPD:0000003|CMPD:0000004
+stoichiometry_json,false,Machine-readable stoichiometry JSON,
+direction,true,forward|reverse|reversible|unknown,forward
+is_balanced,false,true|false|unknown,unknown
+ec_numbers,false,Pipe-separated EC numbers,1.3.3.6
+genes,false,Pipe-separated gene symbols,POX1
+orfs,false,Pipe-separated ORF IDs,YGL205W
+organism,false,Organism name,Saccharomyces cerevisiae
+kegg_reaction_id,false,KEGG reaction ID,
+rhea_id,false,Rhea ID,
+metanetx_reaction_id,false,MetaNetX reaction ID,MNXR97891
+model_reaction_id,false,Model reaction ID,r_0120
+source_database,true,Source database or model,Yeast-MetaTwin
+source_record_id,true,Original source record ID,r_0120
+evidence_type,true,curated|model|retrosynthesis|predicted|manual_review,model
+confidence_score,false,Numeric score if available,0.95
+notes,false,Free text notes,

@@ -1,0 +1,5 @@
+reaction_id,enzyme_source,substrate_compound_id,sequence_source,prediction_plugins
+CAND_T2DEC_THIOESTERASE_P,endogenous,trans_dec_2_enoyl_coa,yeast_fasta,"[""UniKP""]"
+CAND_T2DEC_OMEGA_HYDROXYLASE_P,both,trans_2_decenoic_acid,yeast_fasta|uniprot,"[""UniKP""]"
+CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P,both,trans_dec_2_enoyl_coa,yeast_fasta|uniprot,"[""UniKP""]"
+CAND_10H2DA_COA_THIOESTERASE_P,endogenous,10h2da_coa,yeast_fasta,"[""UniKP""]"

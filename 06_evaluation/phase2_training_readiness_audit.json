@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-07-16T21:05:58",
+  "label_export_group_counts": {
+    "first_pass_reference_label": 1959,
+    "model_context_only": 2172,
+    "candidate_extension_evidence": 3330,
+    "excluded_review_required": 51
+  },
+  "balance_summary": {
+    "model_reactions_checked": 7512,
+    "model_formula_balanced": 4792,
+    "model_charge_balanced": 5059,
+    "candidate_reactions_checked": 4,
+    "candidate_formula_balanced": 4,
+    "candidate_charge_balanced": 4,
+    "missing_formula_rows": 1661,
+    "unparsable_formula_rows": 139
+  },
+  "feature_label_quality": [
+    {
+      "export_group": "first_pass_reference_label",
+      "rows": 1959,
+      "with_equation_pct": 100.0,
+      "with_stoichiometry_pct": 100.0,
+      "with_all_reactant_product_smiles_pct": 91.32,
+      "with_all_reactant_product_inchikey_pct": 91.32,
+      "with_gpr_pct": 63.14,
+      "with_orfs_pct": 63.14,
+      "with_enzyme_ec_pct": 51.91,
+      "with_external_xref_pct": 100.0,
+      "with_rxndb_pct": 0.0
+    },
+    {
+      "export_group": "model_context_only",
+      "rows": 2172,
+      "with_equation_pct": 100.0,
+      "with_stoichiometry_pct": 100.0,
+      "with_all_reactant_product_smiles_pct": 41.39,
+      "with_all_reactant_product_inchikey_pct": 41.39,
+      "with_gpr_pct": 67.77,
+      "with_orfs_pct": 67.77,
+      "with_enzyme_ec_pct": 65.93,
+      "with_external_xref_pct": 0.0,
+      "with_rxndb_pct": 0.0
+    },
+    {
+      "export_group": "candidate_extension_evidence",
+      "rows": 3330,
+      "with_equation_pct": 100.0,
+      "with_stoichiometry_pct": 100.0,
+      "with_all_reactant_product_smiles_pct": 52.82,
+      "with_all_reactant_product_inchikey_pct": 52.82,
+      "with_gpr_pct": 100.0,
+      "with_orfs_pct": 100.0,
+      "with_enzyme_ec_pct": 98.89,
+      "with_external_xref_pct": 0.0,
+      "with_rxndb_pct": 100.0
+    },
+    {
+      "export_group": "excluded_review_required",
+      "rows": 51,
+      "with_equation_pct": 100.0,
+      "with_stoichiometry_pct": 100.0,
+      "with_all_reactant_product_smiles_pct": 0.0,
+      "with_all_reactant_product_inchikey_pct": 0.0,
+      "with_gpr_pct": 0.0,
+      "with_orfs_pct": 0.0,
+      "with_enzyme_ec_pct": 0.0,
+      "with_external_xref_pct": 0.0,
+      "with_rxndb_pct": 0.0
+    }
+  ],
+  "negative_candidate_count": 1886,
+  "validation_matrix_count": 5344
+}

@@ -1,0 +1,90 @@
+{
+  "status": "ready",
+  "retrieved_at": "2026-07-17",
+  "upstream": {
+    "repository": "https://github.com/SysBioChalmers/DLKcat",
+    "commit": "7c15d0d4a7ac029f9d75564d9f2a93874aeaaec7",
+    "commit_date": "2022-12-21T22:38:00+08:00",
+    "release_reviewed": "v1.0.0",
+    "release_url": "https://github.com/SysBioChalmers/DLKcat/releases/tag/v1.0.0",
+    "release_assets": [],
+    "license": "GPL-3.0-only",
+    "license_file": "LICENSE.upstream.md",
+    "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "research": {
+    "github_releases": "v1.0.0 has source archives only and no attached model asset",
+    "zenodo_query": "https://zenodo.org/api/records/?q=DLKcat&size=20",
+    "zenodo_result": "No author-issued original DLKcat checkpoint record found; unrelated critique and downstream records were not used",
+    "sibling_result": "Yeast-MetaTwin contains DLKcat.py and pyc files but no checkpoint or inference dictionaries"
+  },
+  "assets": [
+    {
+      "source_path": "LICENSE.md",
+      "installed_path": "LICENSE.upstream.md",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size": 35149
+    },
+    {
+      "source_path": "README.md",
+      "installed_path": "README.upstream.md",
+      "sha256": "da49c20ec22f775304fb00657d303579d1cb3538024dad3129ff7320e6f10416",
+      "size": 2131
+    },
+    {
+      "source_path": "DeeplearningApproach/README.rst",
+      "installed_path": "DeeplearningApproach/README.upstream.rst",
+      "sha256": "1096b607f086fbbc185be81e8130e24594d8ebc19d7420857a2506bf03b2869e",
+      "size": 4698
+    },
+    {
+      "source_path": "DeeplearningApproach/Code/example/model.py",
+      "installed_path": "DeeplearningApproach/Code/example/model.py",
+      "sha256": "63dd6c56c07fc691b717befe800bb893e0d8aed17c67b58fffd30983f35fd508",
+      "size": 8901
+    },
+    {
+      "source_path": "DeeplearningApproach/Code/example/prediction_for_input.py",
+      "installed_path": "DeeplearningApproach/Code/example/prediction_for_input.py",
+      "sha256": "5268b767bbcc5d206193e5008bde0eab5ab27b450ce7e1b0182097b16d21a496",
+      "size": 9618
+    },
+    {
+      "source_path": "DeeplearningApproach/Code/example/input.tsv",
+      "installed_path": "DeeplearningApproach/Code/example/input.tsv",
+      "sha256": "064529b4a9c429e05333fa7c6a0c4a41f102353d85a4303a96f79b7c80f6ebb1",
+      "size": 1137
+    },
+    {
+      "source_path": "DeeplearningApproach/Code/example/output.tsv",
+      "installed_path": "DeeplearningApproach/Code/example/output.tsv",
+      "sha256": "4ce769edbdcf58592738aa6b1cabed59ab6e47c2d7a5bc1a007643e715a58338",
+      "size": 1175
+    },
+    {
+      "source_path": "DeeplearningApproach/Data/input.zip",
+      "installed_path": "DeeplearningApproach/Data/input.zip",
+      "sha256": "5b364a0705acd232e49db8eea15658fa8981b3c28bd6207b4b1e81406d40158e",
+      "size": 8644787
+    },
+    {
+      "source_path": "DeeplearningApproach/Results/output/all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration50",
+      "installed_path": "DeeplearningApproach/Results/output/saved_model",
+      "sha256": "df5f6ab139b7a73557c6b1ba84e06dc28a120315409328631fc0887d364f786b",
+      "size": 1040543,
+      "note": "Renamed because the upstream filename exceeds the Win32 path limit under this deployment root; bytes are unchanged"
+    }
+  ],
+  "runtime": {
+    "environment": ".venv",
+    "requirements": "requirements-dlkcat.txt",
+    "upstream_declared": "Python 3.7.6, PyTorch 1.4.0, scikit-learn 0.23.2, RDKit 2020.09.1",
+    "local_compatibility_target": "Python 3.10.20, NumPy 1.26.4, scikit-learn 1.2.2, PyTorch 2.13.0 CPU, RDKit 2025.3.3",
+    "environment_bootstrap": "Physical copy of C:/ymt/unikp_sklearn12 into plugin-local .venv followed by installation of DLKcat-only missing packages; no shared site-packages",
+    "installation_note": "Direct CPU PyTorch 2.7.1 wheel downloads stalled at 206 MiB and timed out after 600 and 900 seconds; the copied local PyTorch 2.13.0 CPU runtime is independently stored and must pass the benchmark before readiness",
+    "windows_import_order": "Import torch before NumPy/RDKit; the reverse order reproducibly raises WinError 1114 for c10.dll in both source and copied environments",
+    "smoke_report": "benchmark_report.json",
+    "smoke_report_sha256": "57b1de714109483441fafdaac227ab80a28c157a08531ceaf2e8b4d7f8a1e042",
+    "validation": "Fixed-input inference ready and all three upstream public example rows reproduced within 0.00005 s^-1 on 2026-07-17"
+  }
+}

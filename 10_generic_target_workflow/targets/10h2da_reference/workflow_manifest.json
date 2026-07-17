@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-17T17:17:50",
+  "config_path": "10_generic_target_workflow\\examples\\target_workflow_10h2da_reference.json",
+  "target_id": "10h2da_reference",
+  "target_dir": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\10_generic_target_workflow\\targets\\10h2da_reference",
+  "compound_count": 4,
+  "candidate_reaction_count": 4,
+  "route_count": 2,
+  "prediction_pair_count": 4
+}

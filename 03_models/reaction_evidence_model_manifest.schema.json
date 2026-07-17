@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reaction_evidence_model_manifest.schema.json",
+  "title": "Versioned reaction-evidence model manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "model_version",
+    "documented_at",
+    "artifact",
+    "model_card",
+    "data_artifacts",
+    "source_artifacts",
+    "code_artifacts",
+    "feature_schema",
+    "training_semantics",
+    "evaluation_semantics",
+    "external_temporal_evaluation",
+    "runtime",
+    "git",
+    "license_and_sources",
+    "serialization_security"
+  ],
+  "properties": {
+    "manifest_version": {"const": "2.0.0"},
+    "model_version": {
+      "enum": ["phase2_reaction_evidence_baseline_v1", "phase2_reaction_evidence_pu_v2"]
+    },
+    "documented_at": {"type": "string", "format": "date-time"},
+    "artifact": {"$ref": "#/$defs/file"},
+    "model_card": {"$ref": "#/$defs/file"},
+    "data_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/file"}
+    },
+    "source_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/sourcedFile"}
+    },
+    "code_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/file"}
+    },
+    "feature_schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_unit", "text_fields", "numeric_fields", "text_transform", "numeric_transform", "missing_value_policy", "excluded_leakage_fields"],
+      "properties": {
+        "input_unit": {"const": "one metabolic reaction row"},
+        "text_fields": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/feature"}},
+        "numeric_fields": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/feature"}},
+        "text_transform": {"type": "string", "minLength": 1},
+        "numeric_transform": {"type": "string", "minLength": 1},
+        "missing_value_policy": {"type": "string", "minLength": 1},
+        "excluded_leakage_fields": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "training_semantics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "positive_label", "zero_label", "estimand", "split_strategy", "decision_threshold"],
+      "properties": {
+        "method": {"type": "string", "minLength": 1},
+        "positive_label": {"type": "string", "minLength": 1},
+        "zero_label": {"type": "string", "pattern": "unlabeled|Unlabeled"},
+        "estimand": {"type": "string", "pattern": "reference-likeness"},
+        "split_strategy": {"type": "string", "minLength": 1},
+        "decision_threshold": {"type": "object", "required": ["source", "purpose"], "properties": {"source": {"const": "development split"}, "purpose": {"type": "string", "minLength": 1}}, "additionalProperties": false},
+        "ensemble": {"type": "object"}
+      }
+    },
+    "evaluation_semantics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["splits", "reported_metrics", "recorded_metrics", "limitations", "claims_prohibited"],
+      "properties": {
+        "splits": {"type": "array", "items": {"enum": ["train", "dev", "test"]}, "minItems": 3, "uniqueItems": true},
+        "reported_metrics": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "recorded_metrics": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/metricSet"}},
+        "limitations": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "claims_prohibited": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "external_temporal_evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reason", "required_to_unblock"],
+      "properties": {
+        "status": {"const": "blocked"},
+        "reason": {"type": "string", "minLength": 1},
+        "required_to_unblock": {"type": "string", "minLength": 1}
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["inventory_python", "implementation", "dependencies", "reproduction_spec"],
+      "properties": {
+        "inventory_python": {"type": "string", "minLength": 1},
+        "implementation": {"type": "string", "minLength": 1},
+        "dependencies": {"type": "object", "minProperties": 5, "additionalProperties": {"type": "string", "minLength": 1}},
+        "reproduction_spec": {"$ref": "#/$defs/file"}
+      }
+    },
+    "git": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["commit", "branch", "worktree_status", "reproducibility_effect"],
+      "properties": {
+        "commit": {"type": ["string", "null"]},
+        "branch": {"type": "string", "minLength": 1},
+        "worktree_status": {"enum": ["clean", "dirty", "untracked_only", "no_commits_all_untracked"]},
+        "reproducibility_effect": {"type": "string", "minLength": 1}
+      }
+    },
+    "license_and_sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model_license_status", "repository_license_status", "training_data_sources", "redistribution_status"],
+      "properties": {
+        "model_license_status": {"type": "string", "minLength": 1},
+        "repository_license_status": {"type": "string", "minLength": 1},
+        "training_data_sources": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "redistribution_status": {"type": "string", "pattern": "blocked|restricted"}
+      }
+    },
+    "serialization_security": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["format", "risk", "default_action", "integrity_verification", "trust_requirement", "approved_loader", "inventory_trust_basis"],
+      "properties": {
+        "format": {"const": "joblib/pickle"},
+        "risk": {"type": "string", "pattern": "execute"},
+        "default_action": {"const": "do_not_deserialize"},
+        "integrity_verification": {"type": "string", "pattern": "SHA-256"},
+        "trust_requirement": {"type": "string", "minLength": 1},
+        "approved_loader": {"const": "load_joblib_verified"},
+        "inventory_trust_basis": {"enum": ["matched_local_governed_checksum_inventory_origin_unverified"]}
+      }
+    }
+  },
+  "$defs": {
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^[^\\\\].*", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "bytes": {"type": "integer", "minimum": 1}
+      }
+    },
+    "sourcedFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes", "role", "origin"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^[^\\\\].*", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "bytes": {"type": "integer", "minimum": 1},
+        "role": {"type": "string", "minLength": 1},
+        "origin": {"type": "string", "minLength": 1}
+      }
+    },
+    "feature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "dtype", "semantic"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "dtype": {"enum": ["string", "float64", "int64"]},
+        "semantic": {"type": "string", "minLength": 1}
+      }
+    },
+    "metricSet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["split", "rows", "labeled_positives", "unlabeled", "observed_label_roc_auc", "observed_label_average_precision", "labeled_positive_recall"],
+      "properties": {
+        "split": {"enum": ["train", "dev", "test"]},
+        "rows": {"type": "integer", "minimum": 1},
+        "labeled_positives": {"type": "integer", "minimum": 1},
+        "unlabeled": {"type": "integer", "minimum": 1},
+        "observed_label_roc_auc": {"type": "number", "minimum": 0, "maximum": 1},
+        "observed_label_average_precision": {"type": "number", "minimum": 0, "maximum": 1},
+        "labeled_positive_recall": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

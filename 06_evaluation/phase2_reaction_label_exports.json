@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-07-16T20:58:23",
+  "total_reactions": 7512,
+  "export_group_counts": {
+    "first_pass_reference_label": 1959,
+    "model_context_only": 2172,
+    "candidate_extension_evidence": 3330,
+    "excluded_review_required": 51
+  },
+  "training_role_counts": {
+    "preferred_reference_label": 1959,
+    "supporting_model_context": 2172,
+    "candidate_label_with_ec_and_review": 2560,
+    "candidate_label_with_review": 770,
+    "exclude_until_provenance_resolved": 51
+  },
+  "files_by_group": {
+    "first_pass_reference_label": "05_training/reaction_first_pass_reference_labels.csv",
+    "candidate_extension_evidence": "05_training/reaction_candidate_extension_evidence.csv",
+    "model_context_only": "05_training/reaction_model_context_only.csv",
+    "excluded_review_required": "05_training/reaction_excluded_review_required.csv"
+  },
+  "all_groups_file": "05_training/reaction_all_label_export_groups.csv"
+}

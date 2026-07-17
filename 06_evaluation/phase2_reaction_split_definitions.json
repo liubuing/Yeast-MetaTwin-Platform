@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-16T20:58:28",
+  "method": "sha256(split_key) % 100, train <80, dev 80-89, test >=90",
+  "split_key_rule": "exact model equation if present, otherwise model reaction ID",
+  "output_files": {
+    "reference_only": "05_training\\split_definitions_reference_only.csv",
+    "reference_plus_candidate_no_overlap": "05_training\\split_definitions_reference_plus_candidate_no_overlap.csv"
+  },
+  "pool_summaries": [
+    {
+      "pool": "reference_only",
+      "source_file": "05_training\\split_ready_reference_labels.csv",
+      "rows": 1959,
+      "split_counts": {
+        "test": 194,
+        "train": 1593,
+        "dev": 172
+      },
+      "training_role_by_split": {
+        "dev:preferred_reference_label": 172,
+        "test:preferred_reference_label": 194,
+        "train:preferred_reference_label": 1593
+      },
+      "split_key_count": 1959,
+      "split_keys_crossing_splits": 0
+    },
+    {
+      "pool": "reference_plus_candidate_no_overlap",
+      "source_file": "05_training\\split_ready_reference_plus_candidate_no_overlap.csv",
+      "rows": 5282,
+      "split_counts": {
+        "test": 529,
+        "train": 4250,
+        "dev": 503
+      },
+      "training_role_by_split": {
+        "dev:candidate_label_with_ec_and_review": 254,
+        "dev:candidate_label_with_review": 77,
+        "dev:preferred_reference_label": 172,
+        "test:candidate_label_with_ec_and_review": 255,
+        "test:candidate_label_with_review": 80,
+        "test:preferred_reference_label": 194,
+        "train:candidate_label_with_ec_and_review": 2044,
+        "train:candidate_label_with_review": 613,
+        "train:preferred_reference_label": 1593
+      },
+      "split_key_count": 5282,
+      "split_keys_crossing_splits": 0
+    }
+  ]
+}

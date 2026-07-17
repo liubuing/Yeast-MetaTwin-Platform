@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metatwin.local/schemas/target-workflow-1.0.json",
+  "title": "Generic target workflow configuration",
+  "description": "The canonical target-agnostic contract for metabolic workflow configuration.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "target", "compounds", "candidate_reactions", "routes", "enzyme_search", "prediction_pairs", "engineering_layers"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "target": {"$ref": "#/$defs/target"},
+    "protonation_assumption": {"$ref": "#/$defs/nonempty_string"},
+    "fba_validation": {"$ref": "#/$defs/fba_validation"},
+    "compounds": {"type": "array", "items": {"$ref": "#/$defs/compound"}, "minItems": 1},
+    "candidate_reactions": {"type": "array", "items": {"$ref": "#/$defs/reaction"}},
+    "routes": {"type": "array", "items": {"$ref": "#/$defs/route"}},
+    "enzyme_search": {"$ref": "#/$defs/enzyme_search"},
+    "prediction_pairs": {"type": "array", "items": {"$ref": "#/$defs/prediction_pair"}},
+    "external_evidence": {"$ref": "#/$defs/external_evidence"},
+    "engineering_layers": {"$ref": "#/$defs/engineering_layers"}
+  },
+  "$defs": {
+    "identifier": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"},
+    "nonempty_string": {"type": "string", "minLength": 1},
+    "nullable_string": {"type": ["string", "null"]},
+    "string_array": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_id", "target_name", "formula", "charge_state_in_model", "compartment", "synonyms"],
+      "properties": {
+        "target_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "target_name": {"$ref": "#/$defs/nonempty_string"},
+        "formula": {"$ref": "#/$defs/nullable_string", "description": "Formula of the stated model charge state, not implicitly the neutral compound."},
+        "charge_state_in_model": {"type": ["integer", "null"]},
+        "compartment": {"$ref": "#/$defs/nonempty_string"},
+        "synonyms": {"$ref": "#/$defs/string_array"}
+      }
+    },
+    "compound": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["compound_id", "name", "role", "formula", "charge", "smiles", "smiles_source", "model_metabolite_id"],
+      "properties": {
+        "compound_id": {"$ref": "#/$defs/identifier"},
+        "name": {"$ref": "#/$defs/nonempty_string"},
+        "role": {"enum": ["target", "precursor", "intermediate", "cofactor", "candidate_metabolite"]},
+        "formula": {"$ref": "#/$defs/nullable_string", "description": "Formula of the stated model charge state."},
+        "charge": {"type": ["integer", "null"]},
+        "smiles": {"$ref": "#/$defs/nullable_string"},
+        "smiles_source": {"$ref": "#/$defs/nonempty_string"},
+        "model_metabolite_id": {"$ref": "#/$defs/identifier"}
+      }
+    },
+    "reaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reaction_id", "name", "equation", "stoichiometry", "enzyme_ec_numbers", "reaction_role", "evidence_scope", "balance_expected"],
+      "properties": {
+        "reaction_id": {"$ref": "#/$defs/identifier"},
+        "name": {"$ref": "#/$defs/nonempty_string"},
+        "equation": {"$ref": "#/$defs/nonempty_string"},
+        "stoichiometry": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "number"}},
+        "enzyme_ec_numbers": {"$ref": "#/$defs/string_array"},
+        "gene_reaction_rule": {"type": "string"},
+        "reaction_role": {"$ref": "#/$defs/identifier"},
+        "evidence_scope": {"enum": ["curated", "candidate_extension", "hypothesis"]},
+        "balance_expected": {"type": "boolean"},
+        "lower_bound": {"type": "number"},
+        "upper_bound": {"type": "number"}
+      }
+    },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["route_id", "name", "reaction_ids", "route_risk_note"],
+      "properties": {
+        "route_id": {"$ref": "#/$defs/identifier"},
+        "name": {"$ref": "#/$defs/nonempty_string"},
+        "reaction_ids": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/identifier"}, "uniqueItems": true},
+        "objective_metabolite_id": {"$ref": "#/$defs/identifier"},
+        "route_risk_note": {"type": "string"}
+      }
+    },
+    "enzyme_search": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enzyme_classes", "exact_terms", "near_terms", "external_sources", "tiering_policy"],
+      "properties": {
+        "enzyme_classes": {"$ref": "#/$defs/string_array"},
+        "exact_terms": {"$ref": "#/$defs/string_array"},
+        "near_terms": {"$ref": "#/$defs/string_array"},
+        "external_sources": {"$ref": "#/$defs/string_array"},
+        "tiering_policy": {"$ref": "#/$defs/nonempty_string"}
+      }
+    },
+    "fba_validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model_path", "biomass_reaction_id", "biomass_floor_fraction"],
+      "properties": {
+        "model_path": {"$ref": "#/$defs/nonempty_string"},
+        "solver": {"$ref": "#/$defs/nonempty_string"},
+        "biomass_reaction_id": {"anyOf": [{"$ref": "#/$defs/identifier"}, {"type": "null"}]},
+        "biomass_floor_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+        "carbon_exchange_id": {"anyOf": [{"$ref": "#/$defs/identifier"}, {"type": "null"}]},
+        "oxygen_exchange_id": {"anyOf": [{"$ref": "#/$defs/identifier"}, {"type": "null"}]}
+        ,"fva_fraction_of_optimum": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+        ,"loopless_fva": {"type": "boolean"}
+      }
+    },
+    "prediction_pair": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reaction_id", "enzyme_source", "substrate_compound_id", "sequence_source", "prediction_plugins"],
+      "properties": {
+        "reaction_id": {"$ref": "#/$defs/identifier"},
+        "enzyme_source": {"enum": ["endogenous", "external", "both"]},
+        "substrate_compound_id": {"$ref": "#/$defs/identifier"},
+        "sequence_source": {"$ref": "#/$defs/nonempty_string"},
+        "sequence": {"$ref": "#/$defs/nonempty_string"},
+        "sequence_path": {"$ref": "#/$defs/nonempty_string"},
+        "prediction_plugins": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["plugin", "capability"],
+            "properties": {
+              "plugin": {"$ref": "#/$defs/identifier"},
+              "capability": {"$ref": "#/$defs/identifier"}
+            }
+          }
+        }
+      }
+    },
+    "external_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_paths"],
+      "properties": {
+        "input_paths": {"type": "array", "items": {"$ref": "#/$defs/nonempty_string"}, "uniqueItems": true}
+      }
+    },
+    "engineering_layers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family_sanity_filter", "specialized_feasibility_layers", "construct_design"],
+      "properties": {
+        "family_sanity_filter": {
+          "type": "object", "additionalProperties": false,
+          "required": ["enabled", "preferred_families", "weak_family_patterns"],
+          "properties": {"enabled": {"type": "boolean"}, "preferred_families": {"$ref": "#/$defs/string_array"}, "weak_family_patterns": {"$ref": "#/$defs/string_array"}}
+        },
+        "specialized_feasibility_layers": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["layer_id", "enabled", "applies_to_reaction_roles", "notes"],
+            "properties": {"layer_id": {"$ref": "#/$defs/identifier"}, "enabled": {"type": "boolean"}, "applies_to_reaction_roles": {"$ref": "#/$defs/string_array"}, "notes": {"type": "string"}}
+          }
+        },
+        "feasibility_rules": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["rule_id", "evidence_field", "operator", "value", "result_if_matched"],
+            "properties": {
+              "rule_id": {"$ref": "#/$defs/identifier"},
+              "evidence_field": {"enum": ["external_evidence.status", "external_evidence.exact_match_count", "external_evidence.approved_record_count"]},
+              "operator": {"enum": ["equals", "greater_than_or_equal"]},
+              "value": {"type": ["string", "number"]},
+              "result_if_matched": {"$ref": "#/$defs/nonempty_string"},
+              "notes": {"type": "string"}
+            }
+          }
+        },
+        "construct_design": {
+          "type": "object", "additionalProperties": false,
+          "required": ["enabled", "design_scope"],
+          "properties": {"enabled": {"type": "boolean"}, "design_scope": {"$ref": "#/$defs/nonempty_string"}}
+        }
+      }
+    }
+  }
+}

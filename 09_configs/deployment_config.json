@@ -1,0 +1,28 @@
+{
+  "deployment_name": "Integrated_Yeast_MetaTwin_Deployment",
+  "version": "phase2_research_snapshot_2026-07",
+  "base_dir": ".",
+  "source_project_dir": "../Yeast-MetaTwin",
+  "models": {
+    "yeast_gem": "Data/model/yeast-GEM.yml",
+    "yeast_metatwin": "Data/model/Yeast-MetaTwin.yml",
+    "yeast_metatwin_lipid": "Data/model/Yeast-MetaTwin-lipid.yml"
+  },
+  "audit_outputs": {
+    "pathway_audit_md": "audit/pathway_prediction_audit.md",
+    "all_metabolite_contribution_csv": "audit/pathway_all_metabolite_contribution_comparison.csv",
+    "fatty_acid_contribution_csv": "audit/pathway_model_contribution_comparison.csv"
+  },
+  "runtime": {
+    "default_solver": "glpk",
+    "python_minimum": "3.11",
+    "phase1_requires_rdkit": false
+  },
+  "phase1_scope": [
+    "load yeast-GEM and Yeast-MetaTwin",
+    "run FBA objective check",
+    "compare model sizes and rxn* reactions",
+    "check key audit files",
+    "write verification report"
+  ]
+}

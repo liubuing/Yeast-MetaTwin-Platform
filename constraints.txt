@@ -1,0 +1,13 @@
+# Reproducible main research environment; plugin environments are intentionally separate.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.0
+joblib==1.5.3
+cobra==0.31.1
+optlang==1.9.1
+swiglpk==5.0.13
+PyYAML==6.0.3
+python-docx==1.2.0
+jsonschema==4.26.0
+pytest==9.0.3

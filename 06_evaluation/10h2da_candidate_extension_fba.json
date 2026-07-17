@@ -1,0 +1,304 @@
+{
+  "generated_at": "2026-07-16T21:05:50",
+  "model_path": "C:/biological/Metabolic model prediction/Yeast-MetaTwin/Data/model/Yeast-MetaTwin.yml",
+  "scenarios": [
+    {
+      "scenario": "target_demand_only",
+      "route": "none",
+      "model_reactions": 7515,
+      "model_metabolites": 3304,
+      "native": {
+        "native_status": "optimal",
+        "native_objective_value": 0.0895347449601068,
+        "native_objective_reactions": [
+          "r_2111"
+        ]
+      },
+      "checks": [
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.14009110198522634,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.14009110198522634,
+            "DM_s_1507": 0.14009110198522634
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.0,
+          "nonzero_key_fluxes": {}
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.0,
+          "nonzero_key_fluxes": {}
+        },
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": 0.00895347449601068,
+          "status": "optimal",
+          "objective_value": 0.12630963095630746,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.12630963095630746,
+            "DM_s_1507": 0.12630963095630746
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": 0.00895347449601068,
+          "status": "optimal",
+          "objective_value": 0.0,
+          "nonzero_key_fluxes": {}
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": 0.00895347449601068,
+          "status": "optimal",
+          "objective_value": 0.0,
+          "nonzero_key_fluxes": {}
+        }
+      ]
+    },
+    {
+      "scenario": "free_acid_terminal_route",
+      "route": "free_acid",
+      "model_reactions": 7517,
+      "model_metabolites": 3304,
+      "native": {
+        "native_status": "optimal",
+        "native_objective_value": 0.08953474496010712,
+        "native_objective_reactions": [
+          "r_2111"
+        ]
+      },
+      "checks": [
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.14009110198522579,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.14009110198522579,
+            "DM_s_1507": 0.14009110198522579
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.31077117987940894,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.31077117987940894,
+            "CAND_T2DEC_THIOESTERASE_P": 0.31077117987940894,
+            "DM_CAND_T2DEC_P": 0.31077117987940894
+          }
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.30272419782429993,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.30272419782429993,
+            "CAND_T2DEC_THIOESTERASE_P": 0.30272419782429993,
+            "CAND_T2DEC_OMEGA_HYDROXYLASE_P": 0.30272419782429993,
+            "DM_CAND_10H2DA_P": 0.30272419782429993
+          }
+        },
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": 0.008953474496010713,
+          "status": "optimal",
+          "objective_value": 0.1263096344039321,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.1263096344039321,
+            "DM_s_1507": 0.1263096344039321
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": 0.008953474496010713,
+          "status": "optimal",
+          "objective_value": 0.28134133917428455,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.28134133917428455,
+            "CAND_T2DEC_THIOESTERASE_P": 0.28134133917428455,
+            "DM_CAND_T2DEC_P": 0.28134133917428455
+          }
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": 0.008953474496010713,
+          "status": "optimal",
+          "objective_value": 0.27401121243284626,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.27401121243284626,
+            "CAND_T2DEC_THIOESTERASE_P": 0.27401121243284626,
+            "CAND_T2DEC_OMEGA_HYDROXYLASE_P": 0.27401121243284626,
+            "DM_CAND_10H2DA_P": 0.27401121243284626
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "coa_bound_terminal_route",
+      "route": "coa_bound",
+      "model_reactions": 7517,
+      "model_metabolites": 3304,
+      "native": {
+        "native_status": "optimal",
+        "native_objective_value": 0.08953474496010719,
+        "native_objective_reactions": [
+          "r_2111"
+        ]
+      },
+      "checks": [
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.1400911019852266,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.1400911019852266,
+            "DM_s_1507": 0.1400911019852266
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.0,
+          "nonzero_key_fluxes": {}
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.3027241978242994,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.3027241978242993,
+            "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P": 0.3027241978242993,
+            "CAND_10H2DA_COA_THIOESTERASE_P": 0.3027241978242993,
+            "DM_CAND_10H2DA_P": 0.3027241978242994
+          }
+        },
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": 0.00895347449601072,
+          "status": "optimal",
+          "objective_value": 0.12630963095630782,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.12630963095630782,
+            "DM_s_1507": 0.12630963095630782
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": 0.00895347449601072,
+          "status": "optimal",
+          "objective_value": 0.0,
+          "nonzero_key_fluxes": {}
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": 0.00895347449601072,
+          "status": "optimal",
+          "objective_value": 0.2740112052121917,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.27401120521219163,
+            "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P": 0.27401120521219163,
+            "CAND_10H2DA_COA_THIOESTERASE_P": 0.27401120521219163,
+            "DM_CAND_10H2DA_P": 0.2740112052121917
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "combined_terminal_routes",
+      "route": "combined",
+      "model_reactions": 7519,
+      "model_metabolites": 3304,
+      "native": {
+        "native_status": "optimal",
+        "native_objective_value": 0.08953474496010726,
+        "native_objective_reactions": [
+          "r_2111"
+        ]
+      },
+      "checks": [
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.14009110198522712,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.14009110198522712,
+            "DM_s_1507": 0.14009110198522712
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.3107711798794087,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.3107711798794087,
+            "CAND_T2DEC_THIOESTERASE_P": 0.3107711798794087,
+            "DM_CAND_T2DEC_P": 0.3107711798794087
+          }
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": null,
+          "status": "optimal",
+          "objective_value": 0.30272419782429894,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.30272419782429894,
+            "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P": 0.30272419782429894,
+            "CAND_10H2DA_COA_THIOESTERASE_P": 0.30272419782429894,
+            "DM_CAND_10H2DA_P": 0.30272419782429894
+          }
+        },
+        {
+          "objective_id": "DM_s_1507",
+          "biomass_floor": 0.008953474496010727,
+          "status": "optimal",
+          "objective_value": 0.12630963095630854,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.12630963095630854,
+            "DM_s_1507": 0.12630963095630854
+          }
+        },
+        {
+          "objective_id": "DM_CAND_T2DEC_P",
+          "biomass_floor": 0.008953474496010727,
+          "status": "optimal",
+          "objective_value": 0.28134133176046977,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.2813413317604697,
+            "CAND_T2DEC_THIOESTERASE_P": 0.2813413317604697,
+            "DM_CAND_T2DEC_P": 0.28134133176046977
+          }
+        },
+        {
+          "objective_id": "DM_CAND_10H2DA_P",
+          "biomass_floor": 0.008953474496010727,
+          "status": "optimal",
+          "objective_value": 0.2740112052121955,
+          "nonzero_key_fluxes": {
+            "r_0120": 0.2740112052121955,
+            "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P": 0.2740112052121955,
+            "CAND_10H2DA_COA_THIOESTERASE_P": 0.2740112052121955,
+            "DM_CAND_10H2DA_P": 0.2740112052121955
+          }
+        }
+      ]
+    }
+  ]
+}

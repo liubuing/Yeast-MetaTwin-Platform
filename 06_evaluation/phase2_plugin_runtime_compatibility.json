@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-07-17T09:57:09",
+  "python": "3.10.20 (main, Jun 23 2026, 15:19:56) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\ymt\\unikp_sklearn12\\Scripts\\python.exe",
+  "checks": [
+    {
+      "plugin": "UniKP",
+      "asset": "trfm_12_23000.pkl",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\trfm_12_23000.pkl",
+      "exists": true,
+      "check": "torch_load_required",
+      "runtime_status": "load_ok",
+      "detail": "<class 'collections.OrderedDict'>"
+    },
+    {
+      "plugin": "UniKP",
+      "asset": "vocab.pkl",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\vocab.pkl",
+      "exists": true,
+      "check": "pickle_load",
+      "runtime_status": "load_ok",
+      "detail": "<class 'build_vocab.WordVocab'>"
+    },
+    {
+      "plugin": "UniKP",
+      "asset": "UniKP for kcat.pkl",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\UniKP for kcat.pkl",
+      "exists": true,
+      "check": "pickle_load",
+      "runtime_status": "load_ok",
+      "detail": "<class 'sklearn.ensemble._forest.ExtraTreesRegressor'>"
+    },
+    {
+      "plugin": "UniKP",
+      "asset": "UniKP for Km.pkl",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\UniKP for Km.pkl",
+      "exists": true,
+      "check": "pickle_load",
+      "runtime_status": "load_ok",
+      "detail": "<class 'sklearn.ensemble._forest.ExtraTreesRegressor'>"
+    },
+    {
+      "plugin": "UniKP",
+      "asset": "UniKP for kcat_Km.pkl",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\UniKP for kcat_Km.pkl",
+      "exists": true,
+      "check": "pickle_load",
+      "runtime_status": "load_ok",
+      "detail": "<class 'sklearn.ensemble._forest.ExtraTreesRegressor'>"
+    },
+    {
+      "plugin": "UniKP",
+      "asset": "prot_t5_xl_uniref50",
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\UniKP\\models\\prot_t5_xl_uniref50",
+      "exists": true,
+      "check": "prot_t5_encoder_load",
+      "runtime_status": "load_ok",
+      "detail": "T5EncoderModel; vocab_size=128; d_model=1024; layers=24; params=1208141824"
+    }
+  ]
+}

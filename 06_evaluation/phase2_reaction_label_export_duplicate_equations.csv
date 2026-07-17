@@ -1,0 +1,8 @@
+model_equation,count,groups
+s_0386 + s_0434 --> s_0394 + s_0423 + s_0794,2,candidate_extension_evidence|first_pass_reference_label
+s_0390 + s_0803 --> s_0423 + s_1322,2,candidate_extension_evidence|first_pass_reference_label
+s_0394 + s_0803 --> s_0423 + s_0794 + s_1322,2,candidate_extension_evidence|first_pass_reference_label
+s_0423 + s_0803 --> s_0386 + s_1322,2,candidate_extension_evidence|first_pass_reference_label
+s_0434 + s_0803 --> s_0394 + s_0794 + s_1322,2,candidate_extension_evidence|first_pass_reference_label
+s_0434 + s_1198 --> s_0394 + s_0794 + s_1207,2,candidate_extension_evidence|first_pass_reference_label
+s_0803 + s_4317 --> s_0394 + s_0423 + 2 s_0794,2,candidate_extension_evidence|first_pass_reference_label

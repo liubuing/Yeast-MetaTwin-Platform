@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "target_id": "example_target",
+    "target_name": "Example target compound",
+    "formula": null,
+    "charge_state_in_model": null,
+    "compartment": "p",
+    "synonyms": []
+  },
+  "compounds": [
+    {
+      "compound_id": "target_cpd",
+      "name": "Example target compound",
+      "role": "target",
+      "formula": null,
+      "charge": null,
+      "smiles": null,
+      "smiles_source": "unresolved",
+      "model_metabolite_id": "cand_target_p"
+    }
+  ],
+  "candidate_reactions": [
+    {
+      "reaction_id": "CAND_TARGET_STEP_1",
+      "name": "candidate target pathway step 1",
+      "equation": "precursor -> target",
+      "stoichiometry": {},
+      "enzyme_ec_numbers": [],
+      "reaction_role": "terminal_step",
+      "evidence_scope": "hypothesis",
+      "balance_expected": true
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "candidate_route_1",
+      "name": "candidate route 1",
+      "reaction_ids": ["CAND_TARGET_STEP_1"],
+      "objective_metabolite_id": "cand_target_p",
+      "route_risk_note": "route-specific uncertainty not yet assessed"
+    }
+  ],
+  "enzyme_search": {
+    "enzyme_classes": [],
+    "exact_terms": [],
+    "near_terms": [],
+    "external_sources": ["UniProt", "Rhea", "PubMed"],
+    "tiering_policy": "default_A_exact_reaction_to_E_keyword"
+  },
+  "prediction_pairs": [
+    {
+      "reaction_id": "CAND_TARGET_STEP_1",
+      "enzyme_source": "both",
+      "substrate_compound_id": "target_cpd",
+      "sequence_source": "yeast_fasta|uniprot|manual_fasta",
+      "prediction_plugins": ["UniKP"]
+    }
+  ],
+  "engineering_layers": {
+    "family_sanity_filter": {
+      "enabled": true,
+      "preferred_families": [],
+      "weak_family_patterns": []
+    },
+    "p450_feasibility": {
+      "enabled": false,
+      "applies_to_reaction_roles": [],
+      "redox_partner_policy": "not_applicable"
+    },
+    "construct_design": {
+      "enabled": false,
+      "design_scope": "prioritization checklist only; not wet-lab protocol"
+    }
+  }
+}

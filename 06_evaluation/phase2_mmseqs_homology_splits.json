@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-16T21:00:37",
+  "mmseqs_path": "C:\\Users\\34342\\AppData\\Local\\Temp\\opencode\\tools\\mmseqs2-linux\\bin\\mmseqs",
+  "fasta_source": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\Saccharomyces_cerevisiae.fasta",
+  "input_orfs": 1745,
+  "fasta_sequences_written": 1745,
+  "orfs_missing_sequence": 0,
+  "min_seq_id": 0.3,
+  "coverage": 0.8,
+  "cov_mode": 0,
+  "cluster_tsv": "05_training\\mmseqs_homology_clusters\\yeast_orf_minid0_3_cov0_8_cluster.tsv",
+  "mmseqs_cluster_count": 1416,
+  "outputs": {
+    "reference_only": "05_training\\homology_split_reference_only.csv",
+    "reference_plus_candidate_no_overlap": "05_training\\homology_split_reference_plus_candidate_no_overlap.csv"
+  },
+  "pool_summaries": [
+    {
+      "pool": "reference_only",
+      "rows": 1959,
+      "split_counts": {
+        "train": 1584,
+        "test": 216,
+        "dev": 159
+      },
+      "key_type_counts": {
+        "mmseqs_cluster_set": 1237,
+        "fallback_equation": 722
+      },
+      "homology_split_key_count": 1376,
+      "homology_split_keys_crossing_splits": 0,
+      "fallback_rows": 722
+    },
+    {
+      "pool": "reference_plus_candidate_no_overlap",
+      "rows": 5282,
+      "split_counts": {
+        "train": 4469,
+        "test": 539,
+        "dev": 274
+      },
+      "key_type_counts": {
+        "mmseqs_cluster_set": 4555,
+        "fallback_equation": 727
+      },
+      "homology_split_key_count": 1538,
+      "homology_split_keys_crossing_splits": 0,
+      "fallback_rows": 727
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "compatibility_reference": "../10_generic_target_workflow/examples/target_workflow_10h2da_reference.json",
+  "deprecated": true,
+  "note": "The canonical target workflow configuration is the sole owned contract. Consumers must resolve compatibility_reference."
+}

@@ -1,0 +1,9 @@
+# Isolated legacy environment only. Do not install into the main environment.
+# Python 3.10 is required because the serialized estimators were built with scikit-learn 1.2.x.
+numpy==1.26.4
+pandas==2.0.3
+scikit-learn==1.2.2
+torch==2.0.1
+transformers==4.40.2
+sentencepiece==0.2.0
+rdkit==2023.9.6

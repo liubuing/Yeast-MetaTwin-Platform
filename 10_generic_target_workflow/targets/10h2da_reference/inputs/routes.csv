@@ -1,0 +1,3 @@
+route_id,name,reaction_ids,objective_metabolite_id,route_risk_note
+free_acid_route,release trans-2-decenoate then omega-hydroxylate,"[""CAND_T2DEC_THIOESTERASE_P"", ""CAND_T2DEC_OMEGA_HYDROXYLASE_P""]",cand_10h2da_p,requires free-acid release before P450 hydroxylation
+coa_bound_route,hydroxylate CoA-bound intermediate then hydrolyze,"[""CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P"", ""CAND_10H2DA_COA_THIOESTERASE_P""]",cand_10h2da_p,CoA-bound omega-hydroxylation substrate support is less direct

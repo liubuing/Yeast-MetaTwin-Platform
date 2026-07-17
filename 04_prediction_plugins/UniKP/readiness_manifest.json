@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-17T12:20:35.349778+00:00",
+  "plugin": "UniKP",
+  "status": "blocked",
+  "inference_gate": "blocked",
+  "inference_smoke": {
+    "status": "blocked",
+    "detail": "End-to-end fixed-input run was terminated during 11.28 GB ProtT5 CPU model initialization before a PluginResult was produced"
+  },
+  "benchmark_gate": "blocked",
+  "blockers": [
+    "all locally available labeled datasets are used by upstream UniKP training/internal split code",
+    "no independently sourced, versioned holdout dataset is present",
+    "dataset redistribution license is not established by a repository LICENSE file",
+    "inference smoke blocked: End-to-end fixed-input run was terminated during 11.28 GB ProtT5 CPU model initialization before a PluginResult was produced"
+  ],
+  "runtime": {
+    "python": "3.10.20",
+    "executable": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\.venv_unikp_sklearn12\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.0.3",
+      "scikit-learn": "1.2.2",
+      "torch": "2.13.0",
+      "transformers": "4.40.2",
+      "sentencepiece": "0.2.2"
+    }
+  },
+  "assets": [
+    {
+      "path": "models/UniKP for kcat.pkl",
+      "exists": true,
+      "size_bytes": 205501172,
+      "sha256": "fe90811273401698a2c25ab32959f13c0087a14feb8ca310cf4b44dcad819fd5"
+    },
+    {
+      "path": "models/UniKP for Km.pkl",
+      "exists": true,
+      "size_bytes": 147957236,
+      "sha256": "f0b8d597cf4e5f73431980950cb89423415a260dbbf9be0bb1d8810712bf9c07"
+    },
+    {
+      "path": "models/UniKP for kcat_Km.pkl",
+      "exists": true,
+      "size_bytes": 11476980,
+      "sha256": "1f81f8715a87790c542023b1bab1da6055a60b9db22c20c04a8846d9b09ba844"
+    },
+    {
+      "path": "models/vocab.pkl",
+      "exists": true,
+      "size_bytes": 1446,
+      "sha256": "21a66c850a3222547ec0fbd30c05fe587d66d22d3de2ee2195c58250fe486fb7"
+    },
+    {
+      "path": "models/trfm_12_23000.pkl",
+      "exists": true,
+      "size_bytes": 22128521,
+      "sha256": "6b56c8c05d048e7c7d143c4e3ba2bc6f76e5eda2358798cf636210406a700eb2"
+    },
+    {
+      "path": "models/prot_t5_xl_uniref50/config.json",
+      "exists": true,
+      "size_bytes": 546,
+      "sha256": "899fe63bf0178fd23583eca238ade81d56a1779c344741f391c3902855c64b77"
+    },
+    {
+      "path": "models/prot_t5_xl_uniref50/spiece.model",
+      "exists": true,
+      "size_bytes": 237990,
+      "sha256": "74da7b4afcde53faa570114b530c726135bdfcdb813dec3abfb27f9d44db7324"
+    },
+    {
+      "path": "models/prot_t5_xl_uniref50/pytorch_model.bin",
+      "exists": true,
+      "size_bytes": 11275562724,
+      "sha256": "c06141d42e93c12b5f6d95c701952156bd4079661f5f2d981d0d2036ba96dae9"
+    }
+  ],
+  "output_contract": {
+    "ood_field": "applicability.ood",
+    "truncation_fields": [
+      "transforms[].truncated",
+      "transforms[].strategy"
+    ],
+    "tree_member_interval_field": "uncertainty.tree_member_interval_log10",
+    "tree_member_count_field": "uncertainty.tree_member_count",
+    "tree_interval_calibrated": false
+  },
+  "benchmark_manifest": "benchmark_manifest.json",
+  "benchmark_manifest_sha256": "8401a0be50efefac6d478ff84a771283475b9d73d2c77ba0511b54768b9f396b"
+}

@@ -1,0 +1,5 @@
+export_group,rows,with_equation_pct,with_stoichiometry_pct,with_all_reactant_product_smiles_pct,with_all_reactant_product_inchikey_pct,with_gpr_pct,with_orfs_pct,with_enzyme_ec_pct,with_external_xref_pct,with_rxndb_pct
+first_pass_reference_label,1959,100.0,100.0,91.32,91.32,63.14,63.14,51.91,100.0,0.0
+model_context_only,2172,100.0,100.0,41.39,41.39,67.77,67.77,65.93,0.0,0.0
+candidate_extension_evidence,3330,100.0,100.0,52.82,52.82,100.0,100.0,98.89,0.0,100.0
+excluded_review_required,51,100.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

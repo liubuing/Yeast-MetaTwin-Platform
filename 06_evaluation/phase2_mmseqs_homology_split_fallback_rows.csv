@@ -1,0 +1,1450 @@
+pool,model_reaction_id,reaction_uid,fallback_reason,orfs,model_equation
+reference_only,r_0029,MODEL_RXN:0000025,fallback_equation,,s_0010 + s_0794 --> s_0291 + s_0456
+reference_only,r_0030,MODEL_RXN:0000026,fallback_equation,,s_0011 + s_0799 --> s_0292 + s_0460
+reference_only,r_0070,MODEL_RXN:0000054,fallback_equation,,s_0290 + s_0807 --> s_0287 + s_0532 + s_0799
+reference_only,r_0094,MODEL_RXN:0000077,fallback_equation,,s_0794 + s_0955 + s_1368 --> s_0352 + s_0456 + s_0529
+reference_only,r_0200,MODEL_RXN:0000177,fallback_equation,,s_0418 + s_0803 + s_1275 --> s_0419 + s_0837 + s_1151
+reference_only,r_0461,MODEL_RXN:0000356,fallback_equation,,s_0189 + s_0943 --> s_0633 + s_1311
+reference_only,r_0465,MODEL_RXN:0000360,fallback_equation,,s_0412 + s_0803 --> s_0419 + s_0557
+reference_only,r_0500,MODEL_RXN:0000389,fallback_equation,,s_0529 + s_0952 --> s_0373 + s_1003
+reference_only,r_1008,MODEL_RXN:0000776,fallback_equation,,s_0517 <=> s_1504
+reference_only,r_1009,MODEL_RXN:0000777,fallback_equation,,s_0516 <=> s_1503
+reference_only,r_1097,MODEL_RXN:0000849,fallback_equation,,s_0035 <=> s_0036
+reference_only,r_1098,MODEL_RXN:0000850,fallback_equation,,s_0172 --> s_0173
+reference_only,r_1100,MODEL_RXN:0000852,fallback_equation,,s_0212 <=> s_0213
+reference_only,r_1103,MODEL_RXN:0000855,fallback_equation,,s_0320 <=> s_0319
+reference_only,r_1137,MODEL_RXN:0000887,fallback_equation,,s_0025 + s_0794 --> s_0027 + s_0799
+reference_only,r_1138,MODEL_RXN:0000888,fallback_equation,,s_0025 + s_1401 <=> s_0027 + s_1399
+reference_only,r_1164,MODEL_RXN:0000897,fallback_equation,,s_0720 <=> s_0719
+reference_only,r_1174,MODEL_RXN:0000907,fallback_equation,,s_0773 --> s_0774
+reference_only,r_1180,MODEL_RXN:0000913,fallback_equation,,s_0927 --> s_0928
+reference_only,r_1181,MODEL_RXN:0000914,fallback_equation,,s_0935 --> s_0936
+reference_only,r_1182,MODEL_RXN:0000915,fallback_equation,,s_0943 <=> s_0945
+reference_only,r_1242,MODEL_RXN:0000972,fallback_equation,,s_1311 <=> s_1313
+reference_only,r_1243,MODEL_RXN:0000973,fallback_equation,,s_1316 --> s_1317
+reference_only,r_1268,MODEL_RXN:0000995,fallback_equation,,s_1471 <=> s_1472
+reference_only,r_1542,MODEL_RXN:0001036,fallback_equation,,s_0003 --> 
+reference_only,r_1545,MODEL_RXN:0001038,fallback_equation,,s_0022 --> 
+reference_only,r_1546,MODEL_RXN:0001039,fallback_equation,,s_0026 --> 
+reference_only,r_1547,MODEL_RXN:0001040,fallback_equation,,s_0029 --> 
+reference_only,r_1548,MODEL_RXN:0001041,fallback_equation,,s_0032 --> 
+reference_only,r_1549,MODEL_RXN:0001042,fallback_equation,,s_0036 --> 
+reference_only,r_1550,MODEL_RXN:0001043,fallback_equation,,s_0058 --> 
+reference_only,r_1551,MODEL_RXN:0001044,fallback_equation,,s_0064 --> 
+reference_only,r_1552,MODEL_RXN:0001045,fallback_equation,,s_0067 --> 
+reference_only,r_1553,MODEL_RXN:0001046,fallback_equation,,s_0080 --> 
+reference_only,r_1554,MODEL_RXN:0001047,fallback_equation,,s_0084 --> 
+reference_only,r_1560,MODEL_RXN:0001048,fallback_equation,,s_1156 <=> s_1157
+reference_only,r_1562,MODEL_RXN:0001049,fallback_equation,,s_0127 <=> s_0126
+reference_only,r_1563,MODEL_RXN:0001050,fallback_equation,,s_0133 --> 
+reference_only,r_1564,MODEL_RXN:0001051,fallback_equation,,s_0135 --> 
+reference_only,r_1565,MODEL_RXN:0001052,fallback_equation,,s_0137 --> 
+reference_only,r_1566,MODEL_RXN:0001053,fallback_equation,,s_0139 --> 
+reference_only,r_1567,MODEL_RXN:0001054,fallback_equation,,s_0349 <=> s_0350
+reference_only,r_1568,MODEL_RXN:0001055,fallback_equation,,s_0149 <=> s_0150
+reference_only,r_1572,MODEL_RXN:0001056,fallback_equation,,s_0163 --> 
+reference_only,r_1573,MODEL_RXN:0001057,fallback_equation,,s_0162 <=> s_0163
+reference_only,r_1575,MODEL_RXN:0001059,fallback_equation,,s_0169 <=> s_0170
+reference_only,r_1576,MODEL_RXN:0001060,fallback_equation,,s_0169 <=> s_0171
+reference_only,r_1577,MODEL_RXN:0001061,fallback_equation,,s_0167 --> 
+reference_only,r_1578,MODEL_RXN:0001062,fallback_equation,,s_0166 <=> s_0167
+reference_only,r_1579,MODEL_RXN:0001063,fallback_equation,,s_0166 <=> s_0168
+reference_only,r_1580,MODEL_RXN:0001064,fallback_equation,,s_0170 --> 
+reference_only,r_1581,MODEL_RXN:0001065,fallback_equation,,s_0173 --> 
+reference_only,r_1582,MODEL_RXN:0001066,fallback_equation,,s_0937 <=> s_0938
+reference_only,r_1583,MODEL_RXN:0001067,fallback_equation,,s_0937 <=> s_0939
+reference_only,r_1586,MODEL_RXN:0001069,fallback_equation,,s_0181 --> 
+reference_only,r_1587,MODEL_RXN:0001070,fallback_equation,,s_0180 <=> s_0183
+reference_only,r_1588,MODEL_RXN:0001071,fallback_equation,,s_0181 <=> s_0180
+reference_only,r_1589,MODEL_RXN:0001072,fallback_equation,,s_0186 --> 
+reference_only,r_1590,MODEL_RXN:0001073,fallback_equation,,s_0186 <=> s_0185
+reference_only,r_1591,MODEL_RXN:0001074,fallback_equation,,s_0187 <=> s_0185
+reference_only,r_1595,MODEL_RXN:0001075,fallback_equation,,s_0010 <=> s_0011
+reference_only,r_1596,MODEL_RXN:0001076,fallback_equation,,s_0056 <=> s_0060
+reference_only,r_1597,MODEL_RXN:0001077,fallback_equation,,s_0058 <=> s_0056
+reference_only,r_1598,MODEL_RXN:0001078,fallback_equation,,s_0235 --> 
+reference_only,r_1599,MODEL_RXN:0001079,fallback_equation,,s_0234 <=> s_0235
+reference_only,r_1600,MODEL_RXN:0001080,fallback_equation,,s_0234 <=> s_0236
+reference_only,r_1601,MODEL_RXN:0001081,fallback_equation,,s_0215 <=> s_0216
+reference_only,r_1604,MODEL_RXN:0001083,fallback_equation,,s_0272 --> 
+reference_only,r_1605,MODEL_RXN:0001084,fallback_equation,,s_0271 <=> s_0272
+reference_only,r_1606,MODEL_RXN:0001085,fallback_equation,,s_0271 <=> s_0273
+reference_only,r_1607,MODEL_RXN:0001086,fallback_equation,,s_0274 <=> s_0275
+reference_only,r_1608,MODEL_RXN:0001087,fallback_equation,,s_0734 <=> s_0738
+reference_only,r_1609,MODEL_RXN:0001088,fallback_equation,,s_0282 <=> s_0283
+reference_only,r_1610,MODEL_RXN:0001089,fallback_equation,,s_0282 <=> s_0284
+reference_only,r_1611,MODEL_RXN:0001090,fallback_equation,,s_0286 <=> s_0287
+reference_only,r_1613,MODEL_RXN:0001091,fallback_equation,,s_0423 + s_0803 --> s_0386 + s_1322
+reference_only,r_1618,MODEL_RXN:0001096,fallback_equation,,s_0654 + s_0803 --> s_0138 + s_1322
+reference_only,r_1620,MODEL_RXN:0001098,fallback_equation,,s_0803 + s_1565 --> s_1322 + s_1563
+reference_only,r_1621,MODEL_RXN:0001099,fallback_equation,,s_0316 --> 
+reference_only,r_1622,MODEL_RXN:0001100,fallback_equation,,s_0315 <=> s_0317
+reference_only,r_1625,MODEL_RXN:0001103,fallback_equation,,s_0320 --> 
+reference_only,r_1627,MODEL_RXN:0001104,fallback_equation,,s_0342 --> 
+reference_only,r_1629,MODEL_RXN:0001106,fallback_equation,,s_0354 --> 
+reference_only,r_1630,MODEL_RXN:0001107,fallback_equation,,s_0358 --> 
+reference_only,r_1631,MODEL_RXN:0001108,fallback_equation,,s_0360 --> 
+reference_only,r_1632,MODEL_RXN:0001109,fallback_equation,,s_0361 <=> s_0359
+reference_only,r_1633,MODEL_RXN:0001110,fallback_equation,,s_0360 <=> s_0359
+reference_only,r_1634,MODEL_RXN:0001111,fallback_equation,,s_0364 --> 
+reference_only,r_1635,MODEL_RXN:0001112,fallback_equation,,s_0362 <=> s_0366
+reference_only,r_1637,MODEL_RXN:0001113,fallback_equation,,s_0373 <=> s_0377
+reference_only,r_1638,MODEL_RXN:0001114,fallback_equation,,s_1237 --> s_1235
+reference_only,r_1639,MODEL_RXN:0001115,fallback_equation,,s_0384 --> 
+reference_only,r_1640,MODEL_RXN:0001116,fallback_equation,,s_0383 <=> s_0385
+reference_only,r_1641,MODEL_RXN:0001117,fallback_equation,,s_0391 --> 
+reference_only,r_1643,MODEL_RXN:0001119,fallback_equation,,s_0387 --> 
+reference_only,r_1644,MODEL_RXN:0001120,fallback_equation,,s_0394 <=> s_0398
+reference_only,r_1645,MODEL_RXN:0001121,fallback_equation,,s_0394 <=> s_0395
+reference_only,r_1647,MODEL_RXN:0001122,fallback_equation,,s_0180 <=> s_0184
+reference_only,r_1648,MODEL_RXN:0001123,fallback_equation,,s_0406 --> 
+reference_only,r_1649,MODEL_RXN:0001124,fallback_equation,,s_0408 --> 
+reference_only,r_1650,MODEL_RXN:0001125,fallback_equation,,s_1521 --> 
+reference_only,r_1651,MODEL_RXN:0001126,fallback_equation,,s_0413 --> 
+reference_only,r_1652,MODEL_RXN:0001127,fallback_equation,,s_0067 + s_0180 <=> s_0066 + s_0181
+reference_only,r_1654,MODEL_RXN:0001128,fallback_equation,,s_0420 <=> 
+reference_only,r_1656,MODEL_RXN:0001129,fallback_equation,,s_0425 <=> s_0423
+reference_only,r_1659,MODEL_RXN:0001132,fallback_equation,,s_0973 + s_0995 <=> s_0976 + s_0991
+reference_only,r_1660,MODEL_RXN:0001133,fallback_equation,,s_0434 <=> s_0438
+reference_only,r_1661,MODEL_RXN:0001134,fallback_equation,,s_0434 <=> s_0435
+reference_only,r_1663,MODEL_RXN:0001135,fallback_equation,,s_0446 --> 
+reference_only,r_1664,MODEL_RXN:0001136,fallback_equation,,s_0460 + s_0807 <=> s_0447 + s_0799
+reference_only,r_1665,MODEL_RXN:0001137,fallback_equation,,s_0461 + s_0808 <=> s_0448 + s_0800
+reference_only,r_1668,MODEL_RXN:0001139,fallback_equation,,s_0458 + s_0805 <=> s_0446 + s_0796
+reference_only,r_1669,MODEL_RXN:0001140,fallback_equation,,s_0445 <=> s_0448
+reference_only,r_1671,MODEL_RXN:0001141,fallback_equation,,s_0452 --> 
+reference_only,r_1672,MODEL_RXN:0001142,fallback_equation,,s_0458 --> 
+reference_only,r_1673,MODEL_RXN:0001143,fallback_equation,,s_0021 --> s_0024
+reference_only,r_1674,MODEL_RXN:0001144,fallback_equation,,s_0021 + s_1237 --> s_0024 + s_1235
+reference_only,r_1675,MODEL_RXN:0001145,fallback_equation,,s_0467 <=> s_0468
+reference_only,r_1676,MODEL_RXN:0001146,fallback_equation,,s_0476 <=> s_0475
+reference_only,r_1677,MODEL_RXN:0001147,fallback_equation,,s_0482 <=> s_0481
+reference_only,r_1679,MODEL_RXN:0001149,fallback_equation,,s_0479 <=> s_0478
+reference_only,r_1680,MODEL_RXN:0001150,fallback_equation,,s_0485 <=> s_0484
+reference_only,r_1682,MODEL_RXN:0001152,fallback_equation,,s_1275 + s_1416 + s_1569 --> s_0662 + s_0794 + 2 s_0803 + s_1413
+reference_only,r_1683,MODEL_RXN:0001153,fallback_equation,,s_0513 --> 
+reference_only,r_1685,MODEL_RXN:0001155,fallback_equation,,s_0515 --> s_0286 + s_1399
+reference_only,r_1686,MODEL_RXN:0001156,fallback_equation,,s_0523 <=> s_0522
+reference_only,r_1687,MODEL_RXN:0001157,fallback_equation,,s_0523 --> 
+reference_only,r_1688,MODEL_RXN:0001158,fallback_equation,,s_0522 + s_0942 <=> s_0525 + s_0940
+reference_only,r_1689,MODEL_RXN:0001159,fallback_equation,,s_0066 + s_0525 <=> s_0069 + s_0522
+reference_only,r_1690,MODEL_RXN:0001160,fallback_equation,,s_0526 + s_0803 --> s_0545 + s_1408
+reference_only,r_1691,MODEL_RXN:0001161,fallback_equation,,s_0456 <=> s_0457
+reference_only,r_1694,MODEL_RXN:0001162,fallback_equation,,s_0461 <=> s_0456
+reference_only,r_1695,MODEL_RXN:0001163,fallback_equation,,s_0456 <=> s_0462
+reference_only,r_1696,MODEL_RXN:0001164,fallback_equation,,s_0456 <=> s_0460
+reference_only,r_1697,MODEL_RXN:0001165,fallback_equation,,s_0456 <=> s_0458
+reference_only,r_1698,MODEL_RXN:0001166,fallback_equation,,s_0529 <=> s_0530
+reference_only,r_1699,MODEL_RXN:0001167,fallback_equation,,s_0529 <=> s_0533
+reference_only,r_1700,MODEL_RXN:0001168,fallback_equation,,s_0534 <=> s_0529
+reference_only,r_1702,MODEL_RXN:0001169,fallback_equation,,s_0544 --> 
+reference_only,r_1705,MODEL_RXN:0001172,fallback_equation,,s_0546 --> 
+reference_only,r_1706,MODEL_RXN:0001173,fallback_equation,,s_0549 --> 
+reference_only,r_1708,MODEL_RXN:0001175,fallback_equation,,s_0551 <=> s_0552
+reference_only,r_1709,MODEL_RXN:0001176,fallback_equation,,s_0554 --> 
+reference_only,r_1710,MODEL_RXN:0001177,fallback_equation,,s_0559 --> 
+reference_only,r_1711,MODEL_RXN:0001178,fallback_equation,,s_0560 --> 
+reference_only,r_1712,MODEL_RXN:0001179,fallback_equation,,s_0562 --> 
+reference_only,r_1713,MODEL_RXN:0001180,fallback_equation,,s_0413 <=> s_0412
+reference_only,r_1714,MODEL_RXN:0001181,fallback_equation,,s_0565 <=> 
+reference_only,r_1715,MODEL_RXN:0001182,fallback_equation,,s_0572 --> 
+reference_only,r_1716,MODEL_RXN:0001183,fallback_equation,,s_0576 --> 
+reference_only,r_1718,MODEL_RXN:0001185,fallback_equation,,s_0579 --> 
+reference_only,r_1720,MODEL_RXN:0001187,fallback_equation,,s_0582 <=> s_0583
+reference_only,r_1721,MODEL_RXN:0001188,fallback_equation,,s_0587 <=> s_0588
+reference_only,r_1722,MODEL_RXN:0001189,fallback_equation,,s_0434 + s_0794 + s_0803 --> s_0419 + s_0950
+reference_only,r_1723,MODEL_RXN:0001190,fallback_equation,,s_0586 + s_0794 + s_0803 --> s_0419 + s_0639
+reference_only,r_1724,MODEL_RXN:0001191,fallback_equation,,s_0394 + s_0794 + s_0803 --> s_0419 + s_0846
+reference_only,r_1726,MODEL_RXN:0001193,fallback_equation,,s_0591 <=> s_0593
+reference_only,r_1727,MODEL_RXN:0001194,fallback_equation,,s_0597 --> 
+reference_only,r_1728,MODEL_RXN:0001195,fallback_equation,,s_0133 --> s_0132
+reference_only,r_1730,MODEL_RXN:0001197,fallback_equation,,s_0611 --> 
+reference_only,r_1731,MODEL_RXN:0001198,fallback_equation,,s_0611 --> s_0610
+reference_only,r_1732,MODEL_RXN:0001199,fallback_equation,,s_0135 --> s_0134
+reference_only,r_1733,MODEL_RXN:0001200,fallback_equation,,s_0137 --> s_0136
+reference_only,r_1734,MODEL_RXN:0001201,fallback_equation,,s_0138 + s_0434 --> s_0394 + s_0654 + s_0794
+reference_only,r_1737,MODEL_RXN:0001204,fallback_equation,,s_0613 <=> s_0614
+reference_only,r_1738,MODEL_RXN:0001205,fallback_equation,,s_0343 <=> s_0344
+reference_only,r_1743,MODEL_RXN:0001207,fallback_equation,,s_0625 <=> s_0626
+reference_only,r_1744,MODEL_RXN:0001208,fallback_equation,,s_0346 + s_0803 --> s_0345 + s_0633 + s_0794
+reference_only,r_1745,MODEL_RXN:0001209,fallback_equation,,s_0347 <=> s_0348
+reference_only,r_1746,MODEL_RXN:0001210,fallback_equation,,s_0632 <=> s_0629
+reference_only,r_1747,MODEL_RXN:0001211,fallback_equation,,s_0633 <=> s_0638
+reference_only,r_1748,MODEL_RXN:0001212,fallback_equation,,s_0645 <=> s_0646
+reference_only,r_1749,MODEL_RXN:0001213,fallback_equation,,s_0651 --> 
+reference_only,r_1750,MODEL_RXN:0001214,fallback_equation,,s_0651 <=> s_0650
+reference_only,r_1751,MODEL_RXN:0001215,fallback_equation,,s_0652 <=> s_0653
+reference_only,r_1752,MODEL_RXN:0001216,fallback_equation,,s_0654 <=> s_0655
+reference_only,r_1753,MODEL_RXN:0001217,fallback_equation,,s_0659 --> 
+reference_only,r_1754,MODEL_RXN:0001218,fallback_equation,,s_0662 <=> s_0663
+reference_only,r_1757,MODEL_RXN:0001219,fallback_equation,,s_0668 --> 
+reference_only,r_1758,MODEL_RXN:0001220,fallback_equation,,s_0667 <=> s_0666
+reference_only,r_1759,MODEL_RXN:0001221,fallback_equation,,s_0666 <=> s_0669
+reference_only,r_1761,MODEL_RXN:0001222,fallback_equation,,s_0681 --> 
+reference_only,r_1762,MODEL_RXN:0001223,fallback_equation,,s_0680 <=> s_0681
+reference_only,r_1763,MODEL_RXN:0001224,fallback_equation,,s_0680 <=> s_0682
+reference_only,r_1764,MODEL_RXN:0001225,fallback_equation,,s_0684 --> 
+reference_only,r_1766,MODEL_RXN:0001227,fallback_equation,,s_0190 <=> s_0191
+reference_only,r_1776,MODEL_RXN:0001233,fallback_equation,,s_1248 <=> s_1253
+reference_only,r_1777,MODEL_RXN:0001234,fallback_equation,,s_1163 <=> s_1161
+reference_only,r_1788,MODEL_RXN:0001235,fallback_equation,,s_0702 --> 
+reference_only,r_1791,MODEL_RXN:0001237,fallback_equation,,s_0715 --> 
+reference_only,r_1792,MODEL_RXN:0001238,fallback_equation,,s_0720 --> 
+reference_only,r_1793,MODEL_RXN:0001239,fallback_equation,,s_0723 --> 
+reference_only,r_1794,MODEL_RXN:0001240,fallback_equation,,s_0724 --> s_0722
+reference_only,r_1796,MODEL_RXN:0001242,fallback_equation,,s_0726 <=> s_0725
+reference_only,r_1797,MODEL_RXN:0001243,fallback_equation,,s_0434 + s_0556 --> s_0394 + s_0555 + s_0794
+reference_only,r_1798,MODEL_RXN:0001244,fallback_equation,,s_0726 --> 
+reference_only,r_1800,MODEL_RXN:0001245,fallback_equation,,s_0736 --> 
+reference_only,r_1801,MODEL_RXN:0001246,fallback_equation,,s_0740 <=> s_0739
+reference_only,r_1802,MODEL_RXN:0001247,fallback_equation,,s_0739 <=> s_0742
+reference_only,r_1806,MODEL_RXN:0001250,fallback_equation,,s_0755 --> 
+reference_only,r_1807,MODEL_RXN:0001251,fallback_equation,,s_0751 --> 
+reference_only,r_1808,MODEL_RXN:0001252,fallback_equation,,s_0766 --> 
+reference_only,r_1809,MODEL_RXN:0001253,fallback_equation,,s_0767 <=> s_0770
+reference_only,r_1810,MODEL_RXN:0001254,fallback_equation,,s_1004 --> 
+reference_only,r_1812,MODEL_RXN:0001256,fallback_equation,,s_0775 <=> s_0777
+reference_only,r_1813,MODEL_RXN:0001257,fallback_equation,,s_0776 <=> s_0775
+reference_only,r_1814,MODEL_RXN:0001258,fallback_equation,,s_0776 --> 
+reference_only,r_1815,MODEL_RXN:0001259,fallback_equation,,s_0780 --> 
+reference_only,r_1817,MODEL_RXN:0001261,fallback_equation,,s_0779 <=> s_0781
+reference_only,r_1818,MODEL_RXN:0001262,fallback_equation,,s_0788 --> 
+reference_only,r_1819,MODEL_RXN:0001263,fallback_equation,,s_0787 <=> s_0789
+reference_only,r_1820,MODEL_RXN:0001264,fallback_equation,,s_0791 --> 
+reference_only,r_1821,MODEL_RXN:0001265,fallback_equation,,s_0434 + s_0790 --> s_0394 + s_0782 + s_0794
+reference_only,r_1822,MODEL_RXN:0001266,fallback_equation,,s_0790 --> s_0792
+reference_only,r_1823,MODEL_RXN:0001267,fallback_equation,,s_0791 --> s_0790
+reference_only,r_1824,MODEL_RXN:0001268,fallback_equation,,s_0796 --> s_0794
+reference_only,r_1825,MODEL_RXN:0001269,fallback_equation,,s_0794 <=> s_0795
+reference_only,r_1826,MODEL_RXN:0001270,fallback_equation,,s_0794 <=> s_0797
+reference_only,r_1827,MODEL_RXN:0001271,fallback_equation,,s_0794 <=> s_0798
+reference_only,r_1829,MODEL_RXN:0001272,fallback_equation,,s_0794 <=> s_0800
+reference_only,r_1830,MODEL_RXN:0001273,fallback_equation,,s_0794 <=> s_0801
+reference_only,r_1831,MODEL_RXN:0001274,fallback_equation,,s_0794 <=> s_0802
+reference_only,r_1832,MODEL_RXN:0001275,fallback_equation,,s_0796 <=> 
+reference_only,r_1833,MODEL_RXN:0001276,fallback_equation,,s_0816 <=> s_0817
+reference_only,r_1839,MODEL_RXN:0001282,fallback_equation,,s_0837 <=> s_0839
+reference_only,r_1840,MODEL_RXN:0001283,fallback_equation,,s_0218 <=> s_0221
+reference_only,r_1841,MODEL_RXN:0001284,fallback_equation,,s_0844 --> 
+reference_only,r_1842,MODEL_RXN:0001285,fallback_equation,,s_0844 <=> s_0843
+reference_only,r_1843,MODEL_RXN:0001286,fallback_equation,,s_0851 --> 
+reference_only,r_1844,MODEL_RXN:0001287,fallback_equation,,s_0850 <=> s_0852
+reference_only,r_1845,MODEL_RXN:0001288,fallback_equation,,s_0850 <=> s_0851
+reference_only,r_1846,MODEL_RXN:0001289,fallback_equation,,s_0853 <=> s_0854
+reference_only,r_1847,MODEL_RXN:0001290,fallback_equation,,s_0857 --> 
+reference_only,r_1848,MODEL_RXN:0001291,fallback_equation,,s_0857 --> s_0856
+reference_only,r_1849,MODEL_RXN:0001292,fallback_equation,,s_1158 <=> s_1159
+reference_only,r_1850,MODEL_RXN:0001293,fallback_equation,,s_0434 + s_0856 --> s_0394 + s_0794 + s_0849
+reference_only,r_1861,MODEL_RXN:0001304,fallback_equation,,s_0925 <=> 
+reference_only,r_1862,MODEL_RXN:0001305,fallback_equation,,s_0928 --> 
+reference_only,r_1863,MODEL_RXN:0001306,fallback_equation,,s_0929 <=> s_0930
+reference_only,r_1864,MODEL_RXN:0001307,fallback_equation,,s_0929 <=> s_0931
+reference_only,r_1865,MODEL_RXN:0001308,fallback_equation,,s_0930 --> 
+reference_only,r_1866,MODEL_RXN:0001309,fallback_equation,,s_0933 --> 
+reference_only,r_1867,MODEL_RXN:0001310,fallback_equation,,s_0936 --> 
+reference_only,r_1868,MODEL_RXN:0001311,fallback_equation,,s_0932 <=> s_0933
+reference_only,r_1869,MODEL_RXN:0001312,fallback_equation,,s_0932 <=> s_0934
+reference_only,r_1870,MODEL_RXN:0001313,fallback_equation,,s_0938 --> 
+reference_only,r_1871,MODEL_RXN:0001314,fallback_equation,,s_0117 + s_0799 + s_0807 --> s_0954
+reference_only,r_1872,MODEL_RXN:0001315,fallback_equation,,s_0794 + s_0952 --> s_0418 + s_0456
+reference_only,r_1873,MODEL_RXN:0001316,fallback_equation,,s_0956 --> 
+reference_only,r_1874,MODEL_RXN:0001317,fallback_equation,,s_0957 --> s_0955
+reference_only,r_1875,MODEL_RXN:0001318,fallback_equation,,s_0962 --> 
+reference_only,r_1876,MODEL_RXN:0001319,fallback_equation,,s_0962 <=> s_0961
+reference_only,r_1878,MODEL_RXN:0001321,fallback_equation,,s_0964 --> 
+reference_only,r_1879,MODEL_RXN:0001322,fallback_equation,,s_0966 --> 
+reference_only,r_1880,MODEL_RXN:0001323,fallback_equation,,s_0970 --> 
+reference_only,r_1881,MODEL_RXN:0001324,fallback_equation,,s_0974 --> 
+reference_only,r_1883,MODEL_RXN:0001326,fallback_equation,,s_0982 --> 
+reference_only,r_1884,MODEL_RXN:0001327,fallback_equation,,s_0677 <=> s_0678
+reference_only,r_1885,MODEL_RXN:0001328,fallback_equation,,s_0677 <=> s_0679
+reference_only,r_1886,MODEL_RXN:0001329,fallback_equation,,s_0990 --> 
+reference_only,r_1887,MODEL_RXN:0001330,fallback_equation,,s_0997 <=> s_0118 + s_0794 + s_0803
+reference_only,r_1889,MODEL_RXN:0001331,fallback_equation,,s_0992 --> 
+reference_only,r_1890,MODEL_RXN:0001332,fallback_equation,,s_0991 <=> s_0994
+reference_only,r_1891,MODEL_RXN:0001333,fallback_equation,,s_1000 --> 
+reference_only,r_1892,MODEL_RXN:0001334,fallback_equation,,s_0999 <=> s_1001
+reference_only,r_1893,MODEL_RXN:0001335,fallback_equation,,s_1007 --> 
+reference_only,r_1895,MODEL_RXN:0001336,fallback_equation,,s_1015 <=> s_1014
+reference_only,r_1896,MODEL_RXN:0001337,fallback_equation,,s_1015 --> 
+reference_only,r_1897,MODEL_RXN:0001338,fallback_equation,,s_1017 --> 
+reference_only,r_1898,MODEL_RXN:0001339,fallback_equation,,s_1018 --> s_1016
+reference_only,r_1899,MODEL_RXN:0001340,fallback_equation,,s_1022 --> 
+reference_only,r_1900,MODEL_RXN:0001341,fallback_equation,,s_1026 --> 
+reference_only,r_1901,MODEL_RXN:0001342,fallback_equation,,s_0067 <=> s_0066
+reference_only,r_1902,MODEL_RXN:0001343,fallback_equation,,s_1030 --> 
+reference_only,r_1903,MODEL_RXN:0001344,fallback_equation,,s_1033 --> 
+reference_only,r_1904,MODEL_RXN:0001345,fallback_equation,,s_1036 --> 
+reference_only,r_1905,MODEL_RXN:0001346,fallback_equation,,s_1035 <=> s_1037
+reference_only,r_1906,MODEL_RXN:0001347,fallback_equation,,s_1041 --> 
+reference_only,r_1909,MODEL_RXN:0001350,fallback_equation,,s_1044 --> 
+reference_only,r_1911,MODEL_RXN:0001352,fallback_equation,,s_1046 --> 
+reference_only,r_1912,MODEL_RXN:0001353,fallback_equation,,s_1049 --> 
+reference_only,r_1913,MODEL_RXN:0001354,fallback_equation,,s_1052 --> 
+reference_only,r_1914,MODEL_RXN:0001355,fallback_equation,,s_1057 --> 
+reference_only,r_1915,MODEL_RXN:0001356,fallback_equation,,s_1061 --> 
+reference_only,r_1916,MODEL_RXN:0001357,fallback_equation,,s_1067 --> 
+reference_only,r_1930,MODEL_RXN:0001369,fallback_equation,,s_0069 + s_1271 <=> s_0066 + s_1274
+reference_only,r_1931,MODEL_RXN:0001370,fallback_equation,,s_1106 --> 
+reference_only,r_1932,MODEL_RXN:0001371,fallback_equation,,s_1107 <=> s_1108
+reference_only,r_1936,MODEL_RXN:0001373,fallback_equation,,s_0629 --> s_1151 + s_1322
+reference_only,r_1947,MODEL_RXN:0001384,fallback_equation,,s_1154 --> 
+reference_only,r_1963,MODEL_RXN:0001386,fallback_equation,,s_1207 <=> s_1208
+reference_only,r_1964,MODEL_RXN:0001387,fallback_equation,,s_1212 <=> s_1213
+reference_only,r_1965,MODEL_RXN:0001388,fallback_equation,,s_0419 <=> s_0421
+reference_only,r_1966,MODEL_RXN:0001389,fallback_equation,,s_1216 <=> s_1217
+reference_only,r_1967,MODEL_RXN:0001390,fallback_equation,,s_1220 --> 
+reference_only,r_1968,MODEL_RXN:0001391,fallback_equation,,s_1225 --> 
+reference_only,r_1970,MODEL_RXN:0001392,fallback_equation,,s_1224 <=> s_1227
+reference_only,r_1971,MODEL_RXN:0001393,fallback_equation,,s_1224 <=> s_1228
+reference_only,r_1972,MODEL_RXN:0001394,fallback_equation,,s_1225 --> s_1224
+reference_only,r_1974,MODEL_RXN:0001395,fallback_equation,,s_0613 + s_0803 --> s_0615 + s_0794 + s_1322
+reference_only,r_1975,MODEL_RXN:0001396,fallback_equation,,s_0617 + s_0803 --> s_0613 + s_0794 + s_1322
+reference_only,r_1977,MODEL_RXN:0001398,fallback_equation,,s_1275 <=> s_1276
+reference_only,r_1978,MODEL_RXN:0001399,fallback_equation,,s_1275 <=> s_1278
+reference_only,r_1979,MODEL_RXN:0001400,fallback_equation,,s_1277 <=> s_1275
+reference_only,r_1980,MODEL_RXN:0001401,fallback_equation,,s_1275 <=> s_1279
+reference_only,r_1984,MODEL_RXN:0001403,fallback_equation,,s_1250 --> 
+reference_only,r_1987,MODEL_RXN:0001404,fallback_equation,,s_1267 --> 
+reference_only,r_1988,MODEL_RXN:0001405,fallback_equation,,s_1271 <=> s_1272
+reference_only,r_1989,MODEL_RXN:0001406,fallback_equation,,s_1272 --> 
+reference_only,r_1991,MODEL_RXN:0001408,fallback_equation,,s_1620 <=> s_1623
+reference_only,r_1992,MODEL_RXN:0001409,fallback_equation,,s_1277 <=> 
+reference_only,r_1993,MODEL_RXN:0001410,fallback_equation,,s_1288 --> 
+reference_only,r_1994,MODEL_RXN:0001411,fallback_equation,,s_1295 --> 
+reference_only,r_1995,MODEL_RXN:0001412,fallback_equation,,s_1302 <=> s_1303
+reference_only,r_1996,MODEL_RXN:0001413,fallback_equation,,s_1307 <=> s_1308
+reference_only,r_1997,MODEL_RXN:0001414,fallback_equation,,s_0437 + s_0799 + s_1308 --> s_0200 + s_0636
+reference_only,r_1998,MODEL_RXN:0001415,fallback_equation,,s_0391 <=> s_0390
+reference_only,r_1999,MODEL_RXN:0001416,fallback_equation,,s_1309 --> 
+reference_only,r_2000,MODEL_RXN:0001417,fallback_equation,,s_1317 --> 
+reference_only,r_2001,MODEL_RXN:0001418,fallback_equation,,s_1319 --> 
+reference_only,r_2002,MODEL_RXN:0001419,fallback_equation,,s_1318 <=> s_1319
+reference_only,r_2003,MODEL_RXN:0001420,fallback_equation,,s_1318 <=> s_1320
+reference_only,r_2004,MODEL_RXN:0001421,fallback_equation,,s_1032 --> s_1034
+reference_only,r_2005,MODEL_RXN:0001422,fallback_equation,,s_1324 <=> 
+reference_only,r_2020,MODEL_RXN:0001424,fallback_equation,,s_1374 <=> 
+reference_only,r_2022,MODEL_RXN:0001425,fallback_equation,,s_1384 <=> s_1385
+reference_only,r_2023,MODEL_RXN:0001426,fallback_equation,,s_1386 <=> s_1387
+reference_only,r_2024,MODEL_RXN:0001427,fallback_equation,,s_1390 --> 
+reference_only,r_2027,MODEL_RXN:0001430,fallback_equation,,s_0803 + s_1395 --> s_1322 + s_1394
+reference_only,r_2028,MODEL_RXN:0001431,fallback_equation,,s_1397 --> 
+reference_only,r_2030,MODEL_RXN:0001433,fallback_equation,,s_0313 + s_0803 --> s_0314 + s_1322
+reference_only,r_2031,MODEL_RXN:0001434,fallback_equation,,s_1322 + s_1556 <=> s_0415 + s_1550
+reference_only,r_2032,MODEL_RXN:0001435,fallback_equation,,s_0633 <=> s_0636
+reference_only,r_2033,MODEL_RXN:0001436,fallback_equation,,s_1400 --> 
+reference_only,r_2036,MODEL_RXN:0001438,fallback_equation,,s_1403 <=> s_1404
+reference_only,r_2037,MODEL_RXN:0001439,fallback_equation,,s_1616 <=> s_1619
+reference_only,r_2038,MODEL_RXN:0001440,fallback_equation,,s_1406 --> 
+reference_only,r_2039,MODEL_RXN:0001441,fallback_equation,,s_1405 --> s_1407
+reference_only,r_2042,MODEL_RXN:0001444,fallback_equation,,s_1413 <=> s_1415
+reference_only,r_2043,MODEL_RXN:0001445,fallback_equation,,s_1418 --> 
+reference_only,r_2044,MODEL_RXN:0001446,fallback_equation,,s_1425 --> 
+reference_only,r_2046,MODEL_RXN:0001448,fallback_equation,,s_1435 --> 
+reference_only,r_2049,MODEL_RXN:0001449,fallback_equation,,s_1438 <=> 
+reference_only,r_2050,MODEL_RXN:0001450,fallback_equation,,s_0373 + s_1439 --> s_0529 + s_0794 + s_1180
+reference_only,r_2051,MODEL_RXN:0001451,fallback_equation,,s_1440 --> 
+reference_only,r_2052,MODEL_RXN:0001452,fallback_equation,,s_1443 --> 
+reference_only,r_2053,MODEL_RXN:0001453,fallback_equation,,s_1447 <=> s_1448
+reference_only,r_2054,MODEL_RXN:0001454,fallback_equation,,s_0038 <=> s_0037
+reference_only,r_2055,MODEL_RXN:0001455,fallback_equation,,s_1450 --> 
+reference_only,r_2056,MODEL_RXN:0001456,fallback_equation,,s_1459 --> 
+reference_only,r_2057,MODEL_RXN:0001457,fallback_equation,,s_1459 <=> s_1458
+reference_only,r_2058,MODEL_RXN:0001458,fallback_equation,,s_1466 --> 
+reference_only,r_2060,MODEL_RXN:0001459,fallback_equation,,s_1468 <=> 
+reference_only,r_2061,MODEL_RXN:0001460,fallback_equation,,s_1470 --> 
+reference_only,r_2062,MODEL_RXN:0001461,fallback_equation,,s_1472 --> 
+reference_only,r_2063,MODEL_RXN:0001462,fallback_equation,,s_1479 <=> s_1480
+reference_only,r_2065,MODEL_RXN:0001464,fallback_equation,,s_0803 + s_1489 --> s_0270 + s_0310 + s_0794
+reference_only,r_2066,MODEL_RXN:0001465,fallback_equation,,s_1476 --> 
+reference_only,r_2067,MODEL_RXN:0001466,fallback_equation,,s_1490 --> 
+reference_only,r_2068,MODEL_RXN:0001467,fallback_equation,,s_1498 --> 
+reference_only,r_2069,MODEL_RXN:0001468,fallback_equation,,s_0434 + s_1497 --> s_0394 + s_1475
+reference_only,r_2070,MODEL_RXN:0001469,fallback_equation,,s_0794 + s_0981 + s_1003 + s_1233 + s_1408 --> s_0293 + s_0362 + s_0419 + s_0456 + s_0734 + 3 s_0803 + s_1399
+reference_only,r_2071,MODEL_RXN:0001470,fallback_equation,,s_0581 + s_0794 + s_0981 + s_1003 + s_1233 --> s_0293 + s_0362 + s_0419 + s_0456 + s_0734 + 3 s_0803 + s_1399
+reference_only,r_2073,MODEL_RXN:0001472,fallback_equation,,s_1494 --> 
+reference_only,r_2074,MODEL_RXN:0001473,fallback_equation,,s_0434 + s_1493 --> s_0394 + s_0649 + s_0794
+reference_only,r_2075,MODEL_RXN:0001474,fallback_equation,,s_1494 <=> s_1493
+reference_only,r_2080,MODEL_RXN:0001476,fallback_equation,,s_1520 <=> s_1522
+reference_only,r_2082,MODEL_RXN:0001477,fallback_equation,,s_1048 --> s_1050
+reference_only,r_2083,MODEL_RXN:0001478,fallback_equation,,s_1530 --> 
+reference_only,r_2084,MODEL_RXN:0001479,fallback_equation,,s_1529 <=> s_1530
+reference_only,r_2085,MODEL_RXN:0001480,fallback_equation,,s_1529 <=> s_1531
+reference_only,r_2086,MODEL_RXN:0001481,fallback_equation,,s_1051 --> s_1053
+reference_only,r_2087,MODEL_RXN:0001482,fallback_equation,,s_1051 <=> s_1054
+reference_only,r_2089,MODEL_RXN:0001483,fallback_equation,,s_1545 <=> s_1548
+reference_only,r_2090,MODEL_RXN:0001484,fallback_equation,,s_1551 --> 
+reference_only,r_2091,MODEL_RXN:0001485,fallback_equation,,s_1553 --> 
+reference_only,r_2092,MODEL_RXN:0001486,fallback_equation,,s_1557 --> 
+reference_only,r_2093,MODEL_RXN:0001487,fallback_equation,,s_1056 <=> s_1058
+reference_only,r_2095,MODEL_RXN:0001489,fallback_equation,,s_0803 <=> s_0806
+reference_only,r_2096,MODEL_RXN:0001490,fallback_equation,,s_0803 <=> s_0807
+reference_only,r_2097,MODEL_RXN:0001491,fallback_equation,,s_0803 <=> s_0808
+reference_only,r_2098,MODEL_RXN:0001492,fallback_equation,,s_0803 <=> s_0809
+reference_only,r_2099,MODEL_RXN:0001493,fallback_equation,,s_0803 <=> s_0810
+reference_only,r_2100,MODEL_RXN:0001494,fallback_equation,,s_0805 <=> 
+reference_only,r_2101,MODEL_RXN:0001495,fallback_equation,,s_0358 <=> s_0357
+reference_only,r_2102,MODEL_RXN:0001496,fallback_equation,,s_1564 --> 
+reference_only,r_2103,MODEL_RXN:0001497,fallback_equation,,s_1564 --> s_1563
+reference_only,r_2104,MODEL_RXN:0001498,fallback_equation,,s_1567 --> 
+reference_only,r_2106,MODEL_RXN:0001500,fallback_equation,,s_1571 --> 
+reference_only,r_2111,MODEL_RXN:0001503,fallback_equation,,s_0450 --> 
+reference_only,r_2113,MODEL_RXN:0001505,fallback_equation,,2 s_0794 + s_1212 + s_2763 --> s_0803 + s_1207 + s_2764
+reference_only,r_2114,MODEL_RXN:0001506,fallback_equation,,s_0147 --> s_0794 + s_0803 + s_1403
+reference_only,r_2125,MODEL_RXN:0001512,fallback_equation,,s_0529 <=> s_0531
+reference_only,r_2129,MODEL_RXN:0001514,fallback_equation,,s_0794 --> s_0799
+reference_only,r_2136,MODEL_RXN:0001518,fallback_equation,,s_2766 <=> s_0122
+reference_only,r_2139,MODEL_RXN:0001520,fallback_equation,,s_2768 <=> s_0662
+reference_only,r_2184,MODEL_RXN:0001565,fallback_equation,,s_1250 <=> s_1248
+reference_only,r_2185,MODEL_RXN:0001566,fallback_equation,,s_0597 <=> s_0595
+reference_only,r_2187,MODEL_RXN:0001568,fallback_equation,,s_2822 --> 
+reference_only,r_2188,MODEL_RXN:0001569,fallback_equation,,s_2824 --> 
+reference_only,r_2189,MODEL_RXN:0001570,fallback_equation,,s_2826 --> 
+reference_only,r_2193,MODEL_RXN:0001574,fallback_equation,,s_1163 --> 
+reference_only,r_2230,MODEL_RXN:0001611,fallback_equation,,s_2829 <=> s_2883
+reference_only,r_3508,MODEL_RXN:0002877,fallback_equation,,s_1065 <=> s_2832
+reference_only,r_3509,MODEL_RXN:0002878,fallback_equation,,s_1161 <=> s_2835
+reference_only,r_3510,MODEL_RXN:0002879,fallback_equation,,s_1286 <=> s_2836
+reference_only,r_3512,MODEL_RXN:0002881,fallback_equation,,s_1449 <=> s_2838
+reference_only,r_3513,MODEL_RXN:0002882,fallback_equation,,s_1260 <=> s_2839
+reference_only,r_3517,MODEL_RXN:0002886,fallback_equation,,s_1302 <=> s_2789
+reference_only,r_3519,MODEL_RXN:0002888,fallback_equation,,s_1454 <=> s_2791
+reference_only,r_3520,MODEL_RXN:0002889,fallback_equation,,s_1262 <=> s_2821
+reference_only,r_3523,MODEL_RXN:0002892,fallback_equation,,s_1479 <=> s_2797
+reference_only,r_3524,MODEL_RXN:0002893,fallback_equation,,s_0816 <=> s_2816
+reference_only,r_3525,MODEL_RXN:0002894,fallback_equation,,s_0794 <=> s_2783
+reference_only,r_3527,MODEL_RXN:0002896,fallback_equation,,s_0456 <=> s_2784
+reference_only,r_3528,MODEL_RXN:0002897,fallback_equation,,s_0529 <=> s_2785
+reference_only,r_3529,MODEL_RXN:0002898,fallback_equation,,s_1212 <=> s_2799
+reference_only,r_3530,MODEL_RXN:0002899,fallback_equation,,s_1207 <=> s_2800
+reference_only,r_3531,MODEL_RXN:0002900,fallback_equation,,s_1275 <=> s_2817
+reference_only,r_3532,MODEL_RXN:0002901,fallback_equation,,s_1203 <=> s_2818
+reference_only,r_3533,MODEL_RXN:0002902,fallback_equation,,s_1198 <=> s_2820
+reference_only,r_3534,MODEL_RXN:0002903,fallback_equation,,s_0767 <=> s_2934
+reference_only,r_3535,MODEL_RXN:0002904,fallback_equation,,s_0629 <=> s_2939
+reference_only,r_3536,MODEL_RXN:0002905,fallback_equation,,s_0633 <=> s_2834
+reference_only,r_3537,MODEL_RXN:0002906,fallback_equation,,s_1322 <=> s_2966
+reference_only,r_3538,MODEL_RXN:0002907,fallback_equation,,s_0539 <=> s_3083
+reference_only,r_3539,MODEL_RXN:0002908,fallback_equation,,s_0467 <=> s_3215
+reference_only,r_3540,MODEL_RXN:0002909,fallback_equation,,s_0526 <=> s_3108
+reference_only,r_3542,MODEL_RXN:0002911,fallback_equation,,s_0469 <=> s_3217
+reference_only,r_3543,MODEL_RXN:0002912,fallback_equation,,s_0434 <=> s_2831
+reference_only,r_3544,MODEL_RXN:0002913,fallback_equation,,s_0423 <=> s_2833
+reference_only,r_3546,MODEL_RXN:0002915,fallback_equation,,s_1153 <=> s_3117
+reference_only,r_3547,MODEL_RXN:0002916,fallback_equation,,s_1416 <=> s_3182
+reference_only,r_3548,MODEL_RXN:0002917,fallback_equation,,s_1413 <=> s_3183
+reference_only,r_3549,MODEL_RXN:0002918,fallback_equation,,s_0657 <=> s_3432
+reference_only,r_3550,MODEL_RXN:0002919,fallback_equation,,s_0700 <=> s_3435
+reference_only,r_3551,MODEL_RXN:0002920,fallback_equation,,s_1059 <=> s_3438
+reference_only,r_3552,MODEL_RXN:0002921,fallback_equation,,s_0666 <=> s_3441
+reference_only,r_3553,MODEL_RXN:0002922,fallback_equation,,s_1569 <=> s_3444
+reference_only,r_3570,MODEL_RXN:0002939,fallback_equation,,s_3447 <=> s_1433
+reference_only,r_3571,MODEL_RXN:0002940,fallback_equation,,s_1286 <=> s_2846
+reference_only,r_3573,MODEL_RXN:0002942,fallback_equation,,s_1449 <=> s_2850
+reference_only,r_3574,MODEL_RXN:0002943,fallback_equation,,s_1260 <=> s_2852
+reference_only,r_3577,MODEL_RXN:0002946,fallback_equation,,s_1302 <=> s_2847
+reference_only,r_3579,MODEL_RXN:0002948,fallback_equation,,s_1454 <=> s_2851
+reference_only,r_3580,MODEL_RXN:0002949,fallback_equation,,s_1262 <=> s_2853
+reference_only,r_3581,MODEL_RXN:0002950,fallback_equation,,s_0767 <=> s_0769
+reference_only,r_3582,MODEL_RXN:0002951,fallback_equation,,s_0629 <=> s_0631
+reference_only,r_3583,MODEL_RXN:0002952,fallback_equation,,s_1212 <=> s_2952
+reference_only,r_3584,MODEL_RXN:0002953,fallback_equation,,s_1207 <=> s_2953
+reference_only,r_3585,MODEL_RXN:0002954,fallback_equation,,s_0434 <=> s_2840
+reference_only,r_3586,MODEL_RXN:0002955,fallback_equation,,s_0423 <=> s_2842
+reference_only,r_3587,MODEL_RXN:0002956,fallback_equation,,s_0633 <=> s_0635
+reference_only,r_3596,MODEL_RXN:0002965,fallback_equation,,s_0803 <=> s_3657
+reference_only,r_3597,MODEL_RXN:0002966,fallback_equation,,s_3684 <=> s_0765
+reference_only,r_3599,MODEL_RXN:0002968,fallback_equation,,s_2874 <=> s_1479
+reference_only,r_3600,MODEL_RXN:0002969,fallback_equation,,s_2876 <=> s_0816
+reference_only,r_3601,MODEL_RXN:0002970,fallback_equation,,s_0434 <=> s_2856
+reference_only,r_3602,MODEL_RXN:0002971,fallback_equation,,s_0394 <=> s_3324
+reference_only,r_3603,MODEL_RXN:0002972,fallback_equation,,s_0794 <=> s_0793
+reference_only,r_3608,MODEL_RXN:0002977,fallback_equation,,s_3463 <=> s_1286
+reference_only,r_3610,MODEL_RXN:0002979,fallback_equation,,s_3464 <=> s_1449
+reference_only,r_3611,MODEL_RXN:0002980,fallback_equation,,s_3459 <=> s_1260
+reference_only,r_3614,MODEL_RXN:0002983,fallback_equation,,s_2865 <=> s_1479
+reference_only,r_3615,MODEL_RXN:0002984,fallback_equation,,s_2867 <=> s_0816
+reference_only,r_3648,MODEL_RXN:0003017,fallback_equation,,s_0803 <=> s_2976
+reference_only,r_3650,MODEL_RXN:0003019,fallback_equation,,s_0794 <=> s_3164
+reference_only,r_3651,MODEL_RXN:0003020,fallback_equation,,s_0434 <=> s_3341
+reference_only,r_3652,MODEL_RXN:0003021,fallback_equation,,s_0394 <=> s_3342
+reference_only,r_3653,MODEL_RXN:0003022,fallback_equation,,s_0456 <=> s_3165
+reference_only,r_3662,MODEL_RXN:0003031,fallback_equation,,s_0803 <=> s_2994
+reference_only,r_3663,MODEL_RXN:0003032,fallback_equation,,s_1322 <=> s_2995
+reference_only,r_3664,MODEL_RXN:0003033,fallback_equation,,s_0794 <=> s_3146
+reference_only,r_3665,MODEL_RXN:0003034,fallback_equation,,s_0456 <=> s_3147
+reference_only,r_3666,MODEL_RXN:0003035,fallback_equation,,s_0434 <=> s_3359
+reference_only,r_3667,MODEL_RXN:0003036,fallback_equation,,s_0394 <=> s_3360
+reference_only,r_3668,MODEL_RXN:0003037,fallback_equation,,s_0803 <=> s_3226
+reference_only,r_3669,MODEL_RXN:0003038,fallback_equation,,s_0456 <=> s_3129
+reference_only,r_3671,MODEL_RXN:0003040,fallback_equation,,s_1262 <=> s_3322
+reference_only,r_3678,MODEL_RXN:0003047,fallback_equation,,s_3271 <=> s_1286
+reference_only,r_3679,MODEL_RXN:0003048,fallback_equation,,s_3277 <=> s_1449
+reference_only,r_3681,MODEL_RXN:0003050,fallback_equation,,s_2832 <=> s_2841
+reference_only,r_3682,MODEL_RXN:0003051,fallback_equation,,s_2835 <=> s_2844
+reference_only,r_3683,MODEL_RXN:0003052,fallback_equation,,s_2869 <=> s_2873
+reference_only,r_3684,MODEL_RXN:0003053,fallback_equation,,s_2870 <=> s_2875
+reference_only,r_3717,MODEL_RXN:0003086,fallback_equation,,s_3432 <=> s_3660
+reference_only,r_3718,MODEL_RXN:0003087,fallback_equation,,s_3435 <=> s_0703
+reference_only,r_3719,MODEL_RXN:0003088,fallback_equation,,s_3438 <=> s_3665
+reference_only,r_3720,MODEL_RXN:0003089,fallback_equation,,s_3444 <=> s_1572
+reference_only,r_3901,MODEL_RXN:0003270,fallback_equation,,s_2864 <=> s_2869
+reference_only,r_3902,MODEL_RXN:0003271,fallback_equation,,s_2866 <=> s_2870
+reference_only,r_3937,MODEL_RXN:0003306,fallback_equation,,s_2869 <=> s_1085
+reference_only,r_3938,MODEL_RXN:0003307,fallback_equation,,s_2870 <=> s_0507
+reference_only,r_3939,MODEL_RXN:0003308,fallback_equation,,s_0667 <=> s_3441
+reference_only,r_3940,MODEL_RXN:0003309,fallback_equation,,s_1323 --> s_2966
+reference_only,r_3957,MODEL_RXN:0003326,fallback_equation,,s_0799 <=> s_3094
+reference_only,r_3958,MODEL_RXN:0003327,fallback_equation,,s_0770 <=> s_3218
+reference_only,r_3962,MODEL_RXN:0003331,fallback_equation,,s_0636 <=> s_3095
+reference_only,r_3987,MODEL_RXN:0003355,fallback_equation,,s_3710 <=> s_1337
+reference_only,r_3996,MODEL_RXN:0003364,fallback_equation,,s_3711 <=> s_1346
+reference_only,r_4005,MODEL_RXN:0003373,fallback_equation,,s_3712 <=> s_1351
+reference_only,r_4038,MODEL_RXN:0003406,fallback_equation,,s_3713 <=> s_1524
+reference_only,r_4042,MODEL_RXN:0003410,fallback_equation,,s_0805 + s_3715 --> s_0554 + s_3716
+reference_only,r_4043,MODEL_RXN:0003411,fallback_equation,,s_3715 --> 
+reference_only,r_4044,MODEL_RXN:0003412,fallback_equation,,s_3716 --> 
+reference_only,r_4046,MODEL_RXN:0003414,fallback_equation,,s_0434 + s_0803 --> s_0394 + s_0794 + s_1322
+reference_only,r_4341,MODEL_RXN:0003701,fallback_equation,,s_4063 <=> s_4062
+reference_only,r_4342,MODEL_RXN:0003702,fallback_equation,,s_0803 + s_4062 --> s_0765 + s_1322
+reference_only,r_4343,MODEL_RXN:0003703,fallback_equation,,s_0796 + s_4065 <=> s_0794 + s_4064
+reference_only,r_4344,MODEL_RXN:0003704,fallback_equation,,s_0803 + s_4064 --> s_1045 + s_1322
+reference_only,r_4345,MODEL_RXN:0003705,fallback_equation,,s_0803 + s_4066 --> s_0790 + s_1322
+reference_only,r_4347,MODEL_RXN:0003707,fallback_equation,,s_0803 + s_4068 --> s_0790 + s_1322
+reference_only,r_4348,MODEL_RXN:0003708,fallback_equation,,s_0796 + s_4069 <=> s_0794 + s_4068
+reference_only,r_4349,MODEL_RXN:0003709,fallback_equation,,s_0796 + s_4070 <=> s_0794 + s_4071
+reference_only,r_4350,MODEL_RXN:0003710,fallback_equation,,s_0803 + s_4071 --> s_1322 + s_3997
+reference_only,r_4351,MODEL_RXN:0003711,fallback_equation,,s_0803 + s_4072 --> s_1322 + s_4073
+reference_only,r_4353,MODEL_RXN:0003713,fallback_equation,,s_1275 + s_4073 --> s_0794 + s_4076
+reference_only,r_4354,MODEL_RXN:0003714,fallback_equation,,s_0803 + s_1198 + s_4076 --> s_0794 + s_1203 + s_1471
+reference_only,r_4355,MODEL_RXN:0003715,fallback_equation,,s_0178 + s_0991 <=> s_0180 + s_4079
+reference_only,r_4357,MODEL_RXN:0003717,fallback_equation,,s_0803 + s_4081 --> s_1322 + s_1556
+reference_only,r_4358,MODEL_RXN:0003718,fallback_equation,,s_0796 + s_4082 <=> s_0794 + s_4081
+reference_only,r_4359,MODEL_RXN:0003719,fallback_equation,,s_0803 + s_4083 --> s_1322 + s_1556
+reference_only,r_4360,MODEL_RXN:0003720,fallback_equation,,s_0796 + s_4084 <=> s_0794 + s_4083
+reference_only,r_4362,MODEL_RXN:0003722,fallback_equation,,s_0810 + s_4087 --> s_3758 + s_3839
+reference_only,r_4363,MODEL_RXN:0003723,fallback_equation,,s_4088 --> s_1322 + s_4089
+reference_only,r_4366,MODEL_RXN:0003726,fallback_equation,,s_0394 + s_0794 + s_4092 <=> s_0434 + s_0965
+reference_only,r_4367,MODEL_RXN:0003727,fallback_equation,,s_0796 + s_4093 <=> s_0794 + s_4092
+reference_only,r_4368,MODEL_RXN:0003728,fallback_equation,,s_0803 + s_4096 --> s_1051 + s_1322
+reference_only,r_4369,MODEL_RXN:0003729,fallback_equation,,s_0796 + s_4099 <=> s_0794 + s_4098
+reference_only,r_4370,MODEL_RXN:0003730,fallback_equation,,s_0803 + s_4100 --> s_0543 + s_1322
+reference_only,r_4371,MODEL_RXN:0003731,fallback_equation,,s_0796 + s_4101 <=> s_0794 + s_4100
+reference_only,r_4373,MODEL_RXN:0003733,fallback_equation,,s_0796 + s_4103 <=> s_0794 + s_4102
+reference_only,r_4374,MODEL_RXN:0003734,fallback_equation,,s_0803 + s_4104 --> s_0794 + s_0955 + s_1469
+reference_only,r_4375,MODEL_RXN:0003735,fallback_equation,,s_0796 + s_4105 <=> s_0794 + s_4104
+reference_only,r_4376,MODEL_RXN:0003736,fallback_equation,,s_0803 + s_4106 --> s_0386 + s_1322
+reference_only,r_4377,MODEL_RXN:0003737,fallback_equation,,s_4107 <=> s_4106
+reference_only,r_4378,MODEL_RXN:0003738,fallback_equation,,s_0803 + s_4108 --> s_0553 + s_0563
+reference_only,r_4379,MODEL_RXN:0003739,fallback_equation,,s_0796 + s_4109 <=> s_0794 + s_4108
+reference_only,r_4380,MODEL_RXN:0003740,fallback_equation,,s_0529 + s_0794 + s_4110 <=> s_0373 + s_0981
+reference_only,r_4381,MODEL_RXN:0003741,fallback_equation,,s_0796 + s_4111 <=> s_0794 + s_4110
+reference_only,r_4382,MODEL_RXN:0003742,fallback_equation,,2 s_0709 + 2 s_4113 <=> 2 s_0710 + s_4112
+reference_only,r_4383,MODEL_RXN:0003743,fallback_equation,,s_4114 <=> s_4112
+reference_only,r_4384,MODEL_RXN:0003744,fallback_equation,,s_0794 + s_1212 + s_4117 --> s_1207 + s_3875
+reference_only,r_4385,MODEL_RXN:0003745,fallback_equation,,s_0796 + s_4118 <=> s_0794 + s_4117
+reference_only,r_4386,MODEL_RXN:0003746,fallback_equation,,s_0810 + s_4121 --> s_0977 + s_3759
+reference_only,r_4389,MODEL_RXN:0003749,fallback_equation,,s_0796 + s_4127 <=> s_0794 + s_4126
+reference_only,r_4390,MODEL_RXN:0003750,fallback_equation,,s_0803 + s_4122 <=> s_0563 + s_4123
+reference_only,r_4391,MODEL_RXN:0003751,fallback_equation,,s_4123 --> s_4124
+reference_only,r_4392,MODEL_RXN:0003752,fallback_equation,,s_0796 + s_4125 <=> s_0794 + s_4122
+reference_only,r_4393,MODEL_RXN:0003753,fallback_equation,,s_0434 + s_4128 --> s_0394 + s_0794 + s_4129
+reference_only,r_4396,MODEL_RXN:0003756,fallback_equation,,s_0434 + s_0529 + s_4132 --> s_0367 + s_0423 + s_0633
+reference_only,r_4397,MODEL_RXN:0003757,fallback_equation,,s_0803 + s_4134 <=> s_0362 + s_1029
+reference_only,r_4399,MODEL_RXN:0003759,fallback_equation,,s_0794 + s_4038 <=> s_0802 + s_4039
+reference_only,r_4406,MODEL_RXN:0003766,fallback_equation,,s_0796 + s_4078 <=> s_0794 + s_4077
+reference_only,r_4407,MODEL_RXN:0003767,fallback_equation,,s_0803 + s_4077 <=> s_1322 + s_3904
+reference_only,r_4409,MODEL_RXN:0003769,fallback_equation,,s_0810 + s_4039 --> s_0996 + s_3759
+reference_only,r_4410,MODEL_RXN:0003770,fallback_equation,,s_4136 <=> s_0779 + s_1271
+reference_only,r_4411,MODEL_RXN:0003771,fallback_equation,,s_0803 + s_4138 --> s_0419 + s_0794 + s_1399 + s_1469
+reference_only,r_4413,MODEL_RXN:0003773,fallback_equation,,s_0803 + s_4044 --> s_1322 + s_1493
+reference_only,r_4414,MODEL_RXN:0003774,fallback_equation,,s_0810 + s_4036 --> s_1002 + s_3759
+reference_only,r_4415,MODEL_RXN:0003775,fallback_equation,,s_0810 + s_4052 --> s_1009 + s_3759
+reference_only,r_4416,MODEL_RXN:0003776,fallback_equation,,s_0810 + s_4042 --> s_3759 + s_4043
+reference_only,r_4417,MODEL_RXN:0003777,fallback_equation,,s_0810 + s_4055 --> s_0972 + s_3839
+reference_only,r_4418,MODEL_RXN:0003778,fallback_equation,,s_0810 + s_4058 --> s_1002 + s_3839
+reference_only,r_4419,MODEL_RXN:0003779,fallback_equation,,s_0796 + s_4139 <=> s_0794 + s_4138
+reference_only,r_4421,MODEL_RXN:0003781,fallback_equation,,s_0796 + s_4116 <=> s_0794 + s_4115
+reference_only,r_4422,MODEL_RXN:0003782,fallback_equation,,s_0796 + s_4137 <=> s_0794 + s_4136
+reference_only,r_4423,MODEL_RXN:0003783,fallback_equation,,s_0794 + s_4086 <=> s_0802 + s_4087
+reference_only,r_4425,MODEL_RXN:0003785,fallback_equation,,s_0794 + s_4057 <=> s_0802 + s_4058
+reference_only,r_4426,MODEL_RXN:0003786,fallback_equation,,s_0794 + s_4035 <=> s_0802 + s_4036
+reference_only,r_4427,MODEL_RXN:0003787,fallback_equation,,s_0796 + s_4135 <=> s_0794 + s_4134
+reference_only,r_4428,MODEL_RXN:0003788,fallback_equation,,s_0796 + s_4097 <=> s_0794 + s_4096
+reference_only,r_4430,MODEL_RXN:0003790,fallback_equation,,s_0794 + s_4051 <=> s_0802 + s_4052
+reference_only,r_4431,MODEL_RXN:0003791,fallback_equation,,s_0794 + s_4120 <=> s_0802 + s_4121
+reference_only,r_4432,MODEL_RXN:0003792,fallback_equation,,s_0717 + s_1275 + s_4115 --> s_0714 + s_0775 + 2 s_0794 + s_0803 + s_1469
+reference_only,r_4439,MODEL_RXN:0003799,fallback_equation,,s_0810 + s_4061 --> s_0996 + s_3839
+reference_only,r_4442,MODEL_RXN:0003802,fallback_equation,,s_4074 --> 
+reference_only,r_4443,MODEL_RXN:0003803,fallback_equation,,s_4095 <=> s_4094
+reference_only,r_4444,MODEL_RXN:0003804,fallback_equation,,s_0796 + s_4141 <=> s_0188 + s_0794
+reference_only,r_4445,MODEL_RXN:0003805,fallback_equation,,s_0796 + s_4142 <=> s_0260 + s_0794
+reference_only,r_4446,MODEL_RXN:0003806,fallback_equation,,s_4145 <=> s_0567
+reference_only,r_4447,MODEL_RXN:0003807,fallback_equation,,s_4146 <=> s_0455
+reference_only,r_4450,MODEL_RXN:0003810,fallback_equation,,s_0796 + s_4147 <=> s_0259 + s_0794
+reference_only,r_4451,MODEL_RXN:0003811,fallback_equation,,s_0796 + s_4148 <=> s_0782 + s_0794
+reference_only,r_4452,MODEL_RXN:0003812,fallback_equation,,s_4149 <=> s_1158
+reference_only,r_4453,MODEL_RXN:0003813,fallback_equation,,s_4150 <=> s_0568
+reference_only,r_4454,MODEL_RXN:0003814,fallback_equation,,s_4151 <=> s_1545
+reference_only,r_4455,MODEL_RXN:0003815,fallback_equation,,s_0796 + s_4152 <=> s_0794 + s_1360
+reference_only,r_4456,MODEL_RXN:0003816,fallback_equation,,s_4153 <=> s_0574
+reference_only,r_4458,MODEL_RXN:0003818,fallback_equation,,s_0796 + s_4155 <=> s_0340 + s_0794
+reference_only,r_4459,MODEL_RXN:0003819,fallback_equation,,s_0796 + s_4156 <=> s_0573 + s_0794
+reference_only,r_4460,MODEL_RXN:0003820,fallback_equation,,2 s_0796 + s_4157 <=> s_0633 + 2 s_0794
+reference_only,r_4461,MODEL_RXN:0003821,fallback_equation,,s_4158 <=> s_0514
+reference_only,r_4462,MODEL_RXN:0003822,fallback_equation,,s_4159 <=> s_4113
+reference_only,r_4463,MODEL_RXN:0003823,fallback_equation,,s_0796 + s_4160 <=> s_0423 + s_0794
+reference_only,r_4464,MODEL_RXN:0003824,fallback_equation,,s_4161 <=> s_0131
+reference_only,r_4465,MODEL_RXN:0003825,fallback_equation,,s_0796 + s_4162 <=> s_0389 + s_0794
+reference_only,r_4466,MODEL_RXN:0003826,fallback_equation,,s_0796 + s_4163 <=> s_0526 + s_0794
+reference_only,r_4467,MODEL_RXN:0003827,fallback_equation,,s_4164 <=> s_3953
+reference_only,r_4470,MODEL_RXN:0003830,fallback_equation,,s_4167 <=> s_0771
+reference_only,r_4474,MODEL_RXN:0003834,fallback_equation,,s_0794 + s_4171 <=> s_0802 + s_3838
+reference_only,r_4475,MODEL_RXN:0003835,fallback_equation,,s_4172 <=> s_4173
+reference_only,r_4476,MODEL_RXN:0003836,fallback_equation,,s_4173 <=> s_1192
+reference_only,r_4477,MODEL_RXN:0003837,fallback_equation,,s_0796 + s_4174 <=> s_0794 + s_4175
+reference_only,r_4478,MODEL_RXN:0003838,fallback_equation,,s_4176 <=> s_3837
+reference_only,r_4480,MODEL_RXN:0003840,fallback_equation,,s_0796 + s_4074 <=> s_0794 + s_4073
+reference_only,r_4482,MODEL_RXN:0003842,fallback_equation,,s_0794 + s_0955 <=> s_0802 + s_3759
+reference_only,r_4483,MODEL_RXN:0003843,fallback_equation,,s_0794 + s_1003 <=> s_0802 + s_3839
+reference_only,r_4485,MODEL_RXN:0003845,fallback_equation,,s_0204 + s_1275 --> s_0456 + s_4177
+reference_only,r_4486,MODEL_RXN:0003846,fallback_equation,,s_1275 + s_4177 --> s_0794 + s_4178
+reference_only,r_4487,MODEL_RXN:0003847,fallback_equation,,s_4178 --> s_4179
+reference_only,r_4488,MODEL_RXN:0003848,fallback_equation,,s_0803 + s_4179 --> s_0725 + s_0794 + s_4132
+reference_only,r_4489,MODEL_RXN:0003849,fallback_equation,,s_0961 + s_1198 --> s_0794 + s_1203 + s_4180
+reference_only,r_4490,MODEL_RXN:0003850,fallback_equation,,s_0794 + s_1212 + s_4180 <=> s_1207 + s_1566
+reference_only,r_4492,MODEL_RXN:0003852,fallback_equation,,s_1198 + s_4181 --> s_0580 + s_0794 + s_1203
+reference_only,r_4494,MODEL_RXN:0003854,fallback_equation,,s_4124 --> 
+reference_only,r_4495,MODEL_RXN:0003855,fallback_equation,,s_0389 + s_0803 --> s_0386 + s_1322
+reference_only,r_4496,MODEL_RXN:0003856,fallback_equation,,s_4170 --> 
+reference_only,r_4498,MODEL_RXN:0003858,fallback_equation,,s_4109 --> 
+reference_only,r_4499,MODEL_RXN:0003859,fallback_equation,,s_4118 --> 
+reference_only,r_4500,MODEL_RXN:0003860,fallback_equation,,s_4130 --> 
+reference_only,r_4502,MODEL_RXN:0003862,fallback_equation,,s_4150 --> 
+reference_only,r_4503,MODEL_RXN:0003863,fallback_equation,,s_4140 --> 
+reference_only,r_4504,MODEL_RXN:0003864,fallback_equation,,s_4145 --> 
+reference_only,r_4505,MODEL_RXN:0003865,fallback_equation,,s_4125 --> 
+reference_only,r_4506,MODEL_RXN:0003866,fallback_equation,,s_4164 --> 
+reference_only,r_4507,MODEL_RXN:0003867,fallback_equation,,s_4167 --> 
+reference_only,r_4508,MODEL_RXN:0003868,fallback_equation,,s_4034 --> 
+reference_only,r_4510,MODEL_RXN:0003870,fallback_equation,,s_4056 --> 
+reference_only,r_4511,MODEL_RXN:0003871,fallback_equation,,s_4050 --> 
+reference_only,r_4512,MODEL_RXN:0003872,fallback_equation,,s_4053 --> 
+reference_only,r_4513,MODEL_RXN:0003873,fallback_equation,,s_4037 --> 
+reference_only,r_4514,MODEL_RXN:0003874,fallback_equation,,s_4085 --> 
+reference_only,r_4515,MODEL_RXN:0003875,fallback_equation,,s_4119 --> 
+reference_only,r_4516,MODEL_RXN:0003876,fallback_equation,,s_4059 --> 
+reference_only,r_4517,MODEL_RXN:0003877,fallback_equation,,s_4040 --> 
+reference_only,r_4518,MODEL_RXN:0003878,fallback_equation,,s_4143 --> 
+reference_only,r_4519,MODEL_RXN:0003879,fallback_equation,,s_4166 --> 
+reference_only,r_4520,MODEL_RXN:0003880,fallback_equation,,s_4080 --> 
+reference_only,r_4521,MODEL_RXN:0003881,fallback_equation,,s_4158 --> 
+reference_only,r_4523,MODEL_RXN:0003883,fallback_equation,,s_4141 --> 
+reference_only,r_4524,MODEL_RXN:0003884,fallback_equation,,s_4148 --> 
+reference_only,r_4525,MODEL_RXN:0003885,fallback_equation,,s_4147 --> 
+reference_only,r_4526,MODEL_RXN:0003886,fallback_equation,,s_4078 --> 
+reference_only,r_4527,MODEL_RXN:0003887,fallback_equation,,s_4157 --> 
+reference_only,r_4529,MODEL_RXN:0003889,fallback_equation,,s_4152 --> 
+reference_only,r_4530,MODEL_RXN:0003890,fallback_equation,,s_4093 --> 
+reference_only,r_4532,MODEL_RXN:0003892,fallback_equation,,s_4154 --> 
+reference_only,r_4535,MODEL_RXN:0003895,fallback_equation,,s_4063 --> 
+reference_only,r_4536,MODEL_RXN:0003896,fallback_equation,,s_4069 --> 
+reference_only,r_4537,MODEL_RXN:0003897,fallback_equation,,s_4070 --> 
+reference_only,r_4538,MODEL_RXN:0003898,fallback_equation,,s_4155 --> 
+reference_only,r_4539,MODEL_RXN:0003899,fallback_equation,,s_4153 --> 
+reference_only,r_4540,MODEL_RXN:0003900,fallback_equation,,s_4095 --> 
+reference_only,r_4541,MODEL_RXN:0003901,fallback_equation,,s_4097 --> 
+reference_only,r_4542,MODEL_RXN:0003902,fallback_equation,,s_4065 --> 
+reference_only,r_4543,MODEL_RXN:0003903,fallback_equation,,s_4142 --> 
+reference_only,r_4545,MODEL_RXN:0003905,fallback_equation,,s_4107 --> 
+reference_only,r_4546,MODEL_RXN:0003906,fallback_equation,,s_4161 --> 
+reference_only,r_4547,MODEL_RXN:0003907,fallback_equation,,s_4156 --> 
+reference_only,r_4548,MODEL_RXN:0003908,fallback_equation,,s_4160 --> 
+reference_only,r_4549,MODEL_RXN:0003909,fallback_equation,,s_4135 --> 
+reference_only,r_4550,MODEL_RXN:0003910,fallback_equation,,s_4176 --> 
+reference_only,r_4552,MODEL_RXN:0003912,fallback_equation,,s_4111 --> 
+reference_only,r_4553,MODEL_RXN:0003913,fallback_equation,,s_4139 --> 
+reference_only,r_4554,MODEL_RXN:0003914,fallback_equation,,s_4116 --> 
+reference_only,r_4555,MODEL_RXN:0003915,fallback_equation,,s_4133 --> 
+reference_only,r_4556,MODEL_RXN:0003916,fallback_equation,,s_4172 --> 
+reference_only,r_4557,MODEL_RXN:0003917,fallback_equation,,s_4151 --> 
+reference_only,r_4558,MODEL_RXN:0003918,fallback_equation,,s_4163 --> 
+reference_only,r_4563,MODEL_RXN:0003923,fallback_equation,,s_4084 --> 
+reference_only,r_4564,MODEL_RXN:0003924,fallback_equation,,s_4127 --> 
+reference_only,r_4565,MODEL_RXN:0003925,fallback_equation,,s_4103 --> 
+reference_only,r_4567,MODEL_RXN:0003926,fallback_equation,,s_0340 + s_0803 --> s_1322 + s_3875
+reference_only,r_4568,MODEL_RXN:0003927,fallback_equation,,s_0794 + s_1321 --> s_4194
+reference_only,r_4569,MODEL_RXN:0003928,fallback_equation,,s_0362 + s_0794 + s_4195 --> s_0803 + s_4194
+reference_only,r_4571,MODEL_RXN:0003930,fallback_equation,,s_0529 + s_0794 + s_4182 <=> s_0779 + s_0803 + s_4183
+reference_only,r_4572,MODEL_RXN:0003931,fallback_equation,,s_0180 + s_0441 <=> s_0991 + s_4184
+reference_only,r_4573,MODEL_RXN:0003932,fallback_equation,,s_0529 + s_1198 + s_4184 --> s_0373 + s_0456 + s_1203
+reference_only,r_4574,MODEL_RXN:0003933,fallback_equation,,s_0529 + s_1207 + s_4184 --> s_0373 + s_0456 + s_1212
+reference_only,r_4575,MODEL_RXN:0003934,fallback_equation,,s_0794 + s_4184 --> s_0359 + s_0456
+reference_only,r_4581,MODEL_RXN:0003935,fallback_equation,,s_1198 + s_4189 --> s_0178 + s_0456 + s_1203
+reference_only,r_4582,MODEL_RXN:0003936,fallback_equation,,s_0779 + s_0803 + s_4183 --> s_0529 + s_0794 + s_4189
+reference_only,r_4583,MODEL_RXN:0003937,fallback_equation,,s_0803 + s_4190 --> s_0529 + s_0794 + s_4191
+reference_only,r_4585,MODEL_RXN:0003939,fallback_equation,,s_0803 + s_4192 --> s_0558 + s_4193
+reference_only,r_4586,MODEL_RXN:0003940,fallback_equation,,s_3998 + s_4192 --> 2 s_4193
+reference_only,r_4593,MODEL_RXN:0003947,fallback_equation,,s_4200 <=> 
+reference_only,r_4594,MODEL_RXN:0003948,fallback_equation,,s_4201 <=> 
+reference_only,r_4595,MODEL_RXN:0003949,fallback_equation,,s_4202 <=> 
+reference_only,r_4596,MODEL_RXN:0003950,fallback_equation,,s_4203 <=> 
+reference_only,r_4597,MODEL_RXN:0003951,fallback_equation,,s_4204 <=> 
+reference_only,r_4600,MODEL_RXN:0003954,fallback_equation,,s_4199 <=> 
+reference_only,r_4601,MODEL_RXN:0003955,fallback_equation,,s_0204 + s_0794 <=> s_0206 + s_0801
+reference_only,r_4602,MODEL_RXN:0003956,fallback_equation,,s_0362 <=> s_0363
+reference_only,r_4603,MODEL_RXN:0003957,fallback_equation,,s_3761 <=> s_0402
+reference_only,r_4604,MODEL_RXN:0003958,fallback_equation,,s_0190 <=> s_0692
+reference_only,r_4605,MODEL_RXN:0003959,fallback_equation,,s_0794 + s_1219 <=> s_0799 + s_1221
+reference_only,r_4606,MODEL_RXN:0003960,fallback_equation,,s_0794 + s_1239 <=> s_0795 + s_1240
+reference_only,r_4607,MODEL_RXN:0003961,fallback_equation,,s_1322 <=> s_1325
+reference_only,r_4608,MODEL_RXN:0003962,fallback_equation,,s_0434 + s_0803 + s_4183 --> s_0397 + s_0799 + s_1326 + s_1382
+reference_only,r_4609,MODEL_RXN:0003963,fallback_equation,,s_1538 <=> s_1539
+reference_only,r_4610,MODEL_RXN:0003964,fallback_equation,,s_1538 <=> s_1540
+reference_only,r_4611,MODEL_RXN:0003965,fallback_equation,,s_1545 <=> s_1546
+reference_only,r_4612,MODEL_RXN:0003966,fallback_equation,,s_1620 <=> s_1622
+reference_only,r_4613,MODEL_RXN:0003967,fallback_equation,,s_1260 <=> s_3677
+reference_only,r_4614,MODEL_RXN:0003968,fallback_equation,,s_0020 + s_0794 <=> s_0800 + s_3751
+reference_only,r_4615,MODEL_RXN:0003969,fallback_equation,,s_0999 <=> s_3755
+reference_only,r_4616,MODEL_RXN:0003970,fallback_equation,,s_1545 <=> s_3781
+reference_only,r_4617,MODEL_RXN:0003971,fallback_equation,,s_1416 <=> s_3818
+reference_only,r_4618,MODEL_RXN:0003972,fallback_equation,,s_0750 <=> s_3831
+reference_only,r_4619,MODEL_RXN:0003973,fallback_equation,,s_0434 + s_3883 <=> s_0394 + s_3881
+reference_only,r_4620,MODEL_RXN:0003974,fallback_equation,,s_0574 <=> s_3898
+reference_only,r_4621,MODEL_RXN:0003975,fallback_equation,,s_1234 <=> s_3905
+reference_only,r_4622,MODEL_RXN:0003976,fallback_equation,,s_0841 <=> s_3906
+reference_only,r_4623,MODEL_RXN:0003977,fallback_equation,,s_0794 + s_0983 <=> s_0799 + s_3925
+reference_only,r_4624,MODEL_RXN:0003978,fallback_equation,,s_0434 + s_3987 <=> s_0394 + s_2831
+reference_only,r_4625,MODEL_RXN:0003979,fallback_equation,,s_4113 <=> s_4010
+reference_only,r_4626,MODEL_RXN:0003980,fallback_equation,,s_1469 <=> s_4011
+reference_only,r_4627,MODEL_RXN:0003981,fallback_equation,,s_1543 <=> s_4015
+reference_only,r_4628,MODEL_RXN:0003982,fallback_equation,,s_1544 <=> s_4025
+reference_only,r_4702,MODEL_RXN:0004055,fallback_equation,,s_0180 + s_0981 <=> s_0991 + s_4264
+reference_only,r_4707,MODEL_RXN:0004060,fallback_equation,,s_0803 + s_4269 <=> s_1467 + s_4113
+reference_plus_candidate_no_overlap,r_0029,MODEL_RXN:0000025,fallback_equation,,s_0010 + s_0794 --> s_0291 + s_0456
+reference_plus_candidate_no_overlap,r_0030,MODEL_RXN:0000026,fallback_equation,,s_0011 + s_0799 --> s_0292 + s_0460
+reference_plus_candidate_no_overlap,r_0070,MODEL_RXN:0000054,fallback_equation,,s_0290 + s_0807 --> s_0287 + s_0532 + s_0799
+reference_plus_candidate_no_overlap,r_0094,MODEL_RXN:0000077,fallback_equation,,s_0794 + s_0955 + s_1368 --> s_0352 + s_0456 + s_0529
+reference_plus_candidate_no_overlap,r_0200,MODEL_RXN:0000177,fallback_equation,,s_0418 + s_0803 + s_1275 --> s_0419 + s_0837 + s_1151
+reference_plus_candidate_no_overlap,r_0461,MODEL_RXN:0000356,fallback_equation,,s_0189 + s_0943 --> s_0633 + s_1311
+reference_plus_candidate_no_overlap,r_0465,MODEL_RXN:0000360,fallback_equation,,s_0412 + s_0803 --> s_0419 + s_0557
+reference_plus_candidate_no_overlap,r_0500,MODEL_RXN:0000389,fallback_equation,,s_0529 + s_0952 --> s_0373 + s_1003
+reference_plus_candidate_no_overlap,r_1008,MODEL_RXN:0000776,fallback_equation,,s_0517 <=> s_1504
+reference_plus_candidate_no_overlap,r_1009,MODEL_RXN:0000777,fallback_equation,,s_0516 <=> s_1503
+reference_plus_candidate_no_overlap,r_1097,MODEL_RXN:0000849,fallback_equation,,s_0035 <=> s_0036
+reference_plus_candidate_no_overlap,r_1098,MODEL_RXN:0000850,fallback_equation,,s_0172 --> s_0173
+reference_plus_candidate_no_overlap,r_1100,MODEL_RXN:0000852,fallback_equation,,s_0212 <=> s_0213
+reference_plus_candidate_no_overlap,r_1103,MODEL_RXN:0000855,fallback_equation,,s_0320 <=> s_0319
+reference_plus_candidate_no_overlap,r_1137,MODEL_RXN:0000887,fallback_equation,,s_0025 + s_0794 --> s_0027 + s_0799
+reference_plus_candidate_no_overlap,r_1138,MODEL_RXN:0000888,fallback_equation,,s_0025 + s_1401 <=> s_0027 + s_1399
+reference_plus_candidate_no_overlap,r_1164,MODEL_RXN:0000897,fallback_equation,,s_0720 <=> s_0719
+reference_plus_candidate_no_overlap,r_1174,MODEL_RXN:0000907,fallback_equation,,s_0773 --> s_0774
+reference_plus_candidate_no_overlap,r_1180,MODEL_RXN:0000913,fallback_equation,,s_0927 --> s_0928
+reference_plus_candidate_no_overlap,r_1181,MODEL_RXN:0000914,fallback_equation,,s_0935 --> s_0936
+reference_plus_candidate_no_overlap,r_1182,MODEL_RXN:0000915,fallback_equation,,s_0943 <=> s_0945
+reference_plus_candidate_no_overlap,r_1242,MODEL_RXN:0000972,fallback_equation,,s_1311 <=> s_1313
+reference_plus_candidate_no_overlap,r_1243,MODEL_RXN:0000973,fallback_equation,,s_1316 --> s_1317
+reference_plus_candidate_no_overlap,r_1268,MODEL_RXN:0000995,fallback_equation,,s_1471 <=> s_1472
+reference_plus_candidate_no_overlap,r_1542,MODEL_RXN:0001036,fallback_equation,,s_0003 --> 
+reference_plus_candidate_no_overlap,r_1545,MODEL_RXN:0001038,fallback_equation,,s_0022 --> 
+reference_plus_candidate_no_overlap,r_1546,MODEL_RXN:0001039,fallback_equation,,s_0026 --> 
+reference_plus_candidate_no_overlap,r_1547,MODEL_RXN:0001040,fallback_equation,,s_0029 --> 
+reference_plus_candidate_no_overlap,r_1548,MODEL_RXN:0001041,fallback_equation,,s_0032 --> 
+reference_plus_candidate_no_overlap,r_1549,MODEL_RXN:0001042,fallback_equation,,s_0036 --> 
+reference_plus_candidate_no_overlap,r_1550,MODEL_RXN:0001043,fallback_equation,,s_0058 --> 
+reference_plus_candidate_no_overlap,r_1551,MODEL_RXN:0001044,fallback_equation,,s_0064 --> 
+reference_plus_candidate_no_overlap,r_1552,MODEL_RXN:0001045,fallback_equation,,s_0067 --> 
+reference_plus_candidate_no_overlap,r_1553,MODEL_RXN:0001046,fallback_equation,,s_0080 --> 
+reference_plus_candidate_no_overlap,r_1554,MODEL_RXN:0001047,fallback_equation,,s_0084 --> 
+reference_plus_candidate_no_overlap,r_1560,MODEL_RXN:0001048,fallback_equation,,s_1156 <=> s_1157
+reference_plus_candidate_no_overlap,r_1562,MODEL_RXN:0001049,fallback_equation,,s_0127 <=> s_0126
+reference_plus_candidate_no_overlap,r_1563,MODEL_RXN:0001050,fallback_equation,,s_0133 --> 
+reference_plus_candidate_no_overlap,r_1564,MODEL_RXN:0001051,fallback_equation,,s_0135 --> 
+reference_plus_candidate_no_overlap,r_1565,MODEL_RXN:0001052,fallback_equation,,s_0137 --> 
+reference_plus_candidate_no_overlap,r_1566,MODEL_RXN:0001053,fallback_equation,,s_0139 --> 
+reference_plus_candidate_no_overlap,r_1567,MODEL_RXN:0001054,fallback_equation,,s_0349 <=> s_0350
+reference_plus_candidate_no_overlap,r_1568,MODEL_RXN:0001055,fallback_equation,,s_0149 <=> s_0150
+reference_plus_candidate_no_overlap,r_1572,MODEL_RXN:0001056,fallback_equation,,s_0163 --> 
+reference_plus_candidate_no_overlap,r_1573,MODEL_RXN:0001057,fallback_equation,,s_0162 <=> s_0163
+reference_plus_candidate_no_overlap,r_1575,MODEL_RXN:0001059,fallback_equation,,s_0169 <=> s_0170
+reference_plus_candidate_no_overlap,r_1576,MODEL_RXN:0001060,fallback_equation,,s_0169 <=> s_0171
+reference_plus_candidate_no_overlap,r_1577,MODEL_RXN:0001061,fallback_equation,,s_0167 --> 
+reference_plus_candidate_no_overlap,r_1578,MODEL_RXN:0001062,fallback_equation,,s_0166 <=> s_0167
+reference_plus_candidate_no_overlap,r_1579,MODEL_RXN:0001063,fallback_equation,,s_0166 <=> s_0168
+reference_plus_candidate_no_overlap,r_1580,MODEL_RXN:0001064,fallback_equation,,s_0170 --> 
+reference_plus_candidate_no_overlap,r_1581,MODEL_RXN:0001065,fallback_equation,,s_0173 --> 
+reference_plus_candidate_no_overlap,r_1582,MODEL_RXN:0001066,fallback_equation,,s_0937 <=> s_0938
+reference_plus_candidate_no_overlap,r_1583,MODEL_RXN:0001067,fallback_equation,,s_0937 <=> s_0939
+reference_plus_candidate_no_overlap,r_1586,MODEL_RXN:0001069,fallback_equation,,s_0181 --> 
+reference_plus_candidate_no_overlap,r_1587,MODEL_RXN:0001070,fallback_equation,,s_0180 <=> s_0183
+reference_plus_candidate_no_overlap,r_1588,MODEL_RXN:0001071,fallback_equation,,s_0181 <=> s_0180
+reference_plus_candidate_no_overlap,r_1589,MODEL_RXN:0001072,fallback_equation,,s_0186 --> 
+reference_plus_candidate_no_overlap,r_1590,MODEL_RXN:0001073,fallback_equation,,s_0186 <=> s_0185
+reference_plus_candidate_no_overlap,r_1591,MODEL_RXN:0001074,fallback_equation,,s_0187 <=> s_0185
+reference_plus_candidate_no_overlap,r_1595,MODEL_RXN:0001075,fallback_equation,,s_0010 <=> s_0011
+reference_plus_candidate_no_overlap,r_1596,MODEL_RXN:0001076,fallback_equation,,s_0056 <=> s_0060
+reference_plus_candidate_no_overlap,r_1597,MODEL_RXN:0001077,fallback_equation,,s_0058 <=> s_0056
+reference_plus_candidate_no_overlap,r_1598,MODEL_RXN:0001078,fallback_equation,,s_0235 --> 
+reference_plus_candidate_no_overlap,r_1599,MODEL_RXN:0001079,fallback_equation,,s_0234 <=> s_0235
+reference_plus_candidate_no_overlap,r_1600,MODEL_RXN:0001080,fallback_equation,,s_0234 <=> s_0236
+reference_plus_candidate_no_overlap,r_1601,MODEL_RXN:0001081,fallback_equation,,s_0215 <=> s_0216
+reference_plus_candidate_no_overlap,r_1604,MODEL_RXN:0001083,fallback_equation,,s_0272 --> 
+reference_plus_candidate_no_overlap,r_1605,MODEL_RXN:0001084,fallback_equation,,s_0271 <=> s_0272
+reference_plus_candidate_no_overlap,r_1606,MODEL_RXN:0001085,fallback_equation,,s_0271 <=> s_0273
+reference_plus_candidate_no_overlap,r_1607,MODEL_RXN:0001086,fallback_equation,,s_0274 <=> s_0275
+reference_plus_candidate_no_overlap,r_1608,MODEL_RXN:0001087,fallback_equation,,s_0734 <=> s_0738
+reference_plus_candidate_no_overlap,r_1609,MODEL_RXN:0001088,fallback_equation,,s_0282 <=> s_0283
+reference_plus_candidate_no_overlap,r_1610,MODEL_RXN:0001089,fallback_equation,,s_0282 <=> s_0284
+reference_plus_candidate_no_overlap,r_1611,MODEL_RXN:0001090,fallback_equation,,s_0286 <=> s_0287
+reference_plus_candidate_no_overlap,r_1613,MODEL_RXN:0001091,fallback_equation,,s_0423 + s_0803 --> s_0386 + s_1322
+reference_plus_candidate_no_overlap,r_1618,MODEL_RXN:0001096,fallback_equation,,s_0654 + s_0803 --> s_0138 + s_1322
+reference_plus_candidate_no_overlap,r_1620,MODEL_RXN:0001098,fallback_equation,,s_0803 + s_1565 --> s_1322 + s_1563
+reference_plus_candidate_no_overlap,r_1621,MODEL_RXN:0001099,fallback_equation,,s_0316 --> 
+reference_plus_candidate_no_overlap,r_1622,MODEL_RXN:0001100,fallback_equation,,s_0315 <=> s_0317
+reference_plus_candidate_no_overlap,r_1625,MODEL_RXN:0001103,fallback_equation,,s_0320 --> 
+reference_plus_candidate_no_overlap,r_1627,MODEL_RXN:0001104,fallback_equation,,s_0342 --> 
+reference_plus_candidate_no_overlap,r_1629,MODEL_RXN:0001106,fallback_equation,,s_0354 --> 
+reference_plus_candidate_no_overlap,r_1630,MODEL_RXN:0001107,fallback_equation,,s_0358 --> 
+reference_plus_candidate_no_overlap,r_1631,MODEL_RXN:0001108,fallback_equation,,s_0360 --> 
+reference_plus_candidate_no_overlap,r_1632,MODEL_RXN:0001109,fallback_equation,,s_0361 <=> s_0359
+reference_plus_candidate_no_overlap,r_1633,MODEL_RXN:0001110,fallback_equation,,s_0360 <=> s_0359
+reference_plus_candidate_no_overlap,r_1634,MODEL_RXN:0001111,fallback_equation,,s_0364 --> 
+reference_plus_candidate_no_overlap,r_1635,MODEL_RXN:0001112,fallback_equation,,s_0362 <=> s_0366
+reference_plus_candidate_no_overlap,r_1637,MODEL_RXN:0001113,fallback_equation,,s_0373 <=> s_0377
+reference_plus_candidate_no_overlap,r_1638,MODEL_RXN:0001114,fallback_equation,,s_1237 --> s_1235
+reference_plus_candidate_no_overlap,r_1639,MODEL_RXN:0001115,fallback_equation,,s_0384 --> 
+reference_plus_candidate_no_overlap,r_1640,MODEL_RXN:0001116,fallback_equation,,s_0383 <=> s_0385
+reference_plus_candidate_no_overlap,r_1641,MODEL_RXN:0001117,fallback_equation,,s_0391 --> 
+reference_plus_candidate_no_overlap,r_1643,MODEL_RXN:0001119,fallback_equation,,s_0387 --> 
+reference_plus_candidate_no_overlap,r_1644,MODEL_RXN:0001120,fallback_equation,,s_0394 <=> s_0398
+reference_plus_candidate_no_overlap,r_1645,MODEL_RXN:0001121,fallback_equation,,s_0394 <=> s_0395
+reference_plus_candidate_no_overlap,r_1647,MODEL_RXN:0001122,fallback_equation,,s_0180 <=> s_0184
+reference_plus_candidate_no_overlap,r_1648,MODEL_RXN:0001123,fallback_equation,,s_0406 --> 
+reference_plus_candidate_no_overlap,r_1649,MODEL_RXN:0001124,fallback_equation,,s_0408 --> 
+reference_plus_candidate_no_overlap,r_1650,MODEL_RXN:0001125,fallback_equation,,s_1521 --> 
+reference_plus_candidate_no_overlap,r_1651,MODEL_RXN:0001126,fallback_equation,,s_0413 --> 
+reference_plus_candidate_no_overlap,r_1652,MODEL_RXN:0001127,fallback_equation,,s_0067 + s_0180 <=> s_0066 + s_0181
+reference_plus_candidate_no_overlap,r_1654,MODEL_RXN:0001128,fallback_equation,,s_0420 <=> 
+reference_plus_candidate_no_overlap,r_1656,MODEL_RXN:0001129,fallback_equation,,s_0425 <=> s_0423
+reference_plus_candidate_no_overlap,r_1659,MODEL_RXN:0001132,fallback_equation,,s_0973 + s_0995 <=> s_0976 + s_0991
+reference_plus_candidate_no_overlap,r_1660,MODEL_RXN:0001133,fallback_equation,,s_0434 <=> s_0438
+reference_plus_candidate_no_overlap,r_1661,MODEL_RXN:0001134,fallback_equation,,s_0434 <=> s_0435
+reference_plus_candidate_no_overlap,r_1663,MODEL_RXN:0001135,fallback_equation,,s_0446 --> 
+reference_plus_candidate_no_overlap,r_1664,MODEL_RXN:0001136,fallback_equation,,s_0460 + s_0807 <=> s_0447 + s_0799
+reference_plus_candidate_no_overlap,r_1665,MODEL_RXN:0001137,fallback_equation,,s_0461 + s_0808 <=> s_0448 + s_0800
+reference_plus_candidate_no_overlap,r_1668,MODEL_RXN:0001139,fallback_equation,,s_0458 + s_0805 <=> s_0446 + s_0796
+reference_plus_candidate_no_overlap,r_1669,MODEL_RXN:0001140,fallback_equation,,s_0445 <=> s_0448
+reference_plus_candidate_no_overlap,r_1671,MODEL_RXN:0001141,fallback_equation,,s_0452 --> 
+reference_plus_candidate_no_overlap,r_1672,MODEL_RXN:0001142,fallback_equation,,s_0458 --> 
+reference_plus_candidate_no_overlap,r_1673,MODEL_RXN:0001143,fallback_equation,,s_0021 --> s_0024
+reference_plus_candidate_no_overlap,r_1674,MODEL_RXN:0001144,fallback_equation,,s_0021 + s_1237 --> s_0024 + s_1235
+reference_plus_candidate_no_overlap,r_1675,MODEL_RXN:0001145,fallback_equation,,s_0467 <=> s_0468
+reference_plus_candidate_no_overlap,r_1676,MODEL_RXN:0001146,fallback_equation,,s_0476 <=> s_0475
+reference_plus_candidate_no_overlap,r_1677,MODEL_RXN:0001147,fallback_equation,,s_0482 <=> s_0481
+reference_plus_candidate_no_overlap,r_1679,MODEL_RXN:0001149,fallback_equation,,s_0479 <=> s_0478
+reference_plus_candidate_no_overlap,r_1680,MODEL_RXN:0001150,fallback_equation,,s_0485 <=> s_0484
+reference_plus_candidate_no_overlap,r_1682,MODEL_RXN:0001152,fallback_equation,,s_1275 + s_1416 + s_1569 --> s_0662 + s_0794 + 2 s_0803 + s_1413
+reference_plus_candidate_no_overlap,r_1683,MODEL_RXN:0001153,fallback_equation,,s_0513 --> 
+reference_plus_candidate_no_overlap,r_1685,MODEL_RXN:0001155,fallback_equation,,s_0515 --> s_0286 + s_1399
+reference_plus_candidate_no_overlap,r_1686,MODEL_RXN:0001156,fallback_equation,,s_0523 <=> s_0522
+reference_plus_candidate_no_overlap,r_1687,MODEL_RXN:0001157,fallback_equation,,s_0523 --> 
+reference_plus_candidate_no_overlap,r_1688,MODEL_RXN:0001158,fallback_equation,,s_0522 + s_0942 <=> s_0525 + s_0940
+reference_plus_candidate_no_overlap,r_1689,MODEL_RXN:0001159,fallback_equation,,s_0066 + s_0525 <=> s_0069 + s_0522
+reference_plus_candidate_no_overlap,r_1690,MODEL_RXN:0001160,fallback_equation,,s_0526 + s_0803 --> s_0545 + s_1408
+reference_plus_candidate_no_overlap,r_1691,MODEL_RXN:0001161,fallback_equation,,s_0456 <=> s_0457
+reference_plus_candidate_no_overlap,r_1694,MODEL_RXN:0001162,fallback_equation,,s_0461 <=> s_0456
+reference_plus_candidate_no_overlap,r_1695,MODEL_RXN:0001163,fallback_equation,,s_0456 <=> s_0462
+reference_plus_candidate_no_overlap,r_1696,MODEL_RXN:0001164,fallback_equation,,s_0456 <=> s_0460
+reference_plus_candidate_no_overlap,r_1697,MODEL_RXN:0001165,fallback_equation,,s_0456 <=> s_0458
+reference_plus_candidate_no_overlap,r_1698,MODEL_RXN:0001166,fallback_equation,,s_0529 <=> s_0530
+reference_plus_candidate_no_overlap,r_1699,MODEL_RXN:0001167,fallback_equation,,s_0529 <=> s_0533
+reference_plus_candidate_no_overlap,r_1700,MODEL_RXN:0001168,fallback_equation,,s_0534 <=> s_0529
+reference_plus_candidate_no_overlap,r_1702,MODEL_RXN:0001169,fallback_equation,,s_0544 --> 
+reference_plus_candidate_no_overlap,r_1705,MODEL_RXN:0001172,fallback_equation,,s_0546 --> 
+reference_plus_candidate_no_overlap,r_1706,MODEL_RXN:0001173,fallback_equation,,s_0549 --> 
+reference_plus_candidate_no_overlap,r_1708,MODEL_RXN:0001175,fallback_equation,,s_0551 <=> s_0552
+reference_plus_candidate_no_overlap,r_1709,MODEL_RXN:0001176,fallback_equation,,s_0554 --> 
+reference_plus_candidate_no_overlap,r_1710,MODEL_RXN:0001177,fallback_equation,,s_0559 --> 
+reference_plus_candidate_no_overlap,r_1711,MODEL_RXN:0001178,fallback_equation,,s_0560 --> 
+reference_plus_candidate_no_overlap,r_1712,MODEL_RXN:0001179,fallback_equation,,s_0562 --> 
+reference_plus_candidate_no_overlap,r_1713,MODEL_RXN:0001180,fallback_equation,,s_0413 <=> s_0412
+reference_plus_candidate_no_overlap,r_1714,MODEL_RXN:0001181,fallback_equation,,s_0565 <=> 
+reference_plus_candidate_no_overlap,r_1715,MODEL_RXN:0001182,fallback_equation,,s_0572 --> 
+reference_plus_candidate_no_overlap,r_1716,MODEL_RXN:0001183,fallback_equation,,s_0576 --> 
+reference_plus_candidate_no_overlap,r_1718,MODEL_RXN:0001185,fallback_equation,,s_0579 --> 
+reference_plus_candidate_no_overlap,r_1720,MODEL_RXN:0001187,fallback_equation,,s_0582 <=> s_0583
+reference_plus_candidate_no_overlap,r_1721,MODEL_RXN:0001188,fallback_equation,,s_0587 <=> s_0588
+reference_plus_candidate_no_overlap,r_1722,MODEL_RXN:0001189,fallback_equation,,s_0434 + s_0794 + s_0803 --> s_0419 + s_0950
+reference_plus_candidate_no_overlap,r_1723,MODEL_RXN:0001190,fallback_equation,,s_0586 + s_0794 + s_0803 --> s_0419 + s_0639
+reference_plus_candidate_no_overlap,r_1724,MODEL_RXN:0001191,fallback_equation,,s_0394 + s_0794 + s_0803 --> s_0419 + s_0846
+reference_plus_candidate_no_overlap,r_1726,MODEL_RXN:0001193,fallback_equation,,s_0591 <=> s_0593
+reference_plus_candidate_no_overlap,r_1727,MODEL_RXN:0001194,fallback_equation,,s_0597 --> 
+reference_plus_candidate_no_overlap,r_1728,MODEL_RXN:0001195,fallback_equation,,s_0133 --> s_0132
+reference_plus_candidate_no_overlap,r_1730,MODEL_RXN:0001197,fallback_equation,,s_0611 --> 
+reference_plus_candidate_no_overlap,r_1731,MODEL_RXN:0001198,fallback_equation,,s_0611 --> s_0610
+reference_plus_candidate_no_overlap,r_1732,MODEL_RXN:0001199,fallback_equation,,s_0135 --> s_0134
+reference_plus_candidate_no_overlap,r_1733,MODEL_RXN:0001200,fallback_equation,,s_0137 --> s_0136
+reference_plus_candidate_no_overlap,r_1734,MODEL_RXN:0001201,fallback_equation,,s_0138 + s_0434 --> s_0394 + s_0654 + s_0794
+reference_plus_candidate_no_overlap,r_1737,MODEL_RXN:0001204,fallback_equation,,s_0613 <=> s_0614
+reference_plus_candidate_no_overlap,r_1738,MODEL_RXN:0001205,fallback_equation,,s_0343 <=> s_0344
+reference_plus_candidate_no_overlap,r_1743,MODEL_RXN:0001207,fallback_equation,,s_0625 <=> s_0626
+reference_plus_candidate_no_overlap,r_1744,MODEL_RXN:0001208,fallback_equation,,s_0346 + s_0803 --> s_0345 + s_0633 + s_0794
+reference_plus_candidate_no_overlap,r_1745,MODEL_RXN:0001209,fallback_equation,,s_0347 <=> s_0348
+reference_plus_candidate_no_overlap,r_1746,MODEL_RXN:0001210,fallback_equation,,s_0632 <=> s_0629
+reference_plus_candidate_no_overlap,r_1747,MODEL_RXN:0001211,fallback_equation,,s_0633 <=> s_0638
+reference_plus_candidate_no_overlap,r_1748,MODEL_RXN:0001212,fallback_equation,,s_0645 <=> s_0646
+reference_plus_candidate_no_overlap,r_1749,MODEL_RXN:0001213,fallback_equation,,s_0651 --> 
+reference_plus_candidate_no_overlap,r_1750,MODEL_RXN:0001214,fallback_equation,,s_0651 <=> s_0650
+reference_plus_candidate_no_overlap,r_1751,MODEL_RXN:0001215,fallback_equation,,s_0652 <=> s_0653
+reference_plus_candidate_no_overlap,r_1752,MODEL_RXN:0001216,fallback_equation,,s_0654 <=> s_0655
+reference_plus_candidate_no_overlap,r_1753,MODEL_RXN:0001217,fallback_equation,,s_0659 --> 
+reference_plus_candidate_no_overlap,r_1754,MODEL_RXN:0001218,fallback_equation,,s_0662 <=> s_0663
+reference_plus_candidate_no_overlap,r_1757,MODEL_RXN:0001219,fallback_equation,,s_0668 --> 
+reference_plus_candidate_no_overlap,r_1758,MODEL_RXN:0001220,fallback_equation,,s_0667 <=> s_0666
+reference_plus_candidate_no_overlap,r_1759,MODEL_RXN:0001221,fallback_equation,,s_0666 <=> s_0669
+reference_plus_candidate_no_overlap,r_1761,MODEL_RXN:0001222,fallback_equation,,s_0681 --> 
+reference_plus_candidate_no_overlap,r_1762,MODEL_RXN:0001223,fallback_equation,,s_0680 <=> s_0681
+reference_plus_candidate_no_overlap,r_1763,MODEL_RXN:0001224,fallback_equation,,s_0680 <=> s_0682
+reference_plus_candidate_no_overlap,r_1764,MODEL_RXN:0001225,fallback_equation,,s_0684 --> 
+reference_plus_candidate_no_overlap,r_1766,MODEL_RXN:0001227,fallback_equation,,s_0190 <=> s_0191
+reference_plus_candidate_no_overlap,r_1776,MODEL_RXN:0001233,fallback_equation,,s_1248 <=> s_1253
+reference_plus_candidate_no_overlap,r_1777,MODEL_RXN:0001234,fallback_equation,,s_1163 <=> s_1161
+reference_plus_candidate_no_overlap,r_1788,MODEL_RXN:0001235,fallback_equation,,s_0702 --> 
+reference_plus_candidate_no_overlap,r_1791,MODEL_RXN:0001237,fallback_equation,,s_0715 --> 
+reference_plus_candidate_no_overlap,r_1792,MODEL_RXN:0001238,fallback_equation,,s_0720 --> 
+reference_plus_candidate_no_overlap,r_1793,MODEL_RXN:0001239,fallback_equation,,s_0723 --> 
+reference_plus_candidate_no_overlap,r_1794,MODEL_RXN:0001240,fallback_equation,,s_0724 --> s_0722
+reference_plus_candidate_no_overlap,r_1796,MODEL_RXN:0001242,fallback_equation,,s_0726 <=> s_0725
+reference_plus_candidate_no_overlap,r_1797,MODEL_RXN:0001243,fallback_equation,,s_0434 + s_0556 --> s_0394 + s_0555 + s_0794
+reference_plus_candidate_no_overlap,r_1798,MODEL_RXN:0001244,fallback_equation,,s_0726 --> 
+reference_plus_candidate_no_overlap,r_1800,MODEL_RXN:0001245,fallback_equation,,s_0736 --> 
+reference_plus_candidate_no_overlap,r_1801,MODEL_RXN:0001246,fallback_equation,,s_0740 <=> s_0739
+reference_plus_candidate_no_overlap,r_1802,MODEL_RXN:0001247,fallback_equation,,s_0739 <=> s_0742
+reference_plus_candidate_no_overlap,r_1806,MODEL_RXN:0001250,fallback_equation,,s_0755 --> 
+reference_plus_candidate_no_overlap,r_1807,MODEL_RXN:0001251,fallback_equation,,s_0751 --> 
+reference_plus_candidate_no_overlap,r_1808,MODEL_RXN:0001252,fallback_equation,,s_0766 --> 
+reference_plus_candidate_no_overlap,r_1809,MODEL_RXN:0001253,fallback_equation,,s_0767 <=> s_0770
+reference_plus_candidate_no_overlap,r_1810,MODEL_RXN:0001254,fallback_equation,,s_1004 --> 
+reference_plus_candidate_no_overlap,r_1812,MODEL_RXN:0001256,fallback_equation,,s_0775 <=> s_0777
+reference_plus_candidate_no_overlap,r_1813,MODEL_RXN:0001257,fallback_equation,,s_0776 <=> s_0775
+reference_plus_candidate_no_overlap,r_1814,MODEL_RXN:0001258,fallback_equation,,s_0776 --> 
+reference_plus_candidate_no_overlap,r_1815,MODEL_RXN:0001259,fallback_equation,,s_0780 --> 
+reference_plus_candidate_no_overlap,r_1817,MODEL_RXN:0001261,fallback_equation,,s_0779 <=> s_0781
+reference_plus_candidate_no_overlap,r_1818,MODEL_RXN:0001262,fallback_equation,,s_0788 --> 
+reference_plus_candidate_no_overlap,r_1819,MODEL_RXN:0001263,fallback_equation,,s_0787 <=> s_0789
+reference_plus_candidate_no_overlap,r_1820,MODEL_RXN:0001264,fallback_equation,,s_0791 --> 
+reference_plus_candidate_no_overlap,r_1821,MODEL_RXN:0001265,fallback_equation,,s_0434 + s_0790 --> s_0394 + s_0782 + s_0794
+reference_plus_candidate_no_overlap,r_1822,MODEL_RXN:0001266,fallback_equation,,s_0790 --> s_0792
+reference_plus_candidate_no_overlap,r_1823,MODEL_RXN:0001267,fallback_equation,,s_0791 --> s_0790
+reference_plus_candidate_no_overlap,r_1824,MODEL_RXN:0001268,fallback_equation,,s_0796 --> s_0794
+reference_plus_candidate_no_overlap,r_1825,MODEL_RXN:0001269,fallback_equation,,s_0794 <=> s_0795
+reference_plus_candidate_no_overlap,r_1826,MODEL_RXN:0001270,fallback_equation,,s_0794 <=> s_0797
+reference_plus_candidate_no_overlap,r_1827,MODEL_RXN:0001271,fallback_equation,,s_0794 <=> s_0798
+reference_plus_candidate_no_overlap,r_1829,MODEL_RXN:0001272,fallback_equation,,s_0794 <=> s_0800
+reference_plus_candidate_no_overlap,r_1830,MODEL_RXN:0001273,fallback_equation,,s_0794 <=> s_0801
+reference_plus_candidate_no_overlap,r_1831,MODEL_RXN:0001274,fallback_equation,,s_0794 <=> s_0802
+reference_plus_candidate_no_overlap,r_1832,MODEL_RXN:0001275,fallback_equation,,s_0796 <=> 
+reference_plus_candidate_no_overlap,r_1833,MODEL_RXN:0001276,fallback_equation,,s_0816 <=> s_0817
+reference_plus_candidate_no_overlap,r_1839,MODEL_RXN:0001282,fallback_equation,,s_0837 <=> s_0839
+reference_plus_candidate_no_overlap,r_1840,MODEL_RXN:0001283,fallback_equation,,s_0218 <=> s_0221
+reference_plus_candidate_no_overlap,r_1841,MODEL_RXN:0001284,fallback_equation,,s_0844 --> 
+reference_plus_candidate_no_overlap,r_1842,MODEL_RXN:0001285,fallback_equation,,s_0844 <=> s_0843
+reference_plus_candidate_no_overlap,r_1843,MODEL_RXN:0001286,fallback_equation,,s_0851 --> 
+reference_plus_candidate_no_overlap,r_1844,MODEL_RXN:0001287,fallback_equation,,s_0850 <=> s_0852
+reference_plus_candidate_no_overlap,r_1845,MODEL_RXN:0001288,fallback_equation,,s_0850 <=> s_0851
+reference_plus_candidate_no_overlap,r_1846,MODEL_RXN:0001289,fallback_equation,,s_0853 <=> s_0854
+reference_plus_candidate_no_overlap,r_1847,MODEL_RXN:0001290,fallback_equation,,s_0857 --> 
+reference_plus_candidate_no_overlap,r_1848,MODEL_RXN:0001291,fallback_equation,,s_0857 --> s_0856
+reference_plus_candidate_no_overlap,r_1849,MODEL_RXN:0001292,fallback_equation,,s_1158 <=> s_1159
+reference_plus_candidate_no_overlap,r_1850,MODEL_RXN:0001293,fallback_equation,,s_0434 + s_0856 --> s_0394 + s_0794 + s_0849
+reference_plus_candidate_no_overlap,r_1861,MODEL_RXN:0001304,fallback_equation,,s_0925 <=> 
+reference_plus_candidate_no_overlap,r_1862,MODEL_RXN:0001305,fallback_equation,,s_0928 --> 
+reference_plus_candidate_no_overlap,r_1863,MODEL_RXN:0001306,fallback_equation,,s_0929 <=> s_0930
+reference_plus_candidate_no_overlap,r_1864,MODEL_RXN:0001307,fallback_equation,,s_0929 <=> s_0931
+reference_plus_candidate_no_overlap,r_1865,MODEL_RXN:0001308,fallback_equation,,s_0930 --> 
+reference_plus_candidate_no_overlap,r_1866,MODEL_RXN:0001309,fallback_equation,,s_0933 --> 
+reference_plus_candidate_no_overlap,r_1867,MODEL_RXN:0001310,fallback_equation,,s_0936 --> 
+reference_plus_candidate_no_overlap,r_1868,MODEL_RXN:0001311,fallback_equation,,s_0932 <=> s_0933
+reference_plus_candidate_no_overlap,r_1869,MODEL_RXN:0001312,fallback_equation,,s_0932 <=> s_0934
+reference_plus_candidate_no_overlap,r_1870,MODEL_RXN:0001313,fallback_equation,,s_0938 --> 
+reference_plus_candidate_no_overlap,r_1871,MODEL_RXN:0001314,fallback_equation,,s_0117 + s_0799 + s_0807 --> s_0954
+reference_plus_candidate_no_overlap,r_1872,MODEL_RXN:0001315,fallback_equation,,s_0794 + s_0952 --> s_0418 + s_0456
+reference_plus_candidate_no_overlap,r_1873,MODEL_RXN:0001316,fallback_equation,,s_0956 --> 
+reference_plus_candidate_no_overlap,r_1874,MODEL_RXN:0001317,fallback_equation,,s_0957 --> s_0955
+reference_plus_candidate_no_overlap,r_1875,MODEL_RXN:0001318,fallback_equation,,s_0962 --> 
+reference_plus_candidate_no_overlap,r_1876,MODEL_RXN:0001319,fallback_equation,,s_0962 <=> s_0961
+reference_plus_candidate_no_overlap,r_1878,MODEL_RXN:0001321,fallback_equation,,s_0964 --> 
+reference_plus_candidate_no_overlap,r_1879,MODEL_RXN:0001322,fallback_equation,,s_0966 --> 
+reference_plus_candidate_no_overlap,r_1880,MODEL_RXN:0001323,fallback_equation,,s_0970 --> 
+reference_plus_candidate_no_overlap,r_1881,MODEL_RXN:0001324,fallback_equation,,s_0974 --> 
+reference_plus_candidate_no_overlap,r_1883,MODEL_RXN:0001326,fallback_equation,,s_0982 --> 
+reference_plus_candidate_no_overlap,r_1884,MODEL_RXN:0001327,fallback_equation,,s_0677 <=> s_0678
+reference_plus_candidate_no_overlap,r_1885,MODEL_RXN:0001328,fallback_equation,,s_0677 <=> s_0679
+reference_plus_candidate_no_overlap,r_1886,MODEL_RXN:0001329,fallback_equation,,s_0990 --> 
+reference_plus_candidate_no_overlap,r_1887,MODEL_RXN:0001330,fallback_equation,,s_0997 <=> s_0118 + s_0794 + s_0803
+reference_plus_candidate_no_overlap,r_1889,MODEL_RXN:0001331,fallback_equation,,s_0992 --> 
+reference_plus_candidate_no_overlap,r_1890,MODEL_RXN:0001332,fallback_equation,,s_0991 <=> s_0994
+reference_plus_candidate_no_overlap,r_1891,MODEL_RXN:0001333,fallback_equation,,s_1000 --> 
+reference_plus_candidate_no_overlap,r_1892,MODEL_RXN:0001334,fallback_equation,,s_0999 <=> s_1001
+reference_plus_candidate_no_overlap,r_1893,MODEL_RXN:0001335,fallback_equation,,s_1007 --> 
+reference_plus_candidate_no_overlap,r_1895,MODEL_RXN:0001336,fallback_equation,,s_1015 <=> s_1014
+reference_plus_candidate_no_overlap,r_1896,MODEL_RXN:0001337,fallback_equation,,s_1015 --> 
+reference_plus_candidate_no_overlap,r_1897,MODEL_RXN:0001338,fallback_equation,,s_1017 --> 
+reference_plus_candidate_no_overlap,r_1898,MODEL_RXN:0001339,fallback_equation,,s_1018 --> s_1016
+reference_plus_candidate_no_overlap,r_1899,MODEL_RXN:0001340,fallback_equation,,s_1022 --> 
+reference_plus_candidate_no_overlap,r_1900,MODEL_RXN:0001341,fallback_equation,,s_1026 --> 
+reference_plus_candidate_no_overlap,r_1901,MODEL_RXN:0001342,fallback_equation,,s_0067 <=> s_0066
+reference_plus_candidate_no_overlap,r_1902,MODEL_RXN:0001343,fallback_equation,,s_1030 --> 
+reference_plus_candidate_no_overlap,r_1903,MODEL_RXN:0001344,fallback_equation,,s_1033 --> 
+reference_plus_candidate_no_overlap,r_1904,MODEL_RXN:0001345,fallback_equation,,s_1036 --> 
+reference_plus_candidate_no_overlap,r_1905,MODEL_RXN:0001346,fallback_equation,,s_1035 <=> s_1037
+reference_plus_candidate_no_overlap,r_1906,MODEL_RXN:0001347,fallback_equation,,s_1041 --> 
+reference_plus_candidate_no_overlap,r_1909,MODEL_RXN:0001350,fallback_equation,,s_1044 --> 
+reference_plus_candidate_no_overlap,r_1911,MODEL_RXN:0001352,fallback_equation,,s_1046 --> 
+reference_plus_candidate_no_overlap,r_1912,MODEL_RXN:0001353,fallback_equation,,s_1049 --> 
+reference_plus_candidate_no_overlap,r_1913,MODEL_RXN:0001354,fallback_equation,,s_1052 --> 
+reference_plus_candidate_no_overlap,r_1914,MODEL_RXN:0001355,fallback_equation,,s_1057 --> 
+reference_plus_candidate_no_overlap,r_1915,MODEL_RXN:0001356,fallback_equation,,s_1061 --> 
+reference_plus_candidate_no_overlap,r_1916,MODEL_RXN:0001357,fallback_equation,,s_1067 --> 
+reference_plus_candidate_no_overlap,r_1930,MODEL_RXN:0001369,fallback_equation,,s_0069 + s_1271 <=> s_0066 + s_1274
+reference_plus_candidate_no_overlap,r_1931,MODEL_RXN:0001370,fallback_equation,,s_1106 --> 
+reference_plus_candidate_no_overlap,r_1932,MODEL_RXN:0001371,fallback_equation,,s_1107 <=> s_1108
+reference_plus_candidate_no_overlap,r_1936,MODEL_RXN:0001373,fallback_equation,,s_0629 --> s_1151 + s_1322
+reference_plus_candidate_no_overlap,r_1947,MODEL_RXN:0001384,fallback_equation,,s_1154 --> 
+reference_plus_candidate_no_overlap,r_1963,MODEL_RXN:0001386,fallback_equation,,s_1207 <=> s_1208
+reference_plus_candidate_no_overlap,r_1964,MODEL_RXN:0001387,fallback_equation,,s_1212 <=> s_1213
+reference_plus_candidate_no_overlap,r_1965,MODEL_RXN:0001388,fallback_equation,,s_0419 <=> s_0421
+reference_plus_candidate_no_overlap,r_1966,MODEL_RXN:0001389,fallback_equation,,s_1216 <=> s_1217
+reference_plus_candidate_no_overlap,r_1967,MODEL_RXN:0001390,fallback_equation,,s_1220 --> 
+reference_plus_candidate_no_overlap,r_1968,MODEL_RXN:0001391,fallback_equation,,s_1225 --> 
+reference_plus_candidate_no_overlap,r_1970,MODEL_RXN:0001392,fallback_equation,,s_1224 <=> s_1227
+reference_plus_candidate_no_overlap,r_1971,MODEL_RXN:0001393,fallback_equation,,s_1224 <=> s_1228
+reference_plus_candidate_no_overlap,r_1972,MODEL_RXN:0001394,fallback_equation,,s_1225 --> s_1224
+reference_plus_candidate_no_overlap,r_1974,MODEL_RXN:0001395,fallback_equation,,s_0613 + s_0803 --> s_0615 + s_0794 + s_1322
+reference_plus_candidate_no_overlap,r_1975,MODEL_RXN:0001396,fallback_equation,,s_0617 + s_0803 --> s_0613 + s_0794 + s_1322
+reference_plus_candidate_no_overlap,r_1977,MODEL_RXN:0001398,fallback_equation,,s_1275 <=> s_1276
+reference_plus_candidate_no_overlap,r_1978,MODEL_RXN:0001399,fallback_equation,,s_1275 <=> s_1278
+reference_plus_candidate_no_overlap,r_1979,MODEL_RXN:0001400,fallback_equation,,s_1277 <=> s_1275
+reference_plus_candidate_no_overlap,r_1980,MODEL_RXN:0001401,fallback_equation,,s_1275 <=> s_1279
+reference_plus_candidate_no_overlap,r_1984,MODEL_RXN:0001403,fallback_equation,,s_1250 --> 
+reference_plus_candidate_no_overlap,r_1987,MODEL_RXN:0001404,fallback_equation,,s_1267 --> 
+reference_plus_candidate_no_overlap,r_1988,MODEL_RXN:0001405,fallback_equation,,s_1271 <=> s_1272
+reference_plus_candidate_no_overlap,r_1989,MODEL_RXN:0001406,fallback_equation,,s_1272 --> 
+reference_plus_candidate_no_overlap,r_1991,MODEL_RXN:0001408,fallback_equation,,s_1620 <=> s_1623
+reference_plus_candidate_no_overlap,r_1992,MODEL_RXN:0001409,fallback_equation,,s_1277 <=> 
+reference_plus_candidate_no_overlap,r_1993,MODEL_RXN:0001410,fallback_equation,,s_1288 --> 
+reference_plus_candidate_no_overlap,r_1994,MODEL_RXN:0001411,fallback_equation,,s_1295 --> 
+reference_plus_candidate_no_overlap,r_1995,MODEL_RXN:0001412,fallback_equation,,s_1302 <=> s_1303
+reference_plus_candidate_no_overlap,r_1996,MODEL_RXN:0001413,fallback_equation,,s_1307 <=> s_1308
+reference_plus_candidate_no_overlap,r_1997,MODEL_RXN:0001414,fallback_equation,,s_0437 + s_0799 + s_1308 --> s_0200 + s_0636
+reference_plus_candidate_no_overlap,r_1998,MODEL_RXN:0001415,fallback_equation,,s_0391 <=> s_0390
+reference_plus_candidate_no_overlap,r_1999,MODEL_RXN:0001416,fallback_equation,,s_1309 --> 
+reference_plus_candidate_no_overlap,r_2000,MODEL_RXN:0001417,fallback_equation,,s_1317 --> 
+reference_plus_candidate_no_overlap,r_2001,MODEL_RXN:0001418,fallback_equation,,s_1319 --> 
+reference_plus_candidate_no_overlap,r_2002,MODEL_RXN:0001419,fallback_equation,,s_1318 <=> s_1319
+reference_plus_candidate_no_overlap,r_2003,MODEL_RXN:0001420,fallback_equation,,s_1318 <=> s_1320
+reference_plus_candidate_no_overlap,r_2004,MODEL_RXN:0001421,fallback_equation,,s_1032 --> s_1034
+reference_plus_candidate_no_overlap,r_2005,MODEL_RXN:0001422,fallback_equation,,s_1324 <=> 
+reference_plus_candidate_no_overlap,r_2020,MODEL_RXN:0001424,fallback_equation,,s_1374 <=> 
+reference_plus_candidate_no_overlap,r_2022,MODEL_RXN:0001425,fallback_equation,,s_1384 <=> s_1385
+reference_plus_candidate_no_overlap,r_2023,MODEL_RXN:0001426,fallback_equation,,s_1386 <=> s_1387
+reference_plus_candidate_no_overlap,r_2024,MODEL_RXN:0001427,fallback_equation,,s_1390 --> 
+reference_plus_candidate_no_overlap,r_2027,MODEL_RXN:0001430,fallback_equation,,s_0803 + s_1395 --> s_1322 + s_1394
+reference_plus_candidate_no_overlap,r_2028,MODEL_RXN:0001431,fallback_equation,,s_1397 --> 
+reference_plus_candidate_no_overlap,r_2030,MODEL_RXN:0001433,fallback_equation,,s_0313 + s_0803 --> s_0314 + s_1322
+reference_plus_candidate_no_overlap,r_2031,MODEL_RXN:0001434,fallback_equation,,s_1322 + s_1556 <=> s_0415 + s_1550
+reference_plus_candidate_no_overlap,r_2032,MODEL_RXN:0001435,fallback_equation,,s_0633 <=> s_0636
+reference_plus_candidate_no_overlap,r_2033,MODEL_RXN:0001436,fallback_equation,,s_1400 --> 
+reference_plus_candidate_no_overlap,r_2036,MODEL_RXN:0001438,fallback_equation,,s_1403 <=> s_1404
+reference_plus_candidate_no_overlap,r_2037,MODEL_RXN:0001439,fallback_equation,,s_1616 <=> s_1619
+reference_plus_candidate_no_overlap,r_2038,MODEL_RXN:0001440,fallback_equation,,s_1406 --> 
+reference_plus_candidate_no_overlap,r_2039,MODEL_RXN:0001441,fallback_equation,,s_1405 --> s_1407
+reference_plus_candidate_no_overlap,r_2042,MODEL_RXN:0001444,fallback_equation,,s_1413 <=> s_1415
+reference_plus_candidate_no_overlap,r_2043,MODEL_RXN:0001445,fallback_equation,,s_1418 --> 
+reference_plus_candidate_no_overlap,r_2044,MODEL_RXN:0001446,fallback_equation,,s_1425 --> 
+reference_plus_candidate_no_overlap,r_2046,MODEL_RXN:0001448,fallback_equation,,s_1435 --> 
+reference_plus_candidate_no_overlap,r_2049,MODEL_RXN:0001449,fallback_equation,,s_1438 <=> 
+reference_plus_candidate_no_overlap,r_2050,MODEL_RXN:0001450,fallback_equation,,s_0373 + s_1439 --> s_0529 + s_0794 + s_1180
+reference_plus_candidate_no_overlap,r_2051,MODEL_RXN:0001451,fallback_equation,,s_1440 --> 
+reference_plus_candidate_no_overlap,r_2052,MODEL_RXN:0001452,fallback_equation,,s_1443 --> 
+reference_plus_candidate_no_overlap,r_2053,MODEL_RXN:0001453,fallback_equation,,s_1447 <=> s_1448
+reference_plus_candidate_no_overlap,r_2054,MODEL_RXN:0001454,fallback_equation,,s_0038 <=> s_0037
+reference_plus_candidate_no_overlap,r_2055,MODEL_RXN:0001455,fallback_equation,,s_1450 --> 
+reference_plus_candidate_no_overlap,r_2056,MODEL_RXN:0001456,fallback_equation,,s_1459 --> 
+reference_plus_candidate_no_overlap,r_2057,MODEL_RXN:0001457,fallback_equation,,s_1459 <=> s_1458
+reference_plus_candidate_no_overlap,r_2058,MODEL_RXN:0001458,fallback_equation,,s_1466 --> 
+reference_plus_candidate_no_overlap,r_2060,MODEL_RXN:0001459,fallback_equation,,s_1468 <=> 
+reference_plus_candidate_no_overlap,r_2061,MODEL_RXN:0001460,fallback_equation,,s_1470 --> 
+reference_plus_candidate_no_overlap,r_2062,MODEL_RXN:0001461,fallback_equation,,s_1472 --> 
+reference_plus_candidate_no_overlap,r_2063,MODEL_RXN:0001462,fallback_equation,,s_1479 <=> s_1480
+reference_plus_candidate_no_overlap,r_2065,MODEL_RXN:0001464,fallback_equation,,s_0803 + s_1489 --> s_0270 + s_0310 + s_0794
+reference_plus_candidate_no_overlap,r_2066,MODEL_RXN:0001465,fallback_equation,,s_1476 --> 
+reference_plus_candidate_no_overlap,r_2067,MODEL_RXN:0001466,fallback_equation,,s_1490 --> 
+reference_plus_candidate_no_overlap,r_2068,MODEL_RXN:0001467,fallback_equation,,s_1498 --> 
+reference_plus_candidate_no_overlap,r_2069,MODEL_RXN:0001468,fallback_equation,,s_0434 + s_1497 --> s_0394 + s_1475
+reference_plus_candidate_no_overlap,r_2070,MODEL_RXN:0001469,fallback_equation,,s_0794 + s_0981 + s_1003 + s_1233 + s_1408 --> s_0293 + s_0362 + s_0419 + s_0456 + s_0734 + 3 s_0803 + s_1399
+reference_plus_candidate_no_overlap,r_2071,MODEL_RXN:0001470,fallback_equation,,s_0581 + s_0794 + s_0981 + s_1003 + s_1233 --> s_0293 + s_0362 + s_0419 + s_0456 + s_0734 + 3 s_0803 + s_1399
+reference_plus_candidate_no_overlap,r_2073,MODEL_RXN:0001472,fallback_equation,,s_1494 --> 
+reference_plus_candidate_no_overlap,r_2074,MODEL_RXN:0001473,fallback_equation,,s_0434 + s_1493 --> s_0394 + s_0649 + s_0794
+reference_plus_candidate_no_overlap,r_2075,MODEL_RXN:0001474,fallback_equation,,s_1494 <=> s_1493
+reference_plus_candidate_no_overlap,r_2080,MODEL_RXN:0001476,fallback_equation,,s_1520 <=> s_1522
+reference_plus_candidate_no_overlap,r_2082,MODEL_RXN:0001477,fallback_equation,,s_1048 --> s_1050
+reference_plus_candidate_no_overlap,r_2083,MODEL_RXN:0001478,fallback_equation,,s_1530 --> 
+reference_plus_candidate_no_overlap,r_2084,MODEL_RXN:0001479,fallback_equation,,s_1529 <=> s_1530
+reference_plus_candidate_no_overlap,r_2085,MODEL_RXN:0001480,fallback_equation,,s_1529 <=> s_1531
+reference_plus_candidate_no_overlap,r_2086,MODEL_RXN:0001481,fallback_equation,,s_1051 --> s_1053
+reference_plus_candidate_no_overlap,r_2087,MODEL_RXN:0001482,fallback_equation,,s_1051 <=> s_1054
+reference_plus_candidate_no_overlap,r_2089,MODEL_RXN:0001483,fallback_equation,,s_1545 <=> s_1548
+reference_plus_candidate_no_overlap,r_2090,MODEL_RXN:0001484,fallback_equation,,s_1551 --> 
+reference_plus_candidate_no_overlap,r_2091,MODEL_RXN:0001485,fallback_equation,,s_1553 --> 
+reference_plus_candidate_no_overlap,r_2092,MODEL_RXN:0001486,fallback_equation,,s_1557 --> 
+reference_plus_candidate_no_overlap,r_2093,MODEL_RXN:0001487,fallback_equation,,s_1056 <=> s_1058
+reference_plus_candidate_no_overlap,r_2095,MODEL_RXN:0001489,fallback_equation,,s_0803 <=> s_0806
+reference_plus_candidate_no_overlap,r_2096,MODEL_RXN:0001490,fallback_equation,,s_0803 <=> s_0807
+reference_plus_candidate_no_overlap,r_2097,MODEL_RXN:0001491,fallback_equation,,s_0803 <=> s_0808
+reference_plus_candidate_no_overlap,r_2098,MODEL_RXN:0001492,fallback_equation,,s_0803 <=> s_0809
+reference_plus_candidate_no_overlap,r_2099,MODEL_RXN:0001493,fallback_equation,,s_0803 <=> s_0810
+reference_plus_candidate_no_overlap,r_2100,MODEL_RXN:0001494,fallback_equation,,s_0805 <=> 
+reference_plus_candidate_no_overlap,r_2101,MODEL_RXN:0001495,fallback_equation,,s_0358 <=> s_0357
+reference_plus_candidate_no_overlap,r_2102,MODEL_RXN:0001496,fallback_equation,,s_1564 --> 
+reference_plus_candidate_no_overlap,r_2103,MODEL_RXN:0001497,fallback_equation,,s_1564 --> s_1563
+reference_plus_candidate_no_overlap,r_2104,MODEL_RXN:0001498,fallback_equation,,s_1567 --> 
+reference_plus_candidate_no_overlap,r_2106,MODEL_RXN:0001500,fallback_equation,,s_1571 --> 
+reference_plus_candidate_no_overlap,r_2111,MODEL_RXN:0001503,fallback_equation,,s_0450 --> 
+reference_plus_candidate_no_overlap,r_2113,MODEL_RXN:0001505,fallback_equation,,2 s_0794 + s_1212 + s_2763 --> s_0803 + s_1207 + s_2764
+reference_plus_candidate_no_overlap,r_2114,MODEL_RXN:0001506,fallback_equation,,s_0147 --> s_0794 + s_0803 + s_1403
+reference_plus_candidate_no_overlap,r_2125,MODEL_RXN:0001512,fallback_equation,,s_0529 <=> s_0531
+reference_plus_candidate_no_overlap,r_2129,MODEL_RXN:0001514,fallback_equation,,s_0794 --> s_0799
+reference_plus_candidate_no_overlap,r_2136,MODEL_RXN:0001518,fallback_equation,,s_2766 <=> s_0122
+reference_plus_candidate_no_overlap,r_2139,MODEL_RXN:0001520,fallback_equation,,s_2768 <=> s_0662
+reference_plus_candidate_no_overlap,r_2184,MODEL_RXN:0001565,fallback_equation,,s_1250 <=> s_1248
+reference_plus_candidate_no_overlap,r_2185,MODEL_RXN:0001566,fallback_equation,,s_0597 <=> s_0595
+reference_plus_candidate_no_overlap,r_2187,MODEL_RXN:0001568,fallback_equation,,s_2822 --> 
+reference_plus_candidate_no_overlap,r_2188,MODEL_RXN:0001569,fallback_equation,,s_2824 --> 
+reference_plus_candidate_no_overlap,r_2189,MODEL_RXN:0001570,fallback_equation,,s_2826 --> 
+reference_plus_candidate_no_overlap,r_2193,MODEL_RXN:0001574,fallback_equation,,s_1163 --> 
+reference_plus_candidate_no_overlap,r_2230,MODEL_RXN:0001611,fallback_equation,,s_2829 <=> s_2883
+reference_plus_candidate_no_overlap,r_3508,MODEL_RXN:0002877,fallback_equation,,s_1065 <=> s_2832
+reference_plus_candidate_no_overlap,r_3509,MODEL_RXN:0002878,fallback_equation,,s_1161 <=> s_2835
+reference_plus_candidate_no_overlap,r_3510,MODEL_RXN:0002879,fallback_equation,,s_1286 <=> s_2836
+reference_plus_candidate_no_overlap,r_3512,MODEL_RXN:0002881,fallback_equation,,s_1449 <=> s_2838
+reference_plus_candidate_no_overlap,r_3513,MODEL_RXN:0002882,fallback_equation,,s_1260 <=> s_2839
+reference_plus_candidate_no_overlap,r_3517,MODEL_RXN:0002886,fallback_equation,,s_1302 <=> s_2789
+reference_plus_candidate_no_overlap,r_3519,MODEL_RXN:0002888,fallback_equation,,s_1454 <=> s_2791
+reference_plus_candidate_no_overlap,r_3520,MODEL_RXN:0002889,fallback_equation,,s_1262 <=> s_2821
+reference_plus_candidate_no_overlap,r_3523,MODEL_RXN:0002892,fallback_equation,,s_1479 <=> s_2797
+reference_plus_candidate_no_overlap,r_3524,MODEL_RXN:0002893,fallback_equation,,s_0816 <=> s_2816
+reference_plus_candidate_no_overlap,r_3525,MODEL_RXN:0002894,fallback_equation,,s_0794 <=> s_2783
+reference_plus_candidate_no_overlap,r_3527,MODEL_RXN:0002896,fallback_equation,,s_0456 <=> s_2784
+reference_plus_candidate_no_overlap,r_3528,MODEL_RXN:0002897,fallback_equation,,s_0529 <=> s_2785
+reference_plus_candidate_no_overlap,r_3529,MODEL_RXN:0002898,fallback_equation,,s_1212 <=> s_2799
+reference_plus_candidate_no_overlap,r_3530,MODEL_RXN:0002899,fallback_equation,,s_1207 <=> s_2800
+reference_plus_candidate_no_overlap,r_3531,MODEL_RXN:0002900,fallback_equation,,s_1275 <=> s_2817
+reference_plus_candidate_no_overlap,r_3532,MODEL_RXN:0002901,fallback_equation,,s_1203 <=> s_2818
+reference_plus_candidate_no_overlap,r_3533,MODEL_RXN:0002902,fallback_equation,,s_1198 <=> s_2820
+reference_plus_candidate_no_overlap,r_3534,MODEL_RXN:0002903,fallback_equation,,s_0767 <=> s_2934
+reference_plus_candidate_no_overlap,r_3535,MODEL_RXN:0002904,fallback_equation,,s_0629 <=> s_2939
+reference_plus_candidate_no_overlap,r_3536,MODEL_RXN:0002905,fallback_equation,,s_0633 <=> s_2834
+reference_plus_candidate_no_overlap,r_3537,MODEL_RXN:0002906,fallback_equation,,s_1322 <=> s_2966
+reference_plus_candidate_no_overlap,r_3538,MODEL_RXN:0002907,fallback_equation,,s_0539 <=> s_3083
+reference_plus_candidate_no_overlap,r_3539,MODEL_RXN:0002908,fallback_equation,,s_0467 <=> s_3215
+reference_plus_candidate_no_overlap,r_3540,MODEL_RXN:0002909,fallback_equation,,s_0526 <=> s_3108
+reference_plus_candidate_no_overlap,r_3542,MODEL_RXN:0002911,fallback_equation,,s_0469 <=> s_3217
+reference_plus_candidate_no_overlap,r_3543,MODEL_RXN:0002912,fallback_equation,,s_0434 <=> s_2831
+reference_plus_candidate_no_overlap,r_3544,MODEL_RXN:0002913,fallback_equation,,s_0423 <=> s_2833
+reference_plus_candidate_no_overlap,r_3546,MODEL_RXN:0002915,fallback_equation,,s_1153 <=> s_3117
+reference_plus_candidate_no_overlap,r_3547,MODEL_RXN:0002916,fallback_equation,,s_1416 <=> s_3182
+reference_plus_candidate_no_overlap,r_3548,MODEL_RXN:0002917,fallback_equation,,s_1413 <=> s_3183
+reference_plus_candidate_no_overlap,r_3549,MODEL_RXN:0002918,fallback_equation,,s_0657 <=> s_3432
+reference_plus_candidate_no_overlap,r_3550,MODEL_RXN:0002919,fallback_equation,,s_0700 <=> s_3435
+reference_plus_candidate_no_overlap,r_3551,MODEL_RXN:0002920,fallback_equation,,s_1059 <=> s_3438
+reference_plus_candidate_no_overlap,r_3552,MODEL_RXN:0002921,fallback_equation,,s_0666 <=> s_3441
+reference_plus_candidate_no_overlap,r_3553,MODEL_RXN:0002922,fallback_equation,,s_1569 <=> s_3444
+reference_plus_candidate_no_overlap,r_3570,MODEL_RXN:0002939,fallback_equation,,s_3447 <=> s_1433
+reference_plus_candidate_no_overlap,r_3571,MODEL_RXN:0002940,fallback_equation,,s_1286 <=> s_2846
+reference_plus_candidate_no_overlap,r_3573,MODEL_RXN:0002942,fallback_equation,,s_1449 <=> s_2850
+reference_plus_candidate_no_overlap,r_3574,MODEL_RXN:0002943,fallback_equation,,s_1260 <=> s_2852
+reference_plus_candidate_no_overlap,r_3577,MODEL_RXN:0002946,fallback_equation,,s_1302 <=> s_2847
+reference_plus_candidate_no_overlap,r_3579,MODEL_RXN:0002948,fallback_equation,,s_1454 <=> s_2851
+reference_plus_candidate_no_overlap,r_3580,MODEL_RXN:0002949,fallback_equation,,s_1262 <=> s_2853
+reference_plus_candidate_no_overlap,r_3581,MODEL_RXN:0002950,fallback_equation,,s_0767 <=> s_0769
+reference_plus_candidate_no_overlap,r_3582,MODEL_RXN:0002951,fallback_equation,,s_0629 <=> s_0631
+reference_plus_candidate_no_overlap,r_3583,MODEL_RXN:0002952,fallback_equation,,s_1212 <=> s_2952
+reference_plus_candidate_no_overlap,r_3584,MODEL_RXN:0002953,fallback_equation,,s_1207 <=> s_2953
+reference_plus_candidate_no_overlap,r_3585,MODEL_RXN:0002954,fallback_equation,,s_0434 <=> s_2840
+reference_plus_candidate_no_overlap,r_3586,MODEL_RXN:0002955,fallback_equation,,s_0423 <=> s_2842
+reference_plus_candidate_no_overlap,r_3587,MODEL_RXN:0002956,fallback_equation,,s_0633 <=> s_0635
+reference_plus_candidate_no_overlap,r_3596,MODEL_RXN:0002965,fallback_equation,,s_0803 <=> s_3657
+reference_plus_candidate_no_overlap,r_3597,MODEL_RXN:0002966,fallback_equation,,s_3684 <=> s_0765
+reference_plus_candidate_no_overlap,r_3599,MODEL_RXN:0002968,fallback_equation,,s_2874 <=> s_1479
+reference_plus_candidate_no_overlap,r_3600,MODEL_RXN:0002969,fallback_equation,,s_2876 <=> s_0816
+reference_plus_candidate_no_overlap,r_3601,MODEL_RXN:0002970,fallback_equation,,s_0434 <=> s_2856
+reference_plus_candidate_no_overlap,r_3602,MODEL_RXN:0002971,fallback_equation,,s_0394 <=> s_3324
+reference_plus_candidate_no_overlap,r_3603,MODEL_RXN:0002972,fallback_equation,,s_0794 <=> s_0793
+reference_plus_candidate_no_overlap,r_3608,MODEL_RXN:0002977,fallback_equation,,s_3463 <=> s_1286
+reference_plus_candidate_no_overlap,r_3610,MODEL_RXN:0002979,fallback_equation,,s_3464 <=> s_1449
+reference_plus_candidate_no_overlap,r_3611,MODEL_RXN:0002980,fallback_equation,,s_3459 <=> s_1260
+reference_plus_candidate_no_overlap,r_3614,MODEL_RXN:0002983,fallback_equation,,s_2865 <=> s_1479
+reference_plus_candidate_no_overlap,r_3615,MODEL_RXN:0002984,fallback_equation,,s_2867 <=> s_0816
+reference_plus_candidate_no_overlap,r_3648,MODEL_RXN:0003017,fallback_equation,,s_0803 <=> s_2976
+reference_plus_candidate_no_overlap,r_3650,MODEL_RXN:0003019,fallback_equation,,s_0794 <=> s_3164
+reference_plus_candidate_no_overlap,r_3651,MODEL_RXN:0003020,fallback_equation,,s_0434 <=> s_3341
+reference_plus_candidate_no_overlap,r_3652,MODEL_RXN:0003021,fallback_equation,,s_0394 <=> s_3342
+reference_plus_candidate_no_overlap,r_3653,MODEL_RXN:0003022,fallback_equation,,s_0456 <=> s_3165
+reference_plus_candidate_no_overlap,r_3662,MODEL_RXN:0003031,fallback_equation,,s_0803 <=> s_2994
+reference_plus_candidate_no_overlap,r_3663,MODEL_RXN:0003032,fallback_equation,,s_1322 <=> s_2995
+reference_plus_candidate_no_overlap,r_3664,MODEL_RXN:0003033,fallback_equation,,s_0794 <=> s_3146
+reference_plus_candidate_no_overlap,r_3665,MODEL_RXN:0003034,fallback_equation,,s_0456 <=> s_3147
+reference_plus_candidate_no_overlap,r_3666,MODEL_RXN:0003035,fallback_equation,,s_0434 <=> s_3359
+reference_plus_candidate_no_overlap,r_3667,MODEL_RXN:0003036,fallback_equation,,s_0394 <=> s_3360
+reference_plus_candidate_no_overlap,r_3668,MODEL_RXN:0003037,fallback_equation,,s_0803 <=> s_3226
+reference_plus_candidate_no_overlap,r_3669,MODEL_RXN:0003038,fallback_equation,,s_0456 <=> s_3129
+reference_plus_candidate_no_overlap,r_3671,MODEL_RXN:0003040,fallback_equation,,s_1262 <=> s_3322
+reference_plus_candidate_no_overlap,r_3678,MODEL_RXN:0003047,fallback_equation,,s_3271 <=> s_1286
+reference_plus_candidate_no_overlap,r_3679,MODEL_RXN:0003048,fallback_equation,,s_3277 <=> s_1449
+reference_plus_candidate_no_overlap,r_3681,MODEL_RXN:0003050,fallback_equation,,s_2832 <=> s_2841
+reference_plus_candidate_no_overlap,r_3682,MODEL_RXN:0003051,fallback_equation,,s_2835 <=> s_2844
+reference_plus_candidate_no_overlap,r_3683,MODEL_RXN:0003052,fallback_equation,,s_2869 <=> s_2873
+reference_plus_candidate_no_overlap,r_3684,MODEL_RXN:0003053,fallback_equation,,s_2870 <=> s_2875
+reference_plus_candidate_no_overlap,r_3717,MODEL_RXN:0003086,fallback_equation,,s_3432 <=> s_3660
+reference_plus_candidate_no_overlap,r_3718,MODEL_RXN:0003087,fallback_equation,,s_3435 <=> s_0703
+reference_plus_candidate_no_overlap,r_3719,MODEL_RXN:0003088,fallback_equation,,s_3438 <=> s_3665
+reference_plus_candidate_no_overlap,r_3720,MODEL_RXN:0003089,fallback_equation,,s_3444 <=> s_1572
+reference_plus_candidate_no_overlap,r_3901,MODEL_RXN:0003270,fallback_equation,,s_2864 <=> s_2869
+reference_plus_candidate_no_overlap,r_3902,MODEL_RXN:0003271,fallback_equation,,s_2866 <=> s_2870
+reference_plus_candidate_no_overlap,r_3937,MODEL_RXN:0003306,fallback_equation,,s_2869 <=> s_1085
+reference_plus_candidate_no_overlap,r_3938,MODEL_RXN:0003307,fallback_equation,,s_2870 <=> s_0507
+reference_plus_candidate_no_overlap,r_3939,MODEL_RXN:0003308,fallback_equation,,s_0667 <=> s_3441
+reference_plus_candidate_no_overlap,r_3940,MODEL_RXN:0003309,fallback_equation,,s_1323 --> s_2966
+reference_plus_candidate_no_overlap,r_3957,MODEL_RXN:0003326,fallback_equation,,s_0799 <=> s_3094
+reference_plus_candidate_no_overlap,r_3958,MODEL_RXN:0003327,fallback_equation,,s_0770 <=> s_3218
+reference_plus_candidate_no_overlap,r_3962,MODEL_RXN:0003331,fallback_equation,,s_0636 <=> s_3095
+reference_plus_candidate_no_overlap,r_3987,MODEL_RXN:0003355,fallback_equation,,s_3710 <=> s_1337
+reference_plus_candidate_no_overlap,r_3996,MODEL_RXN:0003364,fallback_equation,,s_3711 <=> s_1346
+reference_plus_candidate_no_overlap,r_4005,MODEL_RXN:0003373,fallback_equation,,s_3712 <=> s_1351
+reference_plus_candidate_no_overlap,r_4038,MODEL_RXN:0003406,fallback_equation,,s_3713 <=> s_1524
+reference_plus_candidate_no_overlap,r_4042,MODEL_RXN:0003410,fallback_equation,,s_0805 + s_3715 --> s_0554 + s_3716
+reference_plus_candidate_no_overlap,r_4043,MODEL_RXN:0003411,fallback_equation,,s_3715 --> 
+reference_plus_candidate_no_overlap,r_4044,MODEL_RXN:0003412,fallback_equation,,s_3716 --> 
+reference_plus_candidate_no_overlap,r_4046,MODEL_RXN:0003414,fallback_equation,,s_0434 + s_0803 --> s_0394 + s_0794 + s_1322
+reference_plus_candidate_no_overlap,r_4341,MODEL_RXN:0003701,fallback_equation,,s_4063 <=> s_4062
+reference_plus_candidate_no_overlap,r_4342,MODEL_RXN:0003702,fallback_equation,,s_0803 + s_4062 --> s_0765 + s_1322
+reference_plus_candidate_no_overlap,r_4343,MODEL_RXN:0003703,fallback_equation,,s_0796 + s_4065 <=> s_0794 + s_4064
+reference_plus_candidate_no_overlap,r_4344,MODEL_RXN:0003704,fallback_equation,,s_0803 + s_4064 --> s_1045 + s_1322
+reference_plus_candidate_no_overlap,r_4345,MODEL_RXN:0003705,fallback_equation,,s_0803 + s_4066 --> s_0790 + s_1322
+reference_plus_candidate_no_overlap,r_4347,MODEL_RXN:0003707,fallback_equation,,s_0803 + s_4068 --> s_0790 + s_1322
+reference_plus_candidate_no_overlap,r_4348,MODEL_RXN:0003708,fallback_equation,,s_0796 + s_4069 <=> s_0794 + s_4068
+reference_plus_candidate_no_overlap,r_4349,MODEL_RXN:0003709,fallback_equation,,s_0796 + s_4070 <=> s_0794 + s_4071
+reference_plus_candidate_no_overlap,r_4350,MODEL_RXN:0003710,fallback_equation,,s_0803 + s_4071 --> s_1322 + s_3997
+reference_plus_candidate_no_overlap,r_4351,MODEL_RXN:0003711,fallback_equation,,s_0803 + s_4072 --> s_1322 + s_4073
+reference_plus_candidate_no_overlap,r_4353,MODEL_RXN:0003713,fallback_equation,,s_1275 + s_4073 --> s_0794 + s_4076
+reference_plus_candidate_no_overlap,r_4354,MODEL_RXN:0003714,fallback_equation,,s_0803 + s_1198 + s_4076 --> s_0794 + s_1203 + s_1471
+reference_plus_candidate_no_overlap,r_4355,MODEL_RXN:0003715,fallback_equation,,s_0178 + s_0991 <=> s_0180 + s_4079
+reference_plus_candidate_no_overlap,r_4357,MODEL_RXN:0003717,fallback_equation,,s_0803 + s_4081 --> s_1322 + s_1556
+reference_plus_candidate_no_overlap,r_4358,MODEL_RXN:0003718,fallback_equation,,s_0796 + s_4082 <=> s_0794 + s_4081
+reference_plus_candidate_no_overlap,r_4359,MODEL_RXN:0003719,fallback_equation,,s_0803 + s_4083 --> s_1322 + s_1556
+reference_plus_candidate_no_overlap,r_4360,MODEL_RXN:0003720,fallback_equation,,s_0796 + s_4084 <=> s_0794 + s_4083
+reference_plus_candidate_no_overlap,r_4362,MODEL_RXN:0003722,fallback_equation,,s_0810 + s_4087 --> s_3758 + s_3839
+reference_plus_candidate_no_overlap,r_4363,MODEL_RXN:0003723,fallback_equation,,s_4088 --> s_1322 + s_4089
+reference_plus_candidate_no_overlap,r_4366,MODEL_RXN:0003726,fallback_equation,,s_0394 + s_0794 + s_4092 <=> s_0434 + s_0965
+reference_plus_candidate_no_overlap,r_4367,MODEL_RXN:0003727,fallback_equation,,s_0796 + s_4093 <=> s_0794 + s_4092
+reference_plus_candidate_no_overlap,r_4368,MODEL_RXN:0003728,fallback_equation,,s_0803 + s_4096 --> s_1051 + s_1322
+reference_plus_candidate_no_overlap,r_4369,MODEL_RXN:0003729,fallback_equation,,s_0796 + s_4099 <=> s_0794 + s_4098
+reference_plus_candidate_no_overlap,r_4370,MODEL_RXN:0003730,fallback_equation,,s_0803 + s_4100 --> s_0543 + s_1322
+reference_plus_candidate_no_overlap,r_4371,MODEL_RXN:0003731,fallback_equation,,s_0796 + s_4101 <=> s_0794 + s_4100
+reference_plus_candidate_no_overlap,r_4373,MODEL_RXN:0003733,fallback_equation,,s_0796 + s_4103 <=> s_0794 + s_4102
+reference_plus_candidate_no_overlap,r_4374,MODEL_RXN:0003734,fallback_equation,,s_0803 + s_4104 --> s_0794 + s_0955 + s_1469
+reference_plus_candidate_no_overlap,r_4375,MODEL_RXN:0003735,fallback_equation,,s_0796 + s_4105 <=> s_0794 + s_4104
+reference_plus_candidate_no_overlap,r_4376,MODEL_RXN:0003736,fallback_equation,,s_0803 + s_4106 --> s_0386 + s_1322
+reference_plus_candidate_no_overlap,r_4377,MODEL_RXN:0003737,fallback_equation,,s_4107 <=> s_4106
+reference_plus_candidate_no_overlap,r_4378,MODEL_RXN:0003738,fallback_equation,,s_0803 + s_4108 --> s_0553 + s_0563
+reference_plus_candidate_no_overlap,r_4379,MODEL_RXN:0003739,fallback_equation,,s_0796 + s_4109 <=> s_0794 + s_4108
+reference_plus_candidate_no_overlap,r_4380,MODEL_RXN:0003740,fallback_equation,,s_0529 + s_0794 + s_4110 <=> s_0373 + s_0981
+reference_plus_candidate_no_overlap,r_4381,MODEL_RXN:0003741,fallback_equation,,s_0796 + s_4111 <=> s_0794 + s_4110
+reference_plus_candidate_no_overlap,r_4382,MODEL_RXN:0003742,fallback_equation,,2 s_0709 + 2 s_4113 <=> 2 s_0710 + s_4112
+reference_plus_candidate_no_overlap,r_4383,MODEL_RXN:0003743,fallback_equation,,s_4114 <=> s_4112
+reference_plus_candidate_no_overlap,r_4384,MODEL_RXN:0003744,fallback_equation,,s_0794 + s_1212 + s_4117 --> s_1207 + s_3875
+reference_plus_candidate_no_overlap,r_4385,MODEL_RXN:0003745,fallback_equation,,s_0796 + s_4118 <=> s_0794 + s_4117
+reference_plus_candidate_no_overlap,r_4386,MODEL_RXN:0003746,fallback_equation,,s_0810 + s_4121 --> s_0977 + s_3759
+reference_plus_candidate_no_overlap,r_4389,MODEL_RXN:0003749,fallback_equation,,s_0796 + s_4127 <=> s_0794 + s_4126
+reference_plus_candidate_no_overlap,r_4390,MODEL_RXN:0003750,fallback_equation,,s_0803 + s_4122 <=> s_0563 + s_4123
+reference_plus_candidate_no_overlap,r_4391,MODEL_RXN:0003751,fallback_equation,,s_4123 --> s_4124
+reference_plus_candidate_no_overlap,r_4392,MODEL_RXN:0003752,fallback_equation,,s_0796 + s_4125 <=> s_0794 + s_4122
+reference_plus_candidate_no_overlap,r_4393,MODEL_RXN:0003753,fallback_equation,,s_0434 + s_4128 --> s_0394 + s_0794 + s_4129
+reference_plus_candidate_no_overlap,r_4396,MODEL_RXN:0003756,fallback_equation,,s_0434 + s_0529 + s_4132 --> s_0367 + s_0423 + s_0633
+reference_plus_candidate_no_overlap,r_4397,MODEL_RXN:0003757,fallback_equation,,s_0803 + s_4134 <=> s_0362 + s_1029
+reference_plus_candidate_no_overlap,r_4399,MODEL_RXN:0003759,fallback_equation,,s_0794 + s_4038 <=> s_0802 + s_4039
+reference_plus_candidate_no_overlap,r_4406,MODEL_RXN:0003766,fallback_equation,,s_0796 + s_4078 <=> s_0794 + s_4077
+reference_plus_candidate_no_overlap,r_4407,MODEL_RXN:0003767,fallback_equation,,s_0803 + s_4077 <=> s_1322 + s_3904
+reference_plus_candidate_no_overlap,r_4409,MODEL_RXN:0003769,fallback_equation,,s_0810 + s_4039 --> s_0996 + s_3759
+reference_plus_candidate_no_overlap,r_4410,MODEL_RXN:0003770,fallback_equation,,s_4136 <=> s_0779 + s_1271
+reference_plus_candidate_no_overlap,r_4411,MODEL_RXN:0003771,fallback_equation,,s_0803 + s_4138 --> s_0419 + s_0794 + s_1399 + s_1469
+reference_plus_candidate_no_overlap,r_4413,MODEL_RXN:0003773,fallback_equation,,s_0803 + s_4044 --> s_1322 + s_1493
+reference_plus_candidate_no_overlap,r_4414,MODEL_RXN:0003774,fallback_equation,,s_0810 + s_4036 --> s_1002 + s_3759
+reference_plus_candidate_no_overlap,r_4415,MODEL_RXN:0003775,fallback_equation,,s_0810 + s_4052 --> s_1009 + s_3759
+reference_plus_candidate_no_overlap,r_4416,MODEL_RXN:0003776,fallback_equation,,s_0810 + s_4042 --> s_3759 + s_4043
+reference_plus_candidate_no_overlap,r_4417,MODEL_RXN:0003777,fallback_equation,,s_0810 + s_4055 --> s_0972 + s_3839
+reference_plus_candidate_no_overlap,r_4418,MODEL_RXN:0003778,fallback_equation,,s_0810 + s_4058 --> s_1002 + s_3839
+reference_plus_candidate_no_overlap,r_4419,MODEL_RXN:0003779,fallback_equation,,s_0796 + s_4139 <=> s_0794 + s_4138
+reference_plus_candidate_no_overlap,r_4421,MODEL_RXN:0003781,fallback_equation,,s_0796 + s_4116 <=> s_0794 + s_4115
+reference_plus_candidate_no_overlap,r_4422,MODEL_RXN:0003782,fallback_equation,,s_0796 + s_4137 <=> s_0794 + s_4136
+reference_plus_candidate_no_overlap,r_4423,MODEL_RXN:0003783,fallback_equation,,s_0794 + s_4086 <=> s_0802 + s_4087
+reference_plus_candidate_no_overlap,r_4425,MODEL_RXN:0003785,fallback_equation,,s_0794 + s_4057 <=> s_0802 + s_4058
+reference_plus_candidate_no_overlap,r_4426,MODEL_RXN:0003786,fallback_equation,,s_0794 + s_4035 <=> s_0802 + s_4036
+reference_plus_candidate_no_overlap,r_4427,MODEL_RXN:0003787,fallback_equation,,s_0796 + s_4135 <=> s_0794 + s_4134
+reference_plus_candidate_no_overlap,r_4428,MODEL_RXN:0003788,fallback_equation,,s_0796 + s_4097 <=> s_0794 + s_4096
+reference_plus_candidate_no_overlap,r_4430,MODEL_RXN:0003790,fallback_equation,,s_0794 + s_4051 <=> s_0802 + s_4052
+reference_plus_candidate_no_overlap,r_4431,MODEL_RXN:0003791,fallback_equation,,s_0794 + s_4120 <=> s_0802 + s_4121
+reference_plus_candidate_no_overlap,r_4432,MODEL_RXN:0003792,fallback_equation,,s_0717 + s_1275 + s_4115 --> s_0714 + s_0775 + 2 s_0794 + s_0803 + s_1469
+reference_plus_candidate_no_overlap,r_4439,MODEL_RXN:0003799,fallback_equation,,s_0810 + s_4061 --> s_0996 + s_3839
+reference_plus_candidate_no_overlap,r_4442,MODEL_RXN:0003802,fallback_equation,,s_4074 --> 
+reference_plus_candidate_no_overlap,r_4443,MODEL_RXN:0003803,fallback_equation,,s_4095 <=> s_4094
+reference_plus_candidate_no_overlap,r_4444,MODEL_RXN:0003804,fallback_equation,,s_0796 + s_4141 <=> s_0188 + s_0794
+reference_plus_candidate_no_overlap,r_4445,MODEL_RXN:0003805,fallback_equation,,s_0796 + s_4142 <=> s_0260 + s_0794
+reference_plus_candidate_no_overlap,r_4446,MODEL_RXN:0003806,fallback_equation,,s_4145 <=> s_0567
+reference_plus_candidate_no_overlap,r_4447,MODEL_RXN:0003807,fallback_equation,,s_4146 <=> s_0455
+reference_plus_candidate_no_overlap,r_4450,MODEL_RXN:0003810,fallback_equation,,s_0796 + s_4147 <=> s_0259 + s_0794
+reference_plus_candidate_no_overlap,r_4451,MODEL_RXN:0003811,fallback_equation,,s_0796 + s_4148 <=> s_0782 + s_0794
+reference_plus_candidate_no_overlap,r_4452,MODEL_RXN:0003812,fallback_equation,,s_4149 <=> s_1158
+reference_plus_candidate_no_overlap,r_4453,MODEL_RXN:0003813,fallback_equation,,s_4150 <=> s_0568
+reference_plus_candidate_no_overlap,r_4454,MODEL_RXN:0003814,fallback_equation,,s_4151 <=> s_1545
+reference_plus_candidate_no_overlap,r_4455,MODEL_RXN:0003815,fallback_equation,,s_0796 + s_4152 <=> s_0794 + s_1360
+reference_plus_candidate_no_overlap,r_4456,MODEL_RXN:0003816,fallback_equation,,s_4153 <=> s_0574
+reference_plus_candidate_no_overlap,r_4458,MODEL_RXN:0003818,fallback_equation,,s_0796 + s_4155 <=> s_0340 + s_0794
+reference_plus_candidate_no_overlap,r_4459,MODEL_RXN:0003819,fallback_equation,,s_0796 + s_4156 <=> s_0573 + s_0794
+reference_plus_candidate_no_overlap,r_4460,MODEL_RXN:0003820,fallback_equation,,2 s_0796 + s_4157 <=> s_0633 + 2 s_0794
+reference_plus_candidate_no_overlap,r_4461,MODEL_RXN:0003821,fallback_equation,,s_4158 <=> s_0514
+reference_plus_candidate_no_overlap,r_4462,MODEL_RXN:0003822,fallback_equation,,s_4159 <=> s_4113
+reference_plus_candidate_no_overlap,r_4463,MODEL_RXN:0003823,fallback_equation,,s_0796 + s_4160 <=> s_0423 + s_0794
+reference_plus_candidate_no_overlap,r_4464,MODEL_RXN:0003824,fallback_equation,,s_4161 <=> s_0131
+reference_plus_candidate_no_overlap,r_4465,MODEL_RXN:0003825,fallback_equation,,s_0796 + s_4162 <=> s_0389 + s_0794
+reference_plus_candidate_no_overlap,r_4466,MODEL_RXN:0003826,fallback_equation,,s_0796 + s_4163 <=> s_0526 + s_0794
+reference_plus_candidate_no_overlap,r_4467,MODEL_RXN:0003827,fallback_equation,,s_4164 <=> s_3953
+reference_plus_candidate_no_overlap,r_4470,MODEL_RXN:0003830,fallback_equation,,s_4167 <=> s_0771
+reference_plus_candidate_no_overlap,r_4474,MODEL_RXN:0003834,fallback_equation,,s_0794 + s_4171 <=> s_0802 + s_3838
+reference_plus_candidate_no_overlap,r_4475,MODEL_RXN:0003835,fallback_equation,,s_4172 <=> s_4173
+reference_plus_candidate_no_overlap,r_4476,MODEL_RXN:0003836,fallback_equation,,s_4173 <=> s_1192
+reference_plus_candidate_no_overlap,r_4477,MODEL_RXN:0003837,fallback_equation,,s_0796 + s_4174 <=> s_0794 + s_4175
+reference_plus_candidate_no_overlap,r_4478,MODEL_RXN:0003838,fallback_equation,,s_4176 <=> s_3837
+reference_plus_candidate_no_overlap,r_4480,MODEL_RXN:0003840,fallback_equation,,s_0796 + s_4074 <=> s_0794 + s_4073
+reference_plus_candidate_no_overlap,r_4482,MODEL_RXN:0003842,fallback_equation,,s_0794 + s_0955 <=> s_0802 + s_3759
+reference_plus_candidate_no_overlap,r_4483,MODEL_RXN:0003843,fallback_equation,,s_0794 + s_1003 <=> s_0802 + s_3839
+reference_plus_candidate_no_overlap,r_4485,MODEL_RXN:0003845,fallback_equation,,s_0204 + s_1275 --> s_0456 + s_4177
+reference_plus_candidate_no_overlap,r_4486,MODEL_RXN:0003846,fallback_equation,,s_1275 + s_4177 --> s_0794 + s_4178
+reference_plus_candidate_no_overlap,r_4487,MODEL_RXN:0003847,fallback_equation,,s_4178 --> s_4179
+reference_plus_candidate_no_overlap,r_4488,MODEL_RXN:0003848,fallback_equation,,s_0803 + s_4179 --> s_0725 + s_0794 + s_4132
+reference_plus_candidate_no_overlap,r_4489,MODEL_RXN:0003849,fallback_equation,,s_0961 + s_1198 --> s_0794 + s_1203 + s_4180
+reference_plus_candidate_no_overlap,r_4490,MODEL_RXN:0003850,fallback_equation,,s_0794 + s_1212 + s_4180 <=> s_1207 + s_1566
+reference_plus_candidate_no_overlap,r_4492,MODEL_RXN:0003852,fallback_equation,,s_1198 + s_4181 --> s_0580 + s_0794 + s_1203
+reference_plus_candidate_no_overlap,r_4494,MODEL_RXN:0003854,fallback_equation,,s_4124 --> 
+reference_plus_candidate_no_overlap,r_4495,MODEL_RXN:0003855,fallback_equation,,s_0389 + s_0803 --> s_0386 + s_1322
+reference_plus_candidate_no_overlap,r_4496,MODEL_RXN:0003856,fallback_equation,,s_4170 --> 
+reference_plus_candidate_no_overlap,r_4498,MODEL_RXN:0003858,fallback_equation,,s_4109 --> 
+reference_plus_candidate_no_overlap,r_4499,MODEL_RXN:0003859,fallback_equation,,s_4118 --> 
+reference_plus_candidate_no_overlap,r_4500,MODEL_RXN:0003860,fallback_equation,,s_4130 --> 
+reference_plus_candidate_no_overlap,r_4502,MODEL_RXN:0003862,fallback_equation,,s_4150 --> 
+reference_plus_candidate_no_overlap,r_4503,MODEL_RXN:0003863,fallback_equation,,s_4140 --> 
+reference_plus_candidate_no_overlap,r_4504,MODEL_RXN:0003864,fallback_equation,,s_4145 --> 
+reference_plus_candidate_no_overlap,r_4505,MODEL_RXN:0003865,fallback_equation,,s_4125 --> 
+reference_plus_candidate_no_overlap,r_4506,MODEL_RXN:0003866,fallback_equation,,s_4164 --> 
+reference_plus_candidate_no_overlap,r_4507,MODEL_RXN:0003867,fallback_equation,,s_4167 --> 
+reference_plus_candidate_no_overlap,r_4508,MODEL_RXN:0003868,fallback_equation,,s_4034 --> 
+reference_plus_candidate_no_overlap,r_4510,MODEL_RXN:0003870,fallback_equation,,s_4056 --> 
+reference_plus_candidate_no_overlap,r_4511,MODEL_RXN:0003871,fallback_equation,,s_4050 --> 
+reference_plus_candidate_no_overlap,r_4512,MODEL_RXN:0003872,fallback_equation,,s_4053 --> 
+reference_plus_candidate_no_overlap,r_4513,MODEL_RXN:0003873,fallback_equation,,s_4037 --> 
+reference_plus_candidate_no_overlap,r_4514,MODEL_RXN:0003874,fallback_equation,,s_4085 --> 
+reference_plus_candidate_no_overlap,r_4515,MODEL_RXN:0003875,fallback_equation,,s_4119 --> 
+reference_plus_candidate_no_overlap,r_4516,MODEL_RXN:0003876,fallback_equation,,s_4059 --> 
+reference_plus_candidate_no_overlap,r_4517,MODEL_RXN:0003877,fallback_equation,,s_4040 --> 
+reference_plus_candidate_no_overlap,r_4518,MODEL_RXN:0003878,fallback_equation,,s_4143 --> 
+reference_plus_candidate_no_overlap,r_4519,MODEL_RXN:0003879,fallback_equation,,s_4166 --> 
+reference_plus_candidate_no_overlap,r_4520,MODEL_RXN:0003880,fallback_equation,,s_4080 --> 
+reference_plus_candidate_no_overlap,r_4521,MODEL_RXN:0003881,fallback_equation,,s_4158 --> 
+reference_plus_candidate_no_overlap,r_4523,MODEL_RXN:0003883,fallback_equation,,s_4141 --> 
+reference_plus_candidate_no_overlap,r_4524,MODEL_RXN:0003884,fallback_equation,,s_4148 --> 
+reference_plus_candidate_no_overlap,r_4525,MODEL_RXN:0003885,fallback_equation,,s_4147 --> 
+reference_plus_candidate_no_overlap,r_4526,MODEL_RXN:0003886,fallback_equation,,s_4078 --> 
+reference_plus_candidate_no_overlap,r_4527,MODEL_RXN:0003887,fallback_equation,,s_4157 --> 
+reference_plus_candidate_no_overlap,r_4529,MODEL_RXN:0003889,fallback_equation,,s_4152 --> 
+reference_plus_candidate_no_overlap,r_4530,MODEL_RXN:0003890,fallback_equation,,s_4093 --> 
+reference_plus_candidate_no_overlap,r_4532,MODEL_RXN:0003892,fallback_equation,,s_4154 --> 
+reference_plus_candidate_no_overlap,r_4535,MODEL_RXN:0003895,fallback_equation,,s_4063 --> 
+reference_plus_candidate_no_overlap,r_4536,MODEL_RXN:0003896,fallback_equation,,s_4069 --> 
+reference_plus_candidate_no_overlap,r_4537,MODEL_RXN:0003897,fallback_equation,,s_4070 --> 
+reference_plus_candidate_no_overlap,r_4538,MODEL_RXN:0003898,fallback_equation,,s_4155 --> 
+reference_plus_candidate_no_overlap,r_4539,MODEL_RXN:0003899,fallback_equation,,s_4153 --> 
+reference_plus_candidate_no_overlap,r_4540,MODEL_RXN:0003900,fallback_equation,,s_4095 --> 
+reference_plus_candidate_no_overlap,r_4541,MODEL_RXN:0003901,fallback_equation,,s_4097 --> 
+reference_plus_candidate_no_overlap,r_4542,MODEL_RXN:0003902,fallback_equation,,s_4065 --> 
+reference_plus_candidate_no_overlap,r_4543,MODEL_RXN:0003903,fallback_equation,,s_4142 --> 
+reference_plus_candidate_no_overlap,r_4545,MODEL_RXN:0003905,fallback_equation,,s_4107 --> 
+reference_plus_candidate_no_overlap,r_4546,MODEL_RXN:0003906,fallback_equation,,s_4161 --> 
+reference_plus_candidate_no_overlap,r_4547,MODEL_RXN:0003907,fallback_equation,,s_4156 --> 
+reference_plus_candidate_no_overlap,r_4548,MODEL_RXN:0003908,fallback_equation,,s_4160 --> 
+reference_plus_candidate_no_overlap,r_4549,MODEL_RXN:0003909,fallback_equation,,s_4135 --> 
+reference_plus_candidate_no_overlap,r_4550,MODEL_RXN:0003910,fallback_equation,,s_4176 --> 
+reference_plus_candidate_no_overlap,r_4552,MODEL_RXN:0003912,fallback_equation,,s_4111 --> 
+reference_plus_candidate_no_overlap,r_4553,MODEL_RXN:0003913,fallback_equation,,s_4139 --> 
+reference_plus_candidate_no_overlap,r_4554,MODEL_RXN:0003914,fallback_equation,,s_4116 --> 
+reference_plus_candidate_no_overlap,r_4555,MODEL_RXN:0003915,fallback_equation,,s_4133 --> 
+reference_plus_candidate_no_overlap,r_4556,MODEL_RXN:0003916,fallback_equation,,s_4172 --> 
+reference_plus_candidate_no_overlap,r_4557,MODEL_RXN:0003917,fallback_equation,,s_4151 --> 
+reference_plus_candidate_no_overlap,r_4558,MODEL_RXN:0003918,fallback_equation,,s_4163 --> 
+reference_plus_candidate_no_overlap,r_4563,MODEL_RXN:0003923,fallback_equation,,s_4084 --> 
+reference_plus_candidate_no_overlap,r_4564,MODEL_RXN:0003924,fallback_equation,,s_4127 --> 
+reference_plus_candidate_no_overlap,r_4565,MODEL_RXN:0003925,fallback_equation,,s_4103 --> 
+reference_plus_candidate_no_overlap,r_4567,MODEL_RXN:0003926,fallback_equation,,s_0340 + s_0803 --> s_1322 + s_3875
+reference_plus_candidate_no_overlap,r_4568,MODEL_RXN:0003927,fallback_equation,,s_0794 + s_1321 --> s_4194
+reference_plus_candidate_no_overlap,r_4569,MODEL_RXN:0003928,fallback_equation,,s_0362 + s_0794 + s_4195 --> s_0803 + s_4194
+reference_plus_candidate_no_overlap,r_4571,MODEL_RXN:0003930,fallback_equation,,s_0529 + s_0794 + s_4182 <=> s_0779 + s_0803 + s_4183
+reference_plus_candidate_no_overlap,r_4572,MODEL_RXN:0003931,fallback_equation,,s_0180 + s_0441 <=> s_0991 + s_4184
+reference_plus_candidate_no_overlap,r_4573,MODEL_RXN:0003932,fallback_equation,,s_0529 + s_1198 + s_4184 --> s_0373 + s_0456 + s_1203
+reference_plus_candidate_no_overlap,r_4574,MODEL_RXN:0003933,fallback_equation,,s_0529 + s_1207 + s_4184 --> s_0373 + s_0456 + s_1212
+reference_plus_candidate_no_overlap,r_4575,MODEL_RXN:0003934,fallback_equation,,s_0794 + s_4184 --> s_0359 + s_0456
+reference_plus_candidate_no_overlap,r_4581,MODEL_RXN:0003935,fallback_equation,,s_1198 + s_4189 --> s_0178 + s_0456 + s_1203
+reference_plus_candidate_no_overlap,r_4582,MODEL_RXN:0003936,fallback_equation,,s_0779 + s_0803 + s_4183 --> s_0529 + s_0794 + s_4189
+reference_plus_candidate_no_overlap,r_4583,MODEL_RXN:0003937,fallback_equation,,s_0803 + s_4190 --> s_0529 + s_0794 + s_4191
+reference_plus_candidate_no_overlap,r_4585,MODEL_RXN:0003939,fallback_equation,,s_0803 + s_4192 --> s_0558 + s_4193
+reference_plus_candidate_no_overlap,r_4586,MODEL_RXN:0003940,fallback_equation,,s_3998 + s_4192 --> 2 s_4193
+reference_plus_candidate_no_overlap,r_4593,MODEL_RXN:0003947,fallback_equation,,s_4200 <=> 
+reference_plus_candidate_no_overlap,r_4594,MODEL_RXN:0003948,fallback_equation,,s_4201 <=> 
+reference_plus_candidate_no_overlap,r_4595,MODEL_RXN:0003949,fallback_equation,,s_4202 <=> 
+reference_plus_candidate_no_overlap,r_4596,MODEL_RXN:0003950,fallback_equation,,s_4203 <=> 
+reference_plus_candidate_no_overlap,r_4597,MODEL_RXN:0003951,fallback_equation,,s_4204 <=> 
+reference_plus_candidate_no_overlap,r_4600,MODEL_RXN:0003954,fallback_equation,,s_4199 <=> 
+reference_plus_candidate_no_overlap,r_4601,MODEL_RXN:0003955,fallback_equation,,s_0204 + s_0794 <=> s_0206 + s_0801
+reference_plus_candidate_no_overlap,r_4602,MODEL_RXN:0003956,fallback_equation,,s_0362 <=> s_0363
+reference_plus_candidate_no_overlap,r_4603,MODEL_RXN:0003957,fallback_equation,,s_3761 <=> s_0402
+reference_plus_candidate_no_overlap,r_4604,MODEL_RXN:0003958,fallback_equation,,s_0190 <=> s_0692
+reference_plus_candidate_no_overlap,r_4605,MODEL_RXN:0003959,fallback_equation,,s_0794 + s_1219 <=> s_0799 + s_1221
+reference_plus_candidate_no_overlap,r_4606,MODEL_RXN:0003960,fallback_equation,,s_0794 + s_1239 <=> s_0795 + s_1240
+reference_plus_candidate_no_overlap,r_4607,MODEL_RXN:0003961,fallback_equation,,s_1322 <=> s_1325
+reference_plus_candidate_no_overlap,r_4608,MODEL_RXN:0003962,fallback_equation,,s_0434 + s_0803 + s_4183 --> s_0397 + s_0799 + s_1326 + s_1382
+reference_plus_candidate_no_overlap,r_4609,MODEL_RXN:0003963,fallback_equation,,s_1538 <=> s_1539
+reference_plus_candidate_no_overlap,r_4610,MODEL_RXN:0003964,fallback_equation,,s_1538 <=> s_1540
+reference_plus_candidate_no_overlap,r_4611,MODEL_RXN:0003965,fallback_equation,,s_1545 <=> s_1546
+reference_plus_candidate_no_overlap,r_4612,MODEL_RXN:0003966,fallback_equation,,s_1620 <=> s_1622
+reference_plus_candidate_no_overlap,r_4613,MODEL_RXN:0003967,fallback_equation,,s_1260 <=> s_3677
+reference_plus_candidate_no_overlap,r_4614,MODEL_RXN:0003968,fallback_equation,,s_0020 + s_0794 <=> s_0800 + s_3751
+reference_plus_candidate_no_overlap,r_4615,MODEL_RXN:0003969,fallback_equation,,s_0999 <=> s_3755
+reference_plus_candidate_no_overlap,r_4616,MODEL_RXN:0003970,fallback_equation,,s_1545 <=> s_3781
+reference_plus_candidate_no_overlap,r_4617,MODEL_RXN:0003971,fallback_equation,,s_1416 <=> s_3818
+reference_plus_candidate_no_overlap,r_4618,MODEL_RXN:0003972,fallback_equation,,s_0750 <=> s_3831
+reference_plus_candidate_no_overlap,r_4619,MODEL_RXN:0003973,fallback_equation,,s_0434 + s_3883 <=> s_0394 + s_3881
+reference_plus_candidate_no_overlap,r_4620,MODEL_RXN:0003974,fallback_equation,,s_0574 <=> s_3898
+reference_plus_candidate_no_overlap,r_4621,MODEL_RXN:0003975,fallback_equation,,s_1234 <=> s_3905
+reference_plus_candidate_no_overlap,r_4622,MODEL_RXN:0003976,fallback_equation,,s_0841 <=> s_3906
+reference_plus_candidate_no_overlap,r_4623,MODEL_RXN:0003977,fallback_equation,,s_0794 + s_0983 <=> s_0799 + s_3925
+reference_plus_candidate_no_overlap,r_4624,MODEL_RXN:0003978,fallback_equation,,s_0434 + s_3987 <=> s_0394 + s_2831
+reference_plus_candidate_no_overlap,r_4625,MODEL_RXN:0003979,fallback_equation,,s_4113 <=> s_4010
+reference_plus_candidate_no_overlap,r_4626,MODEL_RXN:0003980,fallback_equation,,s_1469 <=> s_4011
+reference_plus_candidate_no_overlap,r_4627,MODEL_RXN:0003981,fallback_equation,,s_1543 <=> s_4015
+reference_plus_candidate_no_overlap,r_4628,MODEL_RXN:0003982,fallback_equation,,s_1544 <=> s_4025
+reference_plus_candidate_no_overlap,r_4702,MODEL_RXN:0004055,fallback_equation,,s_0180 + s_0981 <=> s_0991 + s_4264
+reference_plus_candidate_no_overlap,r_4707,MODEL_RXN:0004060,fallback_equation,,s_0803 + s_4269 <=> s_1467 + s_4113
+reference_plus_candidate_no_overlap,rxn1999,MODEL_RXN:0005242,fallback_equation,nogene,s_1416 + sn_276 --> s_0794 + s_1413 + sn_311
+reference_plus_candidate_no_overlap,rxn2000,MODEL_RXN:0005246,fallback_equation,nogene,s_0803 + sn_40 --> sn_285
+reference_plus_candidate_no_overlap,rxn2001,MODEL_RXN:0005247,fallback_equation,nogene,s_1427 --> sn_39
+reference_plus_candidate_no_overlap,rxn2002,MODEL_RXN:0005248,fallback_equation,nogene,s_4123 + sn_276 --> s_0803 + sn_311
+reference_plus_candidate_no_overlap,rxn2003,MODEL_RXN:0005249,fallback_equation,nogene,s_0178 + s_0359 + s_0794 --> s_0803 + sn_86

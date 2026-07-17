@@ -1,0 +1,94 @@
+{
+  "status": "ready",
+  "run_at": "2026-07-17T12:05:42.074587+00:00",
+  "runtime": {
+    "python": "3.10.20 (main, Jun 23 2026, 15:19:56) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\04_prediction_plugins\\DLKcat\\.venv\\Scripts\\python.exe"
+  },
+  "fixed_smoke": {
+    "request_id": "smoke-dlkcat-001",
+    "plugin": "DLKcat",
+    "plugin_version": "upstream-7c15d0d4a7ac",
+    "capability": "kcat_prediction",
+    "status": "ready",
+    "predictions": [
+      {
+        "name": "log2_kcat",
+        "value": 1.0473041534423828,
+        "unit": "log2(s^-1)",
+        "scale": "log2"
+      },
+      {
+        "name": "kcat",
+        "value": 2.0666644300475787,
+        "unit": "s^-1",
+        "scale": "linear"
+      }
+    ],
+    "transforms": [
+      {
+        "field": "sequence",
+        "original_length": 22,
+        "effective_length": 22,
+        "truncated": false,
+        "strategy": "uppercase_remove_whitespace"
+      }
+    ],
+    "applicability": {
+      "assessment_status": "not_available",
+      "in_domain": null,
+      "ood": null,
+      "method": "No versioned DLKcat training-domain reference is deployed",
+      "reasons": []
+    },
+    "uncertainty": {
+      "status": "not_available",
+      "method": "upstream model provides a point estimate only",
+      "value": null,
+      "interval": null,
+      "calibrated": false
+    },
+    "benchmark": {
+      "status": "not_run",
+      "public_reference": false,
+      "dataset_name": null,
+      "dataset_version": null,
+      "snapshot_sha256": null,
+      "metrics": {}
+    },
+    "messages": [
+      "Prediction is for prioritization and is not curated kinetic evidence."
+    ],
+    "schema_version": "1.0.0"
+  },
+  "public_benchmark": {
+    "name": "DLKcat upstream Code/example",
+    "version": "commit-7c15d0d4a7ac029f9d75564d9f2a93874aeaaec7",
+    "input_sha256": "064529b4a9c429e05333fa7c6a0c4a41f102353d85a4303a96f79b7c80f6ebb1",
+    "expected_output_sha256": "4ce769edbdcf58592738aa6b1cabed59ab6e47c2d7a5bc1a007643e715a58338",
+    "tolerance_kcat_s-1": 5e-05,
+    "rows": [
+      {
+        "request_id": "official-example-1",
+        "status": "ready",
+        "expected_kcat_s-1": 2.6097,
+        "observed_kcat_s-1": 2.609709672717935,
+        "absolute_error": 9.67271793506086e-06
+      },
+      {
+        "request_id": "official-example-2",
+        "status": "ready",
+        "expected_kcat_s-1": 57.4268,
+        "observed_kcat_s-1": 57.42678026264239,
+        "absolute_error": 1.9737357611404605e-05
+      },
+      {
+        "request_id": "official-example-3",
+        "status": "ready",
+        "expected_kcat_s-1": 37.3847,
+        "observed_kcat_s-1": 37.38470390794175,
+        "absolute_error": 3.907941746206234e-06
+      }
+    ]
+  }
+}

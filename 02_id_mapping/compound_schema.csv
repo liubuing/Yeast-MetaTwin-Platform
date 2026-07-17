@@ -1,0 +1,18 @@
+field,required,description,example
+compound_uid,true,Internal stable compound identifier,CMPD:0000001
+primary_name,true,Preferred compound name,10-Hydroxy-trans-2-decenoic acid
+synonyms,false,Pipe-separated alternative names,10H2DA|10-hydroxy-2-decenoic acid
+formula,false,Molecular formula,C10H18O3
+charge,false,Formal charge at model pH,-1
+smiles,false,Canonical or source SMILES,CCCCCCCC=CC(=O)O
+inchi,false,InChI string,
+inchikey,false,InChIKey,
+kegg_id,false,KEGG compound ID,C05275
+chebi_id,false,ChEBI ID,CHEBI:61406
+metanetx_id,false,MetaNetX chemical ID,MNXM580
+pubchem_cid,false,PubChem CID,
+ymdb_id,false,YMDB ID,
+source_database,true,Source database or merged source,MetaNetX
+source_record_id,true,Original source record ID,MNXM580
+confidence_level,true,curated|mapped|predicted|manual_review,curated
+notes,false,Free text notes,

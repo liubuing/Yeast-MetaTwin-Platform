@@ -1,0 +1,112 @@
+{
+  "manifest_version": "2.0.0",
+  "model_version": "phase2_reaction_evidence_baseline_v1",
+  "documented_at": "2026-07-17T00:00:00Z",
+  "artifact": {
+    "path": "03_models/phase2_reaction_evidence_baseline_v1.joblib",
+    "sha256": "4b8cf9fa0349fc689833aef2f0ba2a61d626a71e49eaf8b6dde7fb8f57a600df",
+    "bytes": 1001527
+  },
+  "model_card": {
+    "path": "03_models/phase2_reaction_evidence_baseline_v1_model_card_v2.md",
+    "sha256": "a0e8abca629b08ba155407cad6f0d2bd11614e0d50e1b58e956ec2fa7d36e1eb",
+    "bytes": 4373
+  },
+  "data_artifacts": [
+    {"path": "05_training/homology_split_reference_only.csv", "sha256": "077fa817be7397062a5c55f56a66c87f843736dd1dbc23e7c289710958334f60", "bytes": 1380012},
+    {"path": "05_training/reaction_negative_sample_candidates.csv", "sha256": "463aaaf5da49cb1d368758c3b08b79a0d550e385fbcbf291929be0b439da82c2", "bytes": 484121},
+    {"path": "05_training/reaction_model_context_only.csv", "sha256": "e77281e15b4958b0410932fcbe9e5158cf0c08bc4b29d90322c41bd8a5362f5d", "bytes": 1114037}
+  ],
+  "source_artifacts": [
+    {"path": "assets/checksums.sha256", "sha256": "c3af1059e762665529f368fa5f9286c16bd6c17324241f2f7f8b9a901751611f", "bytes": 1469, "role": "governed local serialized-asset checksum inventory", "origin": "existing deployment trust-control record; upstream origin review incomplete"},
+    {"path": "03_models/phase2_reaction_evidence_baseline_v1_manifest.json", "sha256": "aac8b9f3e8b16fe6ac4f65702a957ffd27011cab474787991f1704759a15c24b", "bytes": 4176, "role": "legacy training and evaluation snapshot", "origin": "existing local deployment artifact"},
+    {"path": "02_id_mapping/model_compound_seed_enriched.csv", "sha256": "fe72c2458ca092f9771da0c4d503e22bc3012796eb92fb357c74c57d77e9fa6d", "bytes": 831337, "role": "compound identifiers and structure signatures", "origin": "assembled local Yeast-MetaTwin mapping"},
+    {"path": "05_training/mmseqs_homology_clusters/yeast_orf_minid0_3_cov0_8_cluster.tsv", "sha256": "5d13b6e393d6e0f05a95321e462622dd458a232d6ec3a3c393dbc152ea7e8319", "bytes": 27968, "role": "protein homology grouping", "origin": "local MMseqs2 clustering output"},
+    {"path": "06_evaluation/phase2_reaction_balance_audit.csv", "sha256": "c25d4ef71a1fdf46bf0668ca1a4f3509dbea31648e172e562bf65775d9c78db6", "bytes": 988254, "role": "formula and charge balance features", "origin": "local phase 2 balance audit"}
+  ],
+  "code_artifacts": [
+    {"path": "08_runtime/train_phase2_reaction_evidence_baseline.py", "sha256": "c52226548fae83bdb0b193c506b17eea6efea7fdcc7322092047793638dcf7f2", "bytes": 20494},
+    {"path": "08_runtime/reaction_evidence_ml_utils.py", "sha256": "ff47192b4d219d9b1d3597da4902b8863001824256f2c9366f6e6e623fed9280", "bytes": 16372}
+  ],
+  "feature_schema": {
+    "input_unit": "one metabolic reaction row",
+    "text_fields": [
+      {"name": "reaction_name", "dtype": "string", "semantic": "human-readable reaction name"},
+      {"name": "model_equation", "dtype": "string", "semantic": "reaction equation text"},
+      {"name": "direction", "dtype": "string", "semantic": "reaction direction annotation"},
+      {"name": "enzyme_ec_numbers", "dtype": "string", "semantic": "pipe-separated EC evidence"},
+      {"name": "gpr", "dtype": "string", "semantic": "gene-protein-reaction rule"}
+    ],
+    "numeric_fields": [
+      {"name": "lower_bound_num", "dtype": "float64", "semantic": "coerced lower flux bound"},
+      {"name": "upper_bound_num", "dtype": "float64", "semantic": "coerced upper flux bound"},
+      {"name": "enzyme_evidence_rows_num", "dtype": "float64", "semantic": "enzyme evidence row count"},
+      {"name": "reactant_count", "dtype": "int64", "semantic": "reactant identifier count"},
+      {"name": "product_count", "dtype": "int64", "semantic": "product identifier count"},
+      {"name": "stoich_metabolite_count", "dtype": "int64", "semantic": "metabolites in parsed stoichiometry"},
+      {"name": "has_gpr", "dtype": "int64", "semantic": "GPR presence indicator"},
+      {"name": "has_ec", "dtype": "int64", "semantic": "EC evidence presence indicator"},
+      {"name": "has_formula_balance", "dtype": "int64", "semantic": "formula balance indicator"},
+      {"name": "has_charge_balance", "dtype": "int64", "semantic": "charge balance indicator"}
+    ],
+    "text_transform": "lowercase char_wb TF-IDF ngrams 3-5, min_df=2, max_features=60000",
+    "numeric_transform": "StandardScaler(with_mean=False) fitted on training rows",
+    "missing_value_policy": "missing text becomes empty text; numeric coercion failures and missing values become zero",
+    "excluded_leakage_fields": ["external cross-reference identifiers", "RXNdb identifiers"]
+  },
+  "training_semantics": {
+    "method": "class-weight-balanced liblinear logistic regression",
+    "positive_label": "label 1: curated or database-cross-referenced reaction",
+    "zero_label": "label 0: unlabeled candidate, not a confirmed negative",
+    "estimand": "reference-likeness ranking, not probability of biochemical truth",
+    "split_strategy": "connected-group split across protein homology, normalized stoichiometry, substrate structure, and reaction identifiers",
+    "decision_threshold": {"source": "development split", "purpose": "select a threshold targeting labeled-positive recall; value absent from the legacy snapshot"}
+  },
+  "evaluation_semantics": {
+    "splits": ["train", "dev", "test"],
+    "reported_metrics": ["observed-label ROC AUC", "observed-label average precision", "labeled-positive recall"],
+    "recorded_metrics": [
+      {"split": "train", "rows": 3097, "labeled_positives": 1584, "unlabeled": 1513, "observed_label_roc_auc": 0.995501, "observed_label_average_precision": 0.995529, "labeled_positive_recall": 0.986742},
+      {"split": "dev", "rows": 352, "labeled_positives": 159, "unlabeled": 193, "observed_label_roc_auc": 0.988692, "observed_label_average_precision": 0.988093, "labeled_positive_recall": 0.968553},
+      {"split": "test", "rows": 396, "labeled_positives": 216, "unlabeled": 180, "observed_label_roc_auc": 0.986291, "observed_label_average_precision": 0.985283, "labeled_positive_recall": 0.962963}
+    ],
+    "limitations": [
+      "Unlabeled rows may contain latent positives, biasing every observed-label discrimination and calibration metric.",
+      "The legacy snapshot lacks bootstrap confidence intervals, threshold value, calibration diagnostics, and an independent temporal test.",
+      "The exact generating Git revision is unavailable; current associated code is inventoried by file hash but cannot prove bitwise model reproducibility."
+    ],
+    "claims_prohibited": ["probability of biochemical truth", "calibrated posterior probability", "experimental validation", "cross-organism generalization"]
+  },
+  "external_temporal_evaluation": {
+    "status": "blocked",
+    "reason": "No validated independent timestamped external temporal test dataset is available.",
+    "required_to_unblock": "Supply a provenance-complete dataset collected after the training cutoff, demonstrate entity independence, freeze the protocol, and report results without retraining."
+  },
+  "runtime": {
+    "inventory_python": "3.14.5",
+    "implementation": "CPython",
+    "dependencies": {"joblib": "1.5.3", "numpy": "2.4.6", "pandas": "2.3.3", "scikit-learn": "1.9.0", "scipy": "1.17.1"},
+    "reproduction_spec": {"path": "constraints.txt", "sha256": "7376dfcaf591cb6b4dec3107a6890f5a10caec0f284ed9bc8b6bb548dedee41e", "bytes": 276}
+  },
+  "git": {
+    "commit": null,
+    "branch": "master",
+    "worktree_status": "no_commits_all_untracked",
+    "reproducibility_effect": "No commit identifies the generating state; artifact, data, source, and current associated code hashes are the only immutable local identifiers."
+  },
+  "license_and_sources": {
+    "model_license_status": "not_declared",
+    "repository_license_status": "no_root_license_found",
+    "training_data_sources": ["Yeast-MetaTwin/reference reaction export", "model-context unlabeled candidates", "assembled compound mappings", "local MMseqs2 homology clusters", "local reaction balance audit"],
+    "redistribution_status": "blocked pending model and upstream data license review"
+  },
+  "serialization_security": {
+    "format": "joblib/pickle",
+    "risk": "Deserialization may execute arbitrary code.",
+    "default_action": "do_not_deserialize",
+    "integrity_verification": "Validate manifest, constrain paths to project root, then verify byte size and SHA-256 before any load attempt.",
+    "trust_requirement": "Source trust must be established independently; checksum equality alone is not trust.",
+    "approved_loader": "load_joblib_verified",
+    "inventory_trust_basis": "matched_local_governed_checksum_inventory_origin_unverified"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "generated_at": "2026-07-16T21:30:40",
+  "model_version": "phase2_reaction_evidence_pu_v2",
+  "model_path": "03_models\\phase2_reaction_evidence_pu_v2.joblib",
+  "n_estimators": 25,
+  "negative_positive_ratio": 0.6,
+  "ensemble_members": [
+    {
+      "member": 0,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 1,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 2,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 3,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 4,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 5,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 6,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 7,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 8,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 9,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 10,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 11,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 12,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 13,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 14,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 15,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 16,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 17,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 18,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 19,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 20,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 21,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 22,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 23,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    },
+    {
+      "member": 24,
+      "positive_rows": 1584,
+      "sampled_unlabeled_negative_rows": 950
+    }
+  ],
+  "metrics": [
+    {
+      "split": "train",
+      "rows": 3097,
+      "positive_rows": 1584,
+      "negative_rows": 1513,
+      "accuracy": 0.954472,
+      "precision": 0.928699,
+      "recall": 0.986742,
+      "f1": 0.956841,
+      "average_precision": 0.994593,
+      "confusion_matrix": [
+        [
+          1393,
+          120
+        ],
+        [
+          21,
+          1563
+        ]
+      ],
+      "roc_auc": 0.994583
+    },
+    {
+      "split": "dev",
+      "rows": 352,
+      "positive_rows": 159,
+      "negative_rows": 193,
+      "accuracy": 0.931818,
+      "precision": 0.894737,
+      "recall": 0.962264,
+      "f1": 0.927273,
+      "average_precision": 0.987072,
+      "confusion_matrix": [
+        [
+          175,
+          18
+        ],
+        [
+          6,
+          153
+        ]
+      ],
+      "roc_auc": 0.987519
+    },
+    {
+      "split": "test",
+      "rows": 396,
+      "positive_rows": 216,
+      "negative_rows": 180,
+      "accuracy": 0.944444,
+      "precision": 0.936937,
+      "recall": 0.962963,
+      "f1": 0.949772,
+      "average_precision": 0.984997,
+      "confusion_matrix": [
+        [
+          166,
+          14
+        ],
+        [
+          8,
+          208
+        ]
+      ],
+      "roc_auc": 0.985854
+    }
+  ],
+  "candidate_extension_rows_scored": 3330,
+  "terminal_scores": [
+    {
+      "model_reaction_id": "CAND_T2DEC_THIOESTERASE_P",
+      "reaction_name": "candidate trans-dec-2-enoyl-CoA thioesterase",
+      "model_equation": "s_1507 + s_0809 --> cand_t2dec_p + s_0534 + s_0801",
+      "enzyme_ec_numbers": "3.1.2.-|3.1.2.2",
+      "pu_reference_likeness_score": 0.6864742448239481
+    },
+    {
+      "model_reaction_id": "CAND_T2DEC_OMEGA_HYDROXYLASE_P",
+      "reaction_name": "candidate trans-2-decenoate omega-hydroxylase",
+      "model_equation": "cand_t2dec_p + s_1215 + s_1279 + s_0801 --> cand_10h2da_p + s_1211 + s_0809",
+      "enzyme_ec_numbers": "1.14.-.-|1.14.14.-",
+      "pu_reference_likeness_score": 0.8863669418194068
+    },
+    {
+      "model_reaction_id": "CAND_T2DEC_COA_OMEGA_HYDROXYLASE_P",
+      "reaction_name": "candidate trans-dec-2-enoyl-CoA omega-hydroxylase",
+      "model_equation": "s_1507 + s_1215 + s_1279 + s_0801 --> cand_10h2da_coa_p + s_1211 + s_0809",
+      "enzyme_ec_numbers": "1.14.-.-|1.14.14.-",
+      "pu_reference_likeness_score": 0.8349201271803747
+    },
+    {
+      "model_reaction_id": "CAND_10H2DA_COA_THIOESTERASE_P",
+      "reaction_name": "candidate 10-hydroxy-trans-2-decenoyl-CoA thioesterase",
+      "model_equation": "cand_10h2da_coa_p + s_0809 --> cand_10h2da_p + s_0534 + s_0801",
+      "enzyme_ec_numbers": "3.1.2.-|3.1.2.2",
+      "pu_reference_likeness_score": 0.741744341896841
+    }
+  ],
+  "notes": [
+    "This is a PU-style prioritization model, not a final truth-label classifier.",
+    "Metrics still use held-out unlabeled hard negatives as evaluation negatives and should be interpreted conservatively."
+  ]
+}

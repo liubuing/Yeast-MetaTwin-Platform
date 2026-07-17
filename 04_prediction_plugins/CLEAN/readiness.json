@@ -1,0 +1,18 @@
+{
+  "plugin": "CLEAN",
+  "capability": "pretrained_ec_inference",
+  "status": "blocked",
+  "gate_exit_code": 1,
+  "smoke_status": "not_run_missing_assets",
+  "missing_assets": [
+    "data/pretrained/split100.pth",
+    "data/pretrained/100.pt",
+    "data/pretrained/gmm_ensumble.pkl"
+  ],
+  "blockers": [
+    "Official pretrained.zip download endpoint is unreachable from this host.",
+    "The official source publishes no SHA256 for pretrained.zip.",
+    "The repository-specific research-use license requires manual review."
+  ],
+  "fixed_input": "smoke/fixed_input.fasta"
+}

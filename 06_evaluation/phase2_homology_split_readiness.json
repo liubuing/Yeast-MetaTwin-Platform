@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-16T20:58:30",
+  "tools": {
+    "mmseqs": {
+      "available": true,
+      "path": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\tools\\mmseqs2\\mmseqs\\bin\\mmseqs.exe"
+    },
+    "cd-hit": {
+      "available": false,
+      "path": ""
+    },
+    "cd-hit-est": {
+      "available": false,
+      "path": ""
+    }
+  },
+  "fasta_assets": [
+    {
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\Saccharomyces_cerevisiae.fasta",
+      "exists": true,
+      "header_id_count": 5911
+    },
+    {
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Code\\ECnumber_prediction\\CLEAN\\data\\Saccharomyces_cerevisiae.fasta",
+      "exists": true,
+      "header_id_count": 5911
+    },
+    {
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\audit\\clean_unique_sequences.fasta",
+      "exists": true,
+      "header_id_count": 191460
+    }
+  ],
+  "combined_fasta_header_id_count": 197371,
+  "pool_orf_coverage": {
+    "reference_only": {
+      "path": "05_training\\split_definitions_reference_only.csv",
+      "rows": 1959,
+      "rows_with_orfs": 1237,
+      "unique_orfs": 1033,
+      "unique_orfs_in_fasta": 1033,
+      "unique_orfs_missing_fasta": 0,
+      "missing_orfs": []
+    },
+    "reference_plus_candidate_no_overlap": {
+      "path": "05_training\\split_definitions_reference_plus_candidate_no_overlap.csv",
+      "rows": 5282,
+      "rows_with_orfs": 4560,
+      "unique_orfs": 1746,
+      "unique_orfs_in_fasta": 1745,
+      "unique_orfs_missing_fasta": 1,
+      "missing_orfs": [
+        "nogene"
+      ]
+    }
+  },
+  "homology_split_ready": true,
+  "blocking_reason": "",
+  "missing_orf_output": "06_evaluation/phase2_homology_split_missing_orfs.csv"
+}

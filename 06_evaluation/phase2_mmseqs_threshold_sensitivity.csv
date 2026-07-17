@@ -1,0 +1,9 @@
+min_seq_id,coverage,cov_mode,pool,mmseqs_clusters,rows,train,dev,test,homology_keys,crossing_keys,cluster_set_rows,fallback_rows
+0.3,0.8,0,reference_only,1416,1959,1584,159,216,1376,0,1237,722
+0.3,0.8,0,reference_plus_candidate_no_overlap,1416,5282,4469,274,539,1538,0,4555,727
+0.5,0.8,0,reference_only,1522,1959,1584,163,212,1435,0,1237,722
+0.5,0.8,0,reference_plus_candidate_no_overlap,1522,5282,4346,288,648,1597,0,4555,727
+0.7,0.8,0,reference_only,1621,1959,1581,178,200,1473,0,1237,722
+0.7,0.8,0,reference_plus_candidate_no_overlap,1621,5282,4526,300,456,1635,0,4555,727
+0.9,0.8,0,reference_only,1699,1959,1556,184,219,1489,0,1237,722
+0.9,0.8,0,reference_plus_candidate_no_overlap,1699,5282,3653,792,837,1651,0,4555,727

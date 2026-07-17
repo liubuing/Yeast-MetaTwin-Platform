@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://metatwin.local/schemas/data-quality-gate-summary-1.0.0.json",
+  "title": "MetaTwin data quality gate summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "status", "parser", "counts", "strict_subsets", "failures", "artifacts"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["passed", "failed"]},
+    "parser": {"enum": ["pysmiles", "unavailable"]},
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metabolites_total", "structures_missing", "structures_parseable", "structures_parse_failed",
+        "structures_parser_unavailable", "structures_unresolved", "missing_structure_missing_formula",
+        "missing_structure_generic_formula", "missing_structure_source_has_no_structure",
+        "missing_structure_external_mapping_not_found", "reactions_total", "reactions_mass_unbalanced",
+        "reactions_charge_unbalanced", "reactions_pending_external_mapping", "reactions_manual_review_required"
+      ],
+      "properties": {
+        "metabolites_total": {"type": "integer", "minimum": 0},
+        "structures_missing": {"type": "integer", "minimum": 0},
+        "structures_parseable": {"type": "integer", "minimum": 0},
+        "structures_parse_failed": {"type": "integer", "minimum": 0},
+        "structures_parser_unavailable": {"type": "integer", "minimum": 0},
+        "structures_unresolved": {"type": "integer", "minimum": 0},
+        "missing_structure_missing_formula": {"type": "integer", "minimum": 0},
+        "missing_structure_generic_formula": {"type": "integer", "minimum": 0},
+        "missing_structure_source_has_no_structure": {"type": "integer", "minimum": 0},
+        "missing_structure_external_mapping_not_found": {"type": "integer", "minimum": 0},
+        "reactions_total": {"type": "integer", "minimum": 0},
+        "reactions_mass_unbalanced": {"type": "integer", "minimum": 0},
+        "reactions_charge_unbalanced": {"type": "integer", "minimum": 0},
+        "reactions_pending_external_mapping": {"type": "integer", "minimum": 0},
+        "reactions_manual_review_required": {"type": "integer", "minimum": 0}
+      }
+    },
+    "strict_subsets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "status", "checks"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "status": {"enum": ["passed", "failed"]},
+          "checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["code", "status", "detail"],
+              "properties": {
+                "code": {"type": "string", "minLength": 1},
+                "status": {"enum": ["passed", "failed"]},
+                "detail": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "failures": {"type": "array", "items": {"type": "string"}},
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["metabolite_quality", "reaction_quality", "summary_schema"],
+      "properties": {
+        "metabolite_quality": {"type": "string"},
+        "reaction_quality": {"type": "string"},
+        "summary_schema": {"type": "string"}
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "description": "Generic target-compound workflow configuration for Integrated Yeast-MetaTwin Deployment.",
+  "required_top_level_fields": [
+    "target",
+    "compounds",
+    "candidate_reactions",
+    "routes",
+    "enzyme_search",
+    "prediction_pairs",
+    "engineering_layers"
+  ],
+  "target": {
+    "target_id": "stable lowercase identifier, e.g. 10h2da",
+    "target_name": "human-readable target compound name",
+    "formula": "neutral target formula if known",
+    "charge_state_in_model": "expected model charge or null",
+    "compartment": "model compartment code for candidate metabolites",
+    "synonyms": ["list of search synonyms"]
+  },
+  "compounds": [
+    {
+      "compound_id": "stable internal id",
+      "name": "compound name",
+      "role": "target|precursor|intermediate|cofactor|candidate_metabolite",
+      "formula": "formula if known",
+      "charge": "integer charge if known",
+      "smiles": "SMILES if known",
+      "smiles_source": "PubChem/ChEBI/manual_derived/etc",
+      "model_metabolite_id": "existing model id or candidate id"
+    }
+  ],
+  "candidate_reactions": [
+    {
+      "reaction_id": "stable internal reaction id",
+      "name": "candidate reaction name",
+      "equation": "human-readable equation",
+      "stoichiometry": {"compound_or_model_id": "coefficient"},
+      "enzyme_ec_numbers": ["EC hints"],
+      "reaction_role": "route step role",
+      "evidence_scope": "curated|candidate_extension|hypothesis",
+      "balance_expected": true
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "route identifier",
+      "name": "route name",
+      "reaction_ids": ["ordered candidate reactions"],
+      "objective_metabolite_id": "metabolite to demand in FBA",
+      "route_risk_note": "major route-specific uncertainty"
+    }
+  ],
+  "enzyme_search": {
+    "enzyme_classes": ["thioesterase", "omega_hydroxylase"],
+    "exact_terms": ["exact substrate/reaction terms"],
+    "near_terms": ["near substrate/family terms"],
+    "external_sources": ["UniProt", "Rhea", "PubMed"],
+    "tiering_policy": "A/B/C/D/E/Z evidence-tier definitions or reference to default policy"
+  },
+  "prediction_pairs": [
+    {
+      "reaction_id": "candidate reaction id",
+      "enzyme_source": "endogenous|external|both",
+      "substrate_compound_id": "compound id with SMILES",
+      "sequence_source": "yeast_fasta|uniprot|manual_fasta",
+      "prediction_plugins": ["UniKP"]
+    }
+  ],
+  "engineering_layers": {
+    "family_sanity_filter": {
+      "enabled": true,
+      "preferred_families": ["target-specific preferred enzyme families"],
+      "weak_family_patterns": ["patterns to demote"]
+    },
+    "p450_feasibility": {
+      "enabled": false,
+      "applies_to_reaction_roles": ["omega_hydroxylation"],
+      "redox_partner_policy": "target-specific or default"
+    },
+    "construct_design": {
+      "enabled": false,
+      "design_scope": "prioritization checklist only; not wet-lab protocol"
+    }
+  }
+}

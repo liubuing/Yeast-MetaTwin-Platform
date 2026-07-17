@@ -1,0 +1,107 @@
+{
+  "schema_version": "2.0.0",
+  "generated_at": "2026-07-17T12:28:13+00:00",
+  "input": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\02_id_mapping\\model_compound_seed_enriched.csv",
+  "output": "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\02_id_mapping\\model_compound_seed_enriched_v2.csv",
+  "parser": "pysmiles",
+  "local_roots": [
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin"
+  ],
+  "local_assets_scanned": [
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\ymdb\\ymdb.csv",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\kegg_compound.txt",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\chebi_id_smiles.csv",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\chebi_second_id_smiles.csv",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\yeast_gem_smiles.json",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\mnx_chem_depr.tsv",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\MNXmetabolite_smile.csv",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin-zenodo\\Data\\database\\ChEBI_complete_3star.sdf"
+  ],
+  "baseline_counts": {
+    "metabolites_total": 3301,
+    "structures_missing": 1177,
+    "structures_parseable": 2117,
+    "structures_parse_failed": 7,
+    "structures_parser_unavailable": 0,
+    "structures_unresolved": 1184,
+    "missing_structure_missing_formula": 522,
+    "missing_structure_generic_formula": 171,
+    "missing_structure_source_has_no_structure": 484,
+    "missing_structure_external_mapping_not_found": 0,
+    "reactions_total": 7516,
+    "reactions_mass_unbalanced": 2720,
+    "reactions_charge_unbalanced": 2453,
+    "reactions_pending_external_mapping": 1661,
+    "reactions_manual_review_required": 2788
+  },
+  "v2_counts": {
+    "metabolites_total": 3301,
+    "structures_missing": 544,
+    "structures_parseable": 2753,
+    "structures_parse_failed": 4,
+    "structures_parser_unavailable": 0,
+    "structures_unresolved": 548,
+    "missing_structure_missing_formula": 58,
+    "missing_structure_generic_formula": 117,
+    "missing_structure_source_has_no_structure": 369,
+    "missing_structure_external_mapping_not_found": 0,
+    "reactions_total": 7516,
+    "reactions_mass_unbalanced": 2720,
+    "reactions_charge_unbalanced": 2453,
+    "reactions_pending_external_mapping": 1661,
+    "reactions_manual_review_required": 2788
+  },
+  "net_unresolved_reduction": 636,
+  "new_mappings": 636,
+  "new_mappings_by_method": {
+    "exact_chebi_id": 130,
+    "exact_kegg_id": 25,
+    "exact_metanetx_deprecated_redirect": 10,
+    "exact_metanetx_id": 6,
+    "exact_ymdb_id": 460,
+    "unique_normalized_name": 5
+  },
+  "manual_review_rows": 114,
+  "unresolved_after_exhaustion": 434,
+  "key_space_coverage": {
+    "exact_ymdb_id": {
+      "rows_with_key": 482,
+      "rows_with_local_candidate": 482,
+      "rows_with_parseable_candidate": 480
+    },
+    "exact_metanetx_id": {
+      "rows_with_key": 234,
+      "rows_with_local_candidate": 63,
+      "rows_with_parseable_candidate": 56
+    },
+    "exact_chebi_id": {
+      "rows_with_key": 327,
+      "rows_with_local_candidate": 164,
+      "rows_with_parseable_candidate": 156
+    },
+    "exact_kegg_id": {
+      "rows_with_key": 218,
+      "rows_with_local_candidate": 176,
+      "rows_with_parseable_candidate": 167
+    },
+    "exact_pubchem_cid_via_chebi_sdf": {
+      "rows_with_key": 0,
+      "rows_with_local_candidate": 0,
+      "rows_with_parseable_candidate": 0
+    },
+    "unique_normalized_name": {
+      "rows_with_key": 1184,
+      "rows_with_local_candidate": 55,
+      "rows_with_parseable_candidate": 51
+    }
+  },
+  "remaining_decisions_by_reason": {
+    "formula_conflict": 92,
+    "local_key_space_exhausted": 429,
+    "multiple_structures_for_key": 22,
+    "no_parseable_local_structure": 5
+  },
+  "provenance_rows": 1184,
+  "gate_status": "passed"
+}

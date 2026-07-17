@@ -1,0 +1,7 @@
+asset,term,match_type,record
+uniprot_yeast,,read_error,AttributeError: 'TextFileReader' object has no attribute 'fillna'
+uniprot_reaction_smiles,,read_error,AttributeError: 'TextFileReader' object has no attribute 'fillna'
+kegg_compound,,read_error,AttributeError: 'TextFileReader' object has no attribute 'fillna'
+ymdb,,read_error,AttributeError: 'TextFileReader' object has no attribute 'fillna'
+chebi_smiles,,read_error,AttributeError: 'TextFileReader' object has no attribute 'fillna'
+mnx_reaction_smile,,read_error,AttributeError: 'TextFileReader' object has no attribute 'fillna'

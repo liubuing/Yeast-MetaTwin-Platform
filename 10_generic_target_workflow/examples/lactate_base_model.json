@@ -1,0 +1,19 @@
+{
+  "metabolites": [
+    {"id": "pyruvate_c", "name": "Pyruvate", "compartment": "c", "charge": -1, "formula": "C3H3O3", "annotation": {}},
+    {"id": "nadh_c", "name": "NADH", "compartment": "c", "charge": -2, "formula": null, "annotation": {}},
+    {"id": "h_c", "name": "Proton", "compartment": "c", "charge": 1, "formula": "H", "annotation": {}},
+    {"id": "nad_c", "name": "NAD", "compartment": "c", "charge": -1, "formula": null, "annotation": {}}
+  ],
+  "reactions": [
+    {"id": "SOURCE_PYR", "name": "Pyruvate source", "metabolites": {"pyruvate_c": 1.0}, "lower_bound": 0.0, "upper_bound": 10.0, "gene_reaction_rule": "", "subsystem": "reference smoke", "annotation": {}},
+    {"id": "SOURCE_NADH", "name": "NADH source", "metabolites": {"nadh_c": 1.0}, "lower_bound": 0.0, "upper_bound": 10.0, "gene_reaction_rule": "", "subsystem": "reference smoke", "annotation": {}},
+    {"id": "SOURCE_H", "name": "Proton source", "metabolites": {"h_c": 1.0}, "lower_bound": 0.0, "upper_bound": 10.0, "gene_reaction_rule": "", "subsystem": "reference smoke", "annotation": {}},
+    {"id": "SINK_NAD", "name": "NAD sink", "metabolites": {"nad_c": -1.0}, "lower_bound": 0.0, "upper_bound": 1000.0, "gene_reaction_rule": "", "subsystem": "reference smoke", "annotation": {}},
+    {"id": "BIOMASS", "name": "Reference biomass", "metabolites": {"pyruvate_c": -1.0}, "lower_bound": 0.0, "upper_bound": 1000.0, "gene_reaction_rule": "", "subsystem": "reference smoke", "annotation": {}}
+  ],
+  "genes": [],
+  "id": "lactate-reference-smoke",
+  "compartments": {"c": "cytosol"},
+  "version": "1"
+}
