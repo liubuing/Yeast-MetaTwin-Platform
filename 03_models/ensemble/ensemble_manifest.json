@@ -1,0 +1,14 @@
+{
+  "n_members": 3,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "member_paths": [
+    "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\03_models\\ensemble\\ensemble_member_0.pt",
+    "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\03_models\\ensemble\\ensemble_member_1.pt",
+    "C:\\biological\\Metabolic model prediction\\Integrated_Yeast_MetaTwin_Deployment\\03_models\\ensemble\\ensemble_member_2.pt"
+  ],
+  "architecture": "multitask_esm2_shared_encoder"
+}

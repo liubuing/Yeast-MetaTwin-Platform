@@ -1,0 +1,43 @@
+{
+  "species_id": "yeast",
+  "organism_name": "Saccharomyces cerevisiae",
+  "taxonomy_id": 559292,
+  "gem": {
+    "path": "03_models/gems/Yeast-MetaTwin.yml",
+    "format": "yml",
+    "source": "LiLabTsinghua/Yeast-MetaTwin (bioRxiv 2024.09.02.610684)",
+    "n_reactions": 7512,
+    "n_metabolites": 3301,
+    "n_genes": 2057
+  },
+  "biomass_reaction": "r_2111",
+  "solver": "glpk",
+  "uniprot_proteome_id": "UP000002311",
+  "cofactor_whitelist": [
+    "MNXM3",
+    "MNXM4",
+    "MNXM5",
+    "MNXM6",
+    "MNXM10",
+    "MNXM12",
+    "MNXM13",
+    "MNXM16",
+    "MNXM23",
+    "MNXM38",
+    "MNXM51",
+    "MNXM75",
+    "MNXM121",
+    "MNXM191",
+    "MNXM256",
+    "MNXM343",
+    "MNXM558"
+  ],
+  "codon_table": 1,
+  "expression_system": "endogenous",
+  "id_mapping": {
+    "compound_namespace": "metanetx",
+    "reaction_namespace": "metanetx",
+    "mapping_table": "02_id_mapping/model_compound_seed_enriched_v2.csv"
+  },
+  "notes": "Primary deployment species. Yeast-MetaTwin includes 3381 underground (rxn*) reactions from enzyme promiscuity."
+}

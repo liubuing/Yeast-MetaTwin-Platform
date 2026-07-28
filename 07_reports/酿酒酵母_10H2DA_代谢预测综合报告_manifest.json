@@ -1,0 +1,72 @@
+{
+  "manifest_version": "1.0",
+  "generated_at": "2026-07-22T10:38:43.890258+00:00",
+  "report": {
+    "path": "07_reports/酿酒酵母_10H2DA_代谢预测综合报告.docx",
+    "sha256": "e3cee5ed23cf81f6ffb39c94abc0b41569483f01a490d7d47c654b3646ecdbcc",
+    "validation": {
+      "paragraphs": 53,
+      "tables": 20,
+      "table_rows": 108,
+      "inline_shapes": 0,
+      "code_runs": 36,
+      "keyword_check": "passed",
+      "minimum_table_check": "passed",
+      "consolas_check": "passed"
+    }
+  },
+  "generator": {
+    "path": "08_runtime/generate_10h2da_comprehensive_report.py",
+    "sha256": "279fc6c8fce7e7c8f191a77b8f884aec416aef5b0061e992b4d22671fe623e8e"
+  },
+  "source_run": "runs/10h2da-three-system-20260717",
+  "run_generated_at": "2026-07-17T21:32:06.545298+08:00",
+  "solver": "glpk",
+  "exact_evidence_count": 0,
+  "model_summary": {
+    "yeast_gem": {
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\model\\yeast-GEM.yml",
+      "metabolites": 2806,
+      "reactions": 4131,
+      "genes": 1163
+    },
+    "yeast_metatwin": {
+      "path": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\model\\Yeast-MetaTwin.yml",
+      "metabolites": 3301,
+      "reactions": 7512,
+      "genes": 2057
+    }
+  },
+  "input_artifact_hashes": {
+    "06_evaluation/10h2da_engineering_candidate_matrix.csv": "a5bc6e0202204194914bfa0fb37277ed06370683c40c5f5f9af10ae6f81a0872",
+    "06_evaluation/10h2da_engineering_candidate_prioritization_manifest.json": "726ab0ab582f86d2ac2aad74ae63082de9b422d741ef389b10338937f8ce10d5",
+    "06_evaluation/10h2da_external_evidence_supplement.json": "4c6d8dd22745a25706672fe92bfd625954e9ba1ed67e7aa37015c18bbdae787c",
+    "06_evaluation/10h2da_p450_engineering_feasibility_manifest.json": "4b965ba3692111ef53256db4ff70770bda951db4e9e1808ad3801c444d2631b6",
+    "06_evaluation/10h2da_p450_engineering_feasibility_matrix.csv": "fcd14d31f03acb78ba3289001520510a9f7ed83a143cb6762f7a5fd405d9f578",
+    "06_evaluation/10h2da_terminal_candidate_scores.csv": "0bf75d00518256b0a2f1d3567ae750d3db6d1a403a75002145feb3c15286f7f7",
+    "06_evaluation/10h2da_terminal_evidence_validation.json": "322738cbf3acbaf23d015549132ba51a1d1f5d47a3b8c20c87f5f82f914bc5b6",
+    "07_reports/10H2DA_Integrated_Deployment_中文报告.docx": "17c33e53bf65fa9c3dd8e0b24ce834aac1e9ecadd92e6290c6e2be08b9cafd00",
+    "07_reports/10H2DA_Yeast-MetaTwin_中文报告.docx": "fdbd8460a2dd2b8027f1bebe837ecdfcfd2dcd8b866cf87433fdcbdabe832a52",
+    "07_reports/10H2DA_yeast-GEM_中文报告.docx": "7f9821c873b729a564b2dca33d28adcae9d8539fe39bcfc6c02ed92ac9b991cd",
+    "08_runtime/run_10h2da_three_system_comparison.py": "b9ca57188504bdfa8d0f01b590bf11650dad23b415a7ffe66715e47672365b9a",
+    "10_generic_target_workflow/runtime/executors.py": "79f8ce65471eeb7c64cd9a52164bd362811402f3075f3264b45e41212d7e08a5",
+    "10_generic_target_workflow/runtime/workflow_cli.py": "112a5b58a26d0d044250d4147aa34bbcff7306a3c304875c708bf5062f3acf2f",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\model\\Yeast-MetaTwin.yml": "7b2576232bd093001c2f173e07fb9d29c0ae565b5fc3d4be0d88a4b7d444deec",
+    "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\model\\yeast-GEM.yml": "f56e23ef0dbca10795ab4f3f9643396af970e0cc43b45a39f2fe66290eb601eb",
+    "runs/10h2da-three-system-20260717/comparison_summary.json": "9002bdfbb8638e6331c3b0d938a6f982ef5ddf8b9306fabef4158376217fdaca",
+    "runs/10h2da-three-system-20260717/configs/integrated.json": "051eba7d2d91f0f986e8e35e7f7c30a3c49af7559cc5d97c190722e4117fe781",
+    "runs/10h2da-three-system-20260717/configs/yeast_gem.json": "35a937ce462026a80ac86bfd00b72681ed62b0e5e42ffca875880278d5040de9",
+    "runs/10h2da-three-system-20260717/configs/yeast_metatwin.json": "26e304b286b5c39f79380f5a0e7dc60f19d4de0033937e82f60b18802c4b8ba7",
+    "runs/10h2da-three-system-20260717/runs/10h2da-integrated/artifacts/model_feasibility/fba_results.json": "0662bdd37bef4bccba08e1f9c68598fa8f8a9de2e9225300ec5bae1a56385969",
+    "runs/10h2da-three-system-20260717/runs/10h2da-yeast_gem/artifacts/model_feasibility/fba_results.json": "219fa04fd981020f227ad8a502f2d9a486360dffcbd338dd2c056d1f63979d5c",
+    "runs/10h2da-three-system-20260717/runs/10h2da-yeast_metatwin/artifacts/model_feasibility/fba_results.json": "4187022d60cc12f3a168f521e50c3bfc9bd497243c06771e1461c6dc5c4ad253",
+    "runs/10h2da-three-system-20260717/subprocess_results.json": "9acacf2f11a0c0d496410d933901bbf57fc6c089165df2fa23a65f87c47c2eef"
+  },
+  "claims": {
+    "stoichiometric_feasibility_supported": true,
+    "enzymatic_validation_established": false,
+    "wet_lab_validation_established": false,
+    "integrated_is_independent_third_gem": false,
+    "fba_rerun_for_report_generation": false
+  }
+}

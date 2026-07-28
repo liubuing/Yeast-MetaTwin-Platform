@@ -20,6 +20,7 @@ runs/
 logs/
 08_runtime/tmp/
 08_runtime/runs/
+08_runtime/geo_cache/
 10_generic_target_workflow/targets/*/outputs/
 10_generic_target_workflow/targets/*/reports/
 
@@ -47,6 +48,19 @@ tools/mmseqs2/
 05_training/mmseqs_homology_clusters/
 05_training/mmseqs_threshold_sensitivity/
 03_models/*.joblib
+
+# Large externally-obtained GEM files (download via BiGG/BioModels, see 09_configs/species/)
+03_models/gems/*.yml
+03_models/gems/*.xml
+03_models/gems/*.omex
+03_models/gems/*.mat
+
+# Per-sequence ESM-2 cache (regenerable; keep consolidated matrix + index)
+03_models/esm2_embeddings/*.npy
+!03_models/esm2_embeddings/embeddings_matrix.npy
+
+# GEO download cache (large, regenerable)
+08_runtime/geo_cache/
 
 # Editors and OS files
 .idea/

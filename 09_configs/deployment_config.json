@@ -1,12 +1,23 @@
 {
   "deployment_name": "Integrated_Yeast_MetaTwin_Deployment",
-  "version": "phase2_research_snapshot_2026-07",
+  "version": "phase3_cross_species_platform_2026-07",
   "base_dir": ".",
   "source_project_dir": "../Yeast-MetaTwin",
   "models": {
     "yeast_gem": "Data/model/yeast-GEM.yml",
     "yeast_metatwin": "Data/model/Yeast-MetaTwin.yml",
     "yeast_metatwin_lipid": "Data/model/Yeast-MetaTwin-lipid.yml"
+  },
+  "species_profiles": "09_configs/species/",
+  "cross_species_modules": {
+    "species_profile": "08_runtime/species_profile.py",
+    "load_gem_multispecies": "08_runtime/load_gem_multispecies.py",
+    "esm2_encode": "08_runtime/esm2_encode.py",
+    "id_mapping_bridge": "08_runtime/id_mapping_bridge.py",
+    "multitask_model": "08_runtime/multitask_model.py",
+    "omics_constrain": "08_runtime/omics_constrain.py",
+    "acquisition": "08_runtime/acquisition.py",
+    "cross_species_workflow": "08_runtime/cross_species_workflow.py"
   },
   "audit_outputs": {
     "pathway_audit_md": "audit/pathway_prediction_audit.md",
@@ -16,7 +27,10 @@
   "runtime": {
     "default_solver": "glpk",
     "python_minimum": "3.11",
-    "phase1_requires_rdkit": false
+    "phase1_requires_rdkit": false,
+    "esm2_model": "esm2_t33_650M_UR50D",
+    "esm2_embed_dim": 1280,
+    "ensemble_members": 5
   },
   "phase1_scope": [
     "load yeast-GEM and Yeast-MetaTwin",
@@ -24,5 +38,14 @@
     "compare model sizes and rxn* reactions",
     "check key audit files",
     "write verification report"
+  ],
+  "phase3_scope": [
+    "multi-species GEM loading (yeast, ecoli, cglutamicum)",
+    "ESM-2 protein sequence encoding (species-agnostic)",
+    "multi-task joint prediction (EC + kcat + FBA feasibility)",
+    "condition-specific FBA with GIMME/iMAT omics constraints",
+    "pseudo-GPR inference for underground reactions",
+    "active learning acquisition (EI + BALD) with Deep Ensemble",
+    "unified cross-species workflow CLI"
   ]
 }

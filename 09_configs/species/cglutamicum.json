@@ -1,0 +1,41 @@
+{
+  "species_id": "cglutamicum",
+  "organism_name": "Corynebacterium glutamicum ATCC 13032",
+  "taxonomy_id": 196627,
+  "gem": {
+    "path": "03_models/gems/iCW773.xml",
+    "format": "xml",
+    "source": "BioModels MODEL2110010001 / Zhang et al. 2017 (DOI: 10.1186/s13068-017-0856-3)",
+    "n_reactions": 1207,
+    "n_metabolites": 951,
+    "n_genes": 773
+  },
+  "biomass_reaction": "CG_BIOMASS_cgl_ATCC13032",
+  "solver": "glpk",
+  "uniprot_proteome_id": "UP000000589",
+  "cofactor_whitelist": [
+    "MNXM3",
+    "MNXM4",
+    "MNXM5",
+    "MNXM6",
+    "MNXM10",
+    "MNXM12",
+    "MNXM13",
+    "MNXM16",
+    "MNXM23",
+    "MNXM38",
+    "MNXM51",
+    "MNXM75",
+    "MNXM121",
+    "MNXM191",
+    "MNXM256"
+  ],
+  "codon_table": 11,
+  "expression_system": "endogenous",
+  "id_mapping": {
+    "compound_namespace": "bigg",
+    "reaction_namespace": "bigg",
+    "mapping_table": "02_id_mapping/bigg_metanx_compound_mapping.csv"
+  },
+  "notes": "Industrial amino acid producer. Cross-species validation target for L-lysine pathway case study."
+}

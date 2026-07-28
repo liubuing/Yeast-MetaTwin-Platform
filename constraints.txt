@@ -11,3 +11,5 @@ PyYAML==6.0.3
 python-docx==1.2.0
 jsonschema==4.26.0
 pytest==9.0.3
+torch==2.13.0
+fair-esm==2.0.0

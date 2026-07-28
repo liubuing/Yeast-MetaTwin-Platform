@@ -1,0 +1,43 @@
+{
+  "species_id": "ecoli",
+  "organism_name": "Escherichia coli K-12 MG1655",
+  "taxonomy_id": 511145,
+  "gem": {
+    "path": "03_models/gems/iML1515.xml",
+    "format": "xml",
+    "source": "BiGG Models (http://bigg.ucsd.edu/models/iML1515)",
+    "n_reactions": 2712,
+    "n_metabolites": 1877,
+    "n_genes": 1515
+  },
+  "biomass_reaction": "BIOMASS_Ec_iML1515_core_75p37M",
+  "solver": "glpk",
+  "uniprot_proteome_id": "UP000000625",
+  "cofactor_whitelist": [
+    "MNXM3",
+    "MNXM4",
+    "MNXM5",
+    "MNXM6",
+    "MNXM10",
+    "MNXM12",
+    "MNXM13",
+    "MNXM16",
+    "MNXM23",
+    "MNXM38",
+    "MNXM51",
+    "MNXM75",
+    "MNXM121",
+    "MNXM191",
+    "MNXM256",
+    "MNXM343",
+    "MNXM558"
+  ],
+  "codon_table": 11,
+  "expression_system": "endogenous",
+  "id_mapping": {
+    "compound_namespace": "bigg",
+    "reaction_namespace": "bigg",
+    "mapping_table": "02_id_mapping/bigg_metanx_compound_mapping.csv"
+  },
+  "notes": "Cross-species validation target. iML1515 is the current E. coli K-12 reference GEM (Monk et al. 2017)."
+}

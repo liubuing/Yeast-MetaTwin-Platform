@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "species_profile.schema.json",
+  "title": "SpeciesProfile",
+  "description": "Species-specific configuration for cross-organism metabolic prediction.",
+  "type": "object",
+  "required": [
+    "species_id",
+    "organism_name",
+    "taxonomy_id",
+    "gem",
+    "biomass_reaction",
+    "solver",
+    "uniprot_proteome_id",
+    "cofactor_whitelist"
+  ],
+  "properties": {
+    "species_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]{2,31}$",
+      "description": "Machine-readable species identifier (e.g. yeast, ecoli, cglutamicum)."
+    },
+    "organism_name": {
+      "type": "string",
+      "description": "Full organism name (e.g. Saccharomyces cerevisiae)."
+    },
+    "taxonomy_id": {
+      "type": "integer",
+      "description": "NCBI Taxonomy ID (e.g. 559292 for S. cerevisiae S288C)."
+    },
+    "gem": {
+      "type": "object",
+      "required": ["path", "format"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Relative path to GEM file from project root."
+        },
+        "format": {
+          "type": "string",
+          "enum": ["yml", "xml", "json", "mat"],
+          "description": "GEM file format."
+        },
+        "source": {
+          "type": "string",
+          "description": "Origin of the GEM (e.g. BiGG, GitHub, publication)."
+        },
+        "n_reactions": { "type": "integer" },
+        "n_metabolites": { "type": "integer" },
+        "n_genes": { "type": "integer" }
+      }
+    },
+    "biomass_reaction": {
+      "type": "string",
+      "description": "Reaction ID of the biomass objective (e.g. r_2111, BIOMASS_Ec_iML1515_WT_75p37M)."
+    },
+    "solver": {
+      "type": "string",
+      "enum": ["glpk", "gurobi", "cplex", "scipy"],
+      "default": "glpk"
+    },
+    "uniprot_proteome_id": {
+      "type": "string",
+      "description": "UniProt proteome identifier (e.g. UP000002311)."
+    },
+    "cofactor_whitelist": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "MetaNetX compound IDs of cofactors this species can produce/consume."
+    },
+    "codon_table": {
+      "type": "integer",
+      "default": 1,
+      "description": "NCBI translation table number."
+    },
+    "expression_system": {
+      "type": "string",
+      "description": "Preferred expression system note (e.g. 'endogenous', 'Pichia pastoris')."
+    },
+    "id_mapping": {
+      "type": "object",
+      "properties": {
+        "compound_namespace": {
+          "type": "string",
+          "enum": ["metanetx", "bigg", "kegg", "chebi"],
+          "description": "Primary compound ID namespace in the GEM."
+        },
+        "reaction_namespace": {
+          "type": "string",
+          "enum": ["metanetx", "bigg", "kegg", "rhea"],
+          "description": "Primary reaction ID namespace in the GEM."
+        },
+        "mapping_table": {
+          "type": "string",
+          "description": "Relative path to ID mapping CSV (02_id_mapping/)."
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

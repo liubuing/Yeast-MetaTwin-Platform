@@ -1,0 +1,453 @@
+{
+  "target_compound": "10-hydroxy-trans-2-decenoic acid (10H2DA)",
+  "demand_metabolites": {
+    "s_0605": "decanoyl-CoA",
+    "s_1507": "trans-dec-2-enoyl-CoA",
+    "s_0042": "(R)-3-hydroxydecanoyl-CoA",
+    "s_0239": "3-oxodecanoyl-CoA"
+  },
+  "method": "GIMME hard constraints + expression-weighted demand FBA",
+  "biomass_fraction": 0.1,
+  "wt_biomass": 0.089535,
+  "pathway_genes": [
+    "YGL205W",
+    "YKR009C",
+    "YLR284C",
+    "YER015W",
+    "YIL160C",
+    "YJR019C"
+  ],
+  "conditions": [
+    "glucose_aerobic",
+    "glucose_anaerobic",
+    "ethanol",
+    "galactose",
+    "nitrogen_starvation",
+    "oxidative_stress",
+    "stationary_phase"
+  ],
+  "results": [
+    {
+      "condition": "glucose_aerobic",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 53.5925,
+          "normalized_expression": 0.449262,
+          "weighted_production_score": 0.062938,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 46.2933,
+          "normalized_expression": 0.388074,
+          "weighted_production_score": 0.054366,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 542
+    },
+    {
+      "condition": "glucose_anaerobic",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 53.5925,
+          "normalized_expression": 0.449262,
+          "weighted_production_score": 0.062938,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 47.26,
+          "normalized_expression": 0.396177,
+          "weighted_production_score": 0.055501,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 583
+    },
+    {
+      "condition": "ethanol",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 44.8375,
+          "normalized_expression": 0.37587,
+          "weighted_production_score": 0.052656,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 47.26,
+          "normalized_expression": 0.396177,
+          "weighted_production_score": 0.055501,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 501
+    },
+    {
+      "condition": "galactose",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 53.5925,
+          "normalized_expression": 0.449262,
+          "weighted_production_score": 0.062938,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 48.0267,
+          "normalized_expression": 0.402604,
+          "weighted_production_score": 0.056401,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 472
+    },
+    {
+      "condition": "nitrogen_starvation",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 53.5925,
+          "normalized_expression": 0.449262,
+          "weighted_production_score": 0.062938,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 47.26,
+          "normalized_expression": 0.396177,
+          "weighted_production_score": 0.055501,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 519
+    },
+    {
+      "condition": "oxidative_stress",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 53.5925,
+          "normalized_expression": 0.449262,
+          "weighted_production_score": 0.062938,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 47.26,
+          "normalized_expression": 0.396177,
+          "weighted_production_score": 0.055501,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 573
+    },
+    {
+      "condition": "stationary_phase",
+      "metabolites": {
+        "s_0605": {
+          "name": "decanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 53.5925,
+          "normalized_expression": 0.449262,
+          "weighted_production_score": 0.062938,
+          "relevant_genes": [
+            "YGL205W",
+            "YER015W",
+            "YIL160C",
+            "YJR019C"
+          ]
+        },
+        "s_1507": {
+          "name": "trans-dec-2-enoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 55.67,
+          "normalized_expression": 0.466678,
+          "weighted_production_score": 0.065377,
+          "relevant_genes": [
+            "YGL205W",
+            "YKR009C",
+            "YLR284C"
+          ]
+        },
+        "s_0042": {
+          "name": "(R)-3-hydroxydecanoyl-CoA",
+          "max_demand_flux": 0.140091,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.140091,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        },
+        "s_0239": {
+          "name": "3-oxodecanoyl-CoA",
+          "max_demand_flux": 0.141205,
+          "expression_weight": 18.79,
+          "normalized_expression": 1.0,
+          "weighted_production_score": 0.141205,
+          "relevant_genes": [
+            "YKR009C"
+          ]
+        }
+      },
+      "biomass": 0.0,
+      "status": "optimal",
+      "n_reactions_constrained": 486
+    }
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "condition": "stationary_phase",
+      "mean_weighted_score": 0.102403,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    },
+    {
+      "rank": 2,
+      "condition": "galactose",
+      "mean_weighted_score": 0.100159,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    },
+    {
+      "rank": 3,
+      "condition": "glucose_anaerobic",
+      "mean_weighted_score": 0.099934,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    },
+    {
+      "rank": 4,
+      "condition": "nitrogen_starvation",
+      "mean_weighted_score": 0.099934,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    },
+    {
+      "rank": 5,
+      "condition": "oxidative_stress",
+      "mean_weighted_score": 0.099934,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    },
+    {
+      "rank": 6,
+      "condition": "glucose_aerobic",
+      "mean_weighted_score": 0.09965,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    },
+    {
+      "rank": 7,
+      "condition": "ethanol",
+      "mean_weighted_score": 0.097363,
+      "mean_flux": 0.1403695,
+      "biomass": 0.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "architecture": "multitask_esm2_shared_encoder",
+  "embed_dim": 1280,
+  "hidden_dim": 512,
+  "ec_classes": 65,
+  "epochs": 30,
+  "lr": 0.001,
+  "batch_size": 64,
+  "seed": 123,
+  "n_samples": 75,
+  "n_ec_labels": 75,
+  "n_kcat_labels": 75,
+  "n_fba_labels": 75,
+  "best_val_loss": 4.798966884613037,
+  "training_time_seconds": 0.3,
+  "device": "cpu"
+}
