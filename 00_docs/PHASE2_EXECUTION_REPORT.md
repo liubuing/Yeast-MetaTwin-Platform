@@ -470,7 +470,7 @@ Installed tools:
 | Tool | Status | Path |
 |---|---|---|
 | MMseqs2 Windows | Installed, version command works | `tools/mmseqs2/mmseqs/bin/mmseqs.exe` |
-| MMseqs2 WSL/Linux | Installed and used for clustering | `C:\Users\34342\AppData\Local\Temp\opencode\tools\mmseqs2-linux\bin\mmseqs` |
+| MMseqs2 WSL/Linux | Installed and used for clustering | `<MMSEQS2_PATH>` |
 | CD-HIT | Not installed | No Windows binary found in release assets; source build or conda/WSL install still needed if CD-HIT specifically required |
 
 New script:

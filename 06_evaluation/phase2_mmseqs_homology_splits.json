@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-07-16T21:00:37",
-  "mmseqs_path": "C:\\Users\\34342\\AppData\\Local\\Temp\\opencode\\tools\\mmseqs2-linux\\bin\\mmseqs",
+  "mmseqs_path": "<MMSEQS2_PATH>\\AppData\\Local\\Temp\\opencode\\tools\\mmseqs2-linux\\bin\\mmseqs",
   "fasta_source": "C:\\biological\\Metabolic model prediction\\Yeast-MetaTwin\\Data\\Saccharomyces_cerevisiae.fasta",
   "input_orfs": 1745,
   "fasta_sequences_written": 1745,

@@ -1,7 +1,7 @@
 # Phase 2 MMseqs2 Homology Split Definitions
 
 Generated: 2026-07-16T21:00:37
-MMseqs2: `C:\Users\34342\AppData\Local\Temp\opencode\tools\mmseqs2-linux\bin\mmseqs`
+MMseqs2: `<MMSEQS2_PATH>`
 FASTA source: `C:\biological\Metabolic model prediction\Yeast-MetaTwin\Data\Saccharomyces_cerevisiae.fasta`
 
 ## Clustering
